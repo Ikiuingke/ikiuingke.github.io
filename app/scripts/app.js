@@ -1,7 +1,7 @@
 // on dom ready
 $(function(){
 
-	console.log('Running app.js');
+	console.log('Welcome to lpepfinder.com');
 
 	// var masonry = new Masonry();
 	// var nav = new Nav();
