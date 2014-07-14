@@ -9,3 +9,20 @@
 *:after {
 	box-sizing: border-box;
 }
+
+.SiteHeader,
+.SiteMain {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+.SiteHeader {
+	padding-top: 20px;
+}
+
+.SiteTitle {
+}
+.SiteSubtitle {
+}

@@ -2,11 +2,24 @@
  * Logo
  */
 
-.Logo {
+.SiteLogo {
+	text-decoration: none;
+	color: blue;
 	a {
 		display: block;
 	}
 	img {
 		width: 100%;
 	}
+}
+
+.SiteTitle {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 200;
+	margin-bottom: 0;
+}
+.SiteSubtitle {
+	font-size: 16px;
+	font-weight: 200;
 }
