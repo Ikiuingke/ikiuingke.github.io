@@ -1,9 +1,10 @@
 // on dom ready
 $(function(){
 
-	console.log('Welcome to lpepfinder.com');
-
-	// var masonry = new Masonry();
-	// var nav = new Nav();
+	// document.getElementById('gsc-i-id1').triggerHandler( "focus" );
+	// $('#gsc-i-id1').triggerHandler("focus");
+	// $('#gsc-i-id1').focus(function() {
+	// 	alert("Handler for .focus() called.");
+	// });
 
 });

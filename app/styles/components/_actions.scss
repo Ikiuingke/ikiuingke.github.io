@@ -1,0 +1,26 @@
+/**
+ * Logo
+ */
+
+.Actions {
+	.Action {
+		color: $blue;
+		text-decoration: none;
+		font-size: 12px;
+		margin-right: $space/2;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	// @media (min-width: $layout-m) {
+	// 	position: absolute;
+	// 	top: $space;
+	// 	right: $space;
+	// 	.Action {
+	// 		display: block;
+	// 		text-align: right;
+	// 		margin-right: 0;
+	// 	}
+	// }
+}

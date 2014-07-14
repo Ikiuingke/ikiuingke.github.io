@@ -8,6 +8,7 @@ html {
 	font-family: $font-body;
 	color: $text-color;
 	background-color: $bg-color;
+	font-weight: 200;
 
 	// Enable kerning and ligatures everywhere
 	text-rendering: optimizeLegibility;
@@ -44,6 +45,7 @@ h2,
 h3,
 h4 {
 	line-height: 1.1;
+	font-weight: 200;
 }
 h1 {
 	font-size: rem(30);
