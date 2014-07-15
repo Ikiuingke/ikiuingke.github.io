@@ -31,14 +31,14 @@ module.exports = function (grunt) {
 			gruntfile: {
 				files: ['Gruntfile.js']
 			},
-			// compass: {
-			// 	files: ['<%= config.app %>/styles/{,*/}*.{scss,sass}'],
-			// 	tasks: ['compass:server', 'autoprefixer']
-			// },
-			sass: {
+			compass: {
 				files: ['<%= config.app %>/styles/{,*/}*.{scss,sass}'],
-				tasks: ['sass:server', 'autoprefixer']
+				tasks: ['compass:server', 'autoprefixer']
 			},
+			// sass: {
+			// 	files: ['<%= config.app %>/styles/{,*/}*.{scss,sass}'],
+			// 	tasks: ['sass:server', 'autoprefixer']
+			// },
 			// nodesass: {
 			// 	files: ['app/styles/{,*/}*.scss'],
 			// 	tasks: ['nodesass:dist', 'autoprefixer']
@@ -57,7 +57,7 @@ module.exports = function (grunt) {
 				files: [
 					'{.tmp,<%= config.app %>}/{,*/}*.html',
 					'.tmp/styles/{,*/}*.css',
-					'<%= config.app %>}/scripts/{,*/}*.js',
+					'<%= config.app %>/scripts/{,*/}*.js',
 					'<%= config.app %>/images/{,*/}*.'
 				]
 			}
@@ -70,7 +70,7 @@ module.exports = function (grunt) {
 				open: true,
 				livereload: 35729,
 				// Change this to '0.0.0.0' to access the server from outside
-				hostname: 'localhost'
+				hostname: '0.0.0.0'
 			},
 			livereload: {
 				options: {
@@ -261,13 +261,12 @@ module.exports = function (grunt) {
 				}]
 			}
 		},
-
 		htmlmin: {
 			dist: {
 				options: {
 					collapseBooleanAttributes: true,
 					collapseWhitespace: false,
-					removeAttributeQuotes: true,
+					removeAttributeQuotes: false,
 					removeCommentsFromCDATA: true,
 					removeEmptyAttributes: false,
 					removeOptionalTags: false,
@@ -320,11 +319,11 @@ module.exports = function (grunt) {
 		// Run some tasks in parallel to speed up build process
 		concurrent: {
 			server: [
-				'sass:server',
+				'compass:server',
 				'copy:styles'
 			],
 			dist: [
-				'sass',
+				'compass',
 				'copy:styles',
 				'imagemin',
 				'svgmin'
