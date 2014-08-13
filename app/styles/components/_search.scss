@@ -16,10 +16,14 @@
 	}
 }
 
+.gsc-search-button {
+	width: 9%;
+}
 
 // position the "clear" cross button
 .gsc-clear-button {
 	position: relative !important;
+	width: 40px !important;
 	> div {
 		position: absolute !important;
 		top: 7px;
