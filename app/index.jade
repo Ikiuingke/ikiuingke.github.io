@@ -6,4 +6,9 @@ extends templates/layout
 
 block outlet
 	.Search
-		<gcse:search></gcse:search>
+		//- <gcse:search></gcse:search>
+		form(id="cse-search-box", class="gsc-search-box", action="http://google.com/cse")
+			input(type="hidden" name="cx" value="partner-pub-4949522336006897:5357169955")
+			input(type="hidden" name="ie" value="UTF-8")
+			input(type="text" name="q" size="31" id="gsc-i-id1")
+			input(type="submit" name="sa" value="Search")
