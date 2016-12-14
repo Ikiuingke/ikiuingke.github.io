@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomSearchEngine id="5357169955" creator="partner-pub-4949522336006897" keywords="LP EP Finder get any record from the best online vinyl stores" language="en" top_refinements="2147483647" encoding="UTF-8" domain="www.google.com" safesearch="false" country_code="US" enable_suggest="true" enable_promotions="true">
+  <Title>lpepfinder.com</Title>
+  <Description>lpepfinder.com</Description>
+  <Context>
+    <Facet>
+      <FacetItem>
+        <Label name="germany" mode="FILTER" enable_for_facet_search="true" label_onebox_boost="0">
+          <Rewrite></Rewrite>
+        </Label>
+        <Title>Germany</Title>
+      </FacetItem>
+      <FacetItem>
+        <Label name="uk" mode="FILTER" enable_for_facet_search="true" label_onebox_boost="0">
+          <Rewrite></Rewrite>
+        </Label>
+        <Title>UK</Title>
+      </FacetItem>
+      <FacetItem>
+        <Label name="netherlands" mode="FILTER" enable_for_facet_search="true">
+          <Rewrite></Rewrite>
+        </Label>
+        <Title>Netherlands</Title>
+      </FacetItem>
+      <FacetItem>
+        <Label name="usa" mode="FILTER" enable_for_facet_search="false">
+          <Rewrite></Rewrite>
+        </Label>
+        <Title>USA</Title>
+      </FacetItem>
+    </Facet>
+    <Facet>
+      <FacetItem>
+        <Label name="belgium" mode="FILTER" enable_for_facet_search="false">
+          <Rewrite></Rewrite>
+        </Label>
+        <Title>Belgium</Title>
+      </FacetItem>
+      <FacetItem>
+        <Label name="france" mode="FILTER" enable_for_facet_search="true">
+          <Rewrite></Rewrite>
+        </Label>
+        <Title>France</Title>
+      </FacetItem>
+      <FacetItem>
+        <Label name="spain" mode="FILTER" enable_for_facet_search="true">
+          <Rewrite></Rewrite>
+        </Label>
+        <Title>Spain</Title>
+      </FacetItem>
+      <FacetItem>
+        <Label name="japan" mode="FILTER" enable_for_facet_search="false">
+          <Rewrite></Rewrite>
+        </Label>
+        <Title>Japan</Title>
+      </FacetItem>
+    </Facet>
+    <Facet>
+      <FacetItem>
+        <Label name="italy" mode="FILTER" enable_for_facet_search="false">
+          <Rewrite></Rewrite>
+        </Label>
+        <Title>Italy</Title>
+      </FacetItem>
+    </Facet>
+    <BackgroundLabels>
+      <Label name="_cse_5357169955" mode="FILTER" />
+      <Label name="_cse_exclude_5357169955" mode="ELIMINATE" />
+    </BackgroundLabels>
+  </Context>
+  <LookAndFeel code="2" resultsurl="lpepfinder.com" nonprofit="false" googlebranding="watermark" searchboxsize="55" resultswidth="800" element_layout="1" theme="1" custom_theme="true" text_font="verdana" url_length="full" element_branding="show" enable_cse_thumbnail="true" promotion_url_length="full" ads_layout="1">
+    <Logo height="50" top="true" />
+    <Colors url="#008000" background="#FFFFFF" border="#FFFFFF" title="#0000FF" text="#000000" visited="#663399" title_hover="#0000CC" title_active="#0000CC" />
+    <Promotions title_color="#0000FF" title_visited_color="#663399" url_color="#008000" background_color="#FFFFFF" border_color="#336699" snippet_color="#000000" title_hover_color="#0000FF" title_active_color="#0000FF" />
+    <SearchControls input_border_color="#BCCDF0" button_border_color="#336699" button_background_color="#E9E9E9" tab_border_color="#E9E9E9" tab_background_color="#E9E9E9" tab_selected_border_color="#FF9900" tab_selected_background_color="#FFFFFF" />
+    <Results border_color="#FFFFFF" border_hover_color="#FFFFFF" background_color="#FFFFFF" background_hover_color="#FFFFFF" ads_background_color="#FDF6E5" ads_border_color="#FDF6E5" />
+  </LookAndFeel>
+  <annotations start="0" num="26" total="26">
+    <Annotation about="experimedia.net/*" timestamp="0x0005058aa3f57755" href="ChFleHBlcmltZWRpYS5uZXQvKhDV7tWfqrHBAg">
+      <Label name="_cse_5357169955" />
+      <Label name="usa" />
+      <AdditionalData attribute="original_url" value="http://experimedia.net/*" />
+    </Annotation>
+    <Annotation about="www.techno-import.fr/*" timestamp="0x0005058aa2220cc4" href="ChZ3d3cudGVjaG5vLWltcG9ydC5mci8qEMSZiJGqscEC">
+      <Label name="_cse_5357169955" />
+      <Label name="france" />
+      <AdditionalData attribute="original_url" value="http://www.techno-import.fr/*" />
+    </Annotation>
+    <Annotation about="www.normanrecords.com/*" timestamp="0x0005058aa1bab46a" href="Chd3d3cubm9ybWFucmVjb3Jkcy5jb20vKhDq6OqNqrHBAg">
+      <Label name="_cse_5357169955" />
+      <Label name="uk" />
+      <AdditionalData attribute="original_url" value="https://www.normanrecords.com/*" />
+    </Annotation>
+    <Annotation about="www.toolboxrecords.com/*" timestamp="0x000503cea7a5833d" href="Chh3d3cudG9vbGJveHJlY29yZHMuY29tLyoQvYaWver5wAI">
+      <Label name="_cse_5357169955" />
+      <Label name="france" />
+      <AdditionalData attribute="original_url" value="http://www.toolboxrecords.com/*" />
+    </Annotation>
+    <Annotation about="chezemile-records.com/en/*" timestamp="0x00050358262cdeb2" href="ChpjaGV6ZW1pbGUtcmVjb3Jkcy5jb20vZW4vKhCyvbOxguvAAg">
+      <Label name="_cse_5357169955" />
+      <Label name="france" />
+      <AdditionalData attribute="original_url" value="http://chezemile-records.com/en/*" />
+    </Annotation>
+    <Annotation about="earcave.mybisi.com/*" timestamp="0x000502ede288957d" href="ChRlYXJjYXZlLm15YmlzaS5jb20vKhD9qqKU3t3AAg">
+      <Label name="_cse_5357169955" />
+      <Label name="usa" />
+      <AdditionalData attribute="original_url" value="http://earcave.mybisi.com/*" />
+    </Annotation>
+    <Annotation about="www.sensationrecords.com/*" timestamp="0x000502ede2238f85" href="Chp3d3cuc2Vuc2F0aW9ucmVjb3Jkcy5jb20vKhCFn46R3t3AAg">
+      <Label name="_cse_5357169955" />
+      <Label name="belgium" />
+      <AdditionalData attribute="original_url" value="http://www.sensationrecords.com/*" />
+    </Annotation>
+    <Annotation about="www.wallysgrooveworld.com/*" timestamp="0x000502ede2238f71" href="Cht3d3cud2FsbHlzZ3Jvb3Zld29ybGQuY29tLyoQ8Z6Okd7dwAI">
+      <Label name="_cse_5357169955" />
+      <Label name="belgium" />
+      <AdditionalData attribute="original_url" value="http://www.wallysgrooveworld.com/*" />
+    </Annotation>
+    <Annotation about="www.k-records.be/*" timestamp="0x000502ede2238f5f" href="ChJ3d3cuay1yZWNvcmRzLmJlLyoQ356Okd7dwAI">
+      <Label name="_cse_5357169955" />
+      <Label name="belgium" />
+      <AdditionalData attribute="original_url" value="http://www.k-records.be/*" />
+    </Annotation>
+    <Annotation about="www.kompakt.fm/releases/*" timestamp="0x000502a1ad31735c" href="Chl3d3cua29tcGFrdC5mbS9yZWxlYXNlcy8qENzmxema1MAC">
+      <Label name="_cse_5357169955" />
+      <Label name="germany" />
+      <AdditionalData attribute="original_url" value="http://www.kompakt.fm/releases/*" />
+    </Annotation>
+    <Annotation about="www.htfr.com/*" timestamp="0x000502a1acbeb1ca" href="Cg53d3cuaHRmci5jb20vKhDK4_rlmtTAAg">
+      <Label name="_cse_5357169955" />
+      <Label name="uk" />
+      <AdditionalData attribute="original_url" value="http://www.htfr.com/*" />
+    </Annotation>
+    <Annotation about="basscadetrecords.com/*" timestamp="0x0005028cc4d60f94" href="ChZiYXNzY2FkZXRyZWNvcmRzLmNvbS8qEJSf2KbM0cAC">
+      <Label name="_cse_5357169955" />
+      <Label name="germany" />
+      <AdditionalData attribute="original_url" value="http://basscadetrecords.com/*" />
+    </Annotation>
+    <Annotation about="boomkat.com/vinyl/*" timestamp="0x000502772663a225" href="ChNib29ta2F0LmNvbS92aW55bC8qEKXEjrPyzsAC">
+      <Label name="_cse_5357169955" />
+      <Label name="uk" />
+      <AdditionalData attribute="original_url" value="http://boomkat.com/vinyl/*" />
+    </Annotation>
+    <Annotation about="www.juno.co.uk/*" timestamp="0x00050095a283785a" href="ChB3d3cuanVuby5jby51ay8qENrwjZTaksAC">
+      <Label name="_cse_5357169955" />
+      <Label name="uk" />
+      <AdditionalData attribute="original_url" value="http://www.juno.co.uk/*" />
+    </Annotation>
+    <Annotation about="oye-records.com/*" timestamp="0x00050084cd798287" href="ChFveWUtcmVjb3Jkcy5jb20vKhCHhebrzJDAAg">
+      <Label name="_cse_5357169955" />
+      <Label name="germany" />
+      <AdditionalData attribute="original_url" value="https://oye-records.com/*" />
+    </Annotation>
+    <Annotation about="spacehall.de/shop/content/*" timestamp="0x00050084cd798275" href="ChtzcGFjZWhhbGwuZGUvc2hvcC9jb250ZW50LyoQ9YTm68yQwAI">
+      <Label name="_cse_5357169955" />
+      <Label name="germany" />
+      <AdditionalData attribute="original_url" value="http://spacehall.de/shop/content/*" />
+    </Annotation>
+    <Annotation about="honestjons.com/*" timestamp="0x00050084ccf05b72" href="ChBob25lc3Rqb25zLmNvbS8qEPK2wefMkMAC">
+      <Label name="_cse_5357169955" />
+      <Label name="uk" />
+      <AdditionalData attribute="original_url" value="http://honestjons.com/*" />
+    </Annotation>
+    <Annotation about="www.piccadillyrecords.com/*" timestamp="0x00050084ccf05b69" href="Cht3d3cucGljY2FkaWxseXJlY29yZHMuY29tLyoQ6bbB58yQwAI">
+      <Label name="_cse_5357169955" />
+      <Label name="uk" />
+      <AdditionalData attribute="original_url" value="http://www.piccadillyrecords.com/*" />
+    </Annotation>
+    <Annotation about="www.phonicarecords.com/*" timestamp="0x00050084ccf05b5d" href="Chh3d3cucGhvbmljYXJlY29yZHMuY29tLyoQ3bbB58yQwAI">
+      <Label name="_cse_5357169955" />
+      <Label name="uk" />
+      <AdditionalData attribute="original_url" value="http://www.phonicarecords.com/*" />
+    </Annotation>
+    <Annotation about="hhv.de/shop/*" timestamp="0x00050084cc846897" href="Cg1oaHYuZGUvc2hvcC8qEJfRkeTMkMAC">
+      <Label name="_cse_5357169955" />
+      <Label name="germany" />
+      <AdditionalData attribute="original_url" value="http://hhv.de/shop/*" />
+    </Annotation>
+    <Annotation about="hardwax.com/*" timestamp="0x00050084cc84688b" href="Cg1oYXJkd2F4LmNvbS8qEIvRkeTMkMAC">
+      <Label name="_cse_5357169955" />
+      <Label name="germany" />
+      <AdditionalData attribute="original_url" value="https://hardwax.com/*" />
+    </Annotation>
+    <Annotation about="decks.de/*" timestamp="0x00050084cc846879" href="CgpkZWNrcy5kZS8qEPnQkeTMkMAC">
+      <Label name="_cse_5357169955" />
+      <Label name="germany" />
+      <AdditionalData attribute="original_url" value="http://decks.de/*" />
+    </Annotation>
+    <Annotation about="deejay.de/*" timestamp="0x00050084cc84686a" href="CgtkZWVqYXkuZGUvKhDq0JHkzJDAAg">
+      <Label name="_cse_5357169955" />
+      <Label name="germany" />
+      <AdditionalData attribute="original_url" value="http://deejay.de/*" />
+    </Annotation>
+    <Annotation about="rushhour.nl/*" timestamp="0x00050084cbf18abb" href="Cg1ydXNoaG91ci5ubC8qELuVxt_MkMAC">
+      <Label name="_cse_5357169955" />
+      <Label name="netherlands" />
+      <AdditionalData attribute="original_url" value="http://rushhour.nl/*" />
+    </Annotation>
+    <Annotation about="clone.nl/*" timestamp="0x00050084cbf18aa7" href="CgpjbG9uZS5ubC8qEKeVxt_MkMAC">
+      <Label name="_cse_5357169955" />
+      <Label name="netherlands" />
+      <AdditionalData attribute="original_url" value="http://clone.nl/*" />
+    </Annotation>
+    <Annotation about="roughtrade.com/*" timestamp="0x00050084cb65b2ec" href="ChByb3VnaHRyYWRlLmNvbS8qEOzlltvMkMAC">
+      <Label name="_cse_5357169955" />
+      <Label name="uk" />
+      <AdditionalData attribute="original_url" value="http://roughtrade.com/*" />
+    </Annotation>
+  </annotations>
+  <EnterpriseAccount>
+    <AccountAdmin first_name="Hugo" last_name="Vieilledent" email="hugo.vieilledent@gmail.com" phone="+4915731460179" country="DE" job_title="developer" />
+    <Organization name="lp/ep finder" type="personal" size="20" />
+  </EnterpriseAccount>
+  <AnalyticsConfig />
+  <autocomplete_settings convert_promotions="true" match_mode="1" />
+  <cse_advance_settings enable_facet_search="true" />
+</CustomSearchEngine>
