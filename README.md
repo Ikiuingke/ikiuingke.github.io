@@ -1,7 +1,6 @@
-# LpEp Finder, notes
+# LpEp Finder
 
-## Todo
+## TODO
 
-- omnibox support
-http://stackoverflow.com/questions/7630144/how-to-add-google-chrome-omnibox-search-support-for-your-site
-cannot be implemented because it misses the search query in the url (eg: lpepfinder.com/search?=your_search)
+1- user account for premium, 1 time payment 10€ or 1 time a year 5€
+2- save user search in its account to search again the same query
