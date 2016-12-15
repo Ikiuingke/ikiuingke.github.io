@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
  <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
    <ShortName>Lp/Ep Finder</ShortName>
-   <Description>Search records on online vinyl stores over the world</Description>
+   <Description>Search records in online vinyl stores over the world</Description>
    <Tags>vinyl lp ep</Tags>
    <Contact>lpepfinder+opensearch@protonmail.com</Contact>
    <Url type="text/html"
