@@ -62,6 +62,24 @@
         </Label>
         <Title>Italy</Title>
       </FacetItem>
+      <FacetItem>
+        <Label name="korea" mode="FILTER" enable_for_facet_search="false">
+          <Rewrite></Rewrite>
+        </Label>
+        <Title>Korea</Title>
+      </FacetItem>
+      <FacetItem>
+        <Label name="norway" mode="FILTER" enable_for_facet_search="false">
+          <Rewrite></Rewrite>
+        </Label>
+        <Title>Norway</Title>
+      </FacetItem>
+      <FacetItem>
+        <Label name="canada" mode="FILTER" enable_for_facet_search="false">
+          <Rewrite></Rewrite>
+        </Label>
+        <Title>Canada</Title>
+      </FacetItem>
     </Facet>
     <BackgroundLabels>
       <Label name="_cse_5357169955" mode="FILTER" />
@@ -71,9 +89,9 @@
   <LookAndFeel code="2" resultsurl="lpepfinder.com" nonprofit="false" googlebranding="watermark" searchboxsize="55" resultswidth="800" element_layout="1" theme="1" custom_theme="true" text_font="verdana" url_length="full" element_branding="show" enable_cse_thumbnail="true" promotion_url_length="full" ads_layout="1">
     <Logo height="50" top="true" />
     <Colors url="#008000" background="#FFFFFF" border="#FFFFFF" title="#0000FF" text="#000000" visited="#663399" title_hover="#0000CC" title_active="#0000CC" />
-    <Promotions title_color="#0000FF" title_visited_color="#663399" url_color="#008000" background_color="#FFFFFF" border_color="#336699" snippet_color="#000000" title_hover_color="#0000FF" title_active_color="#0000FF" />
+    <Promotions title_color="#0000FF" title_visited_color="#0000FF" url_color="#008000" background_color="#FFFFFF" border_color="#336699" snippet_color="#000000" title_hover_color="#0000FF" title_active_color="#0000FF" />
     <SearchControls input_border_color="#BCCDF0" button_border_color="#336699" button_background_color="#E9E9E9" tab_border_color="#E9E9E9" tab_background_color="#E9E9E9" tab_selected_border_color="#FF9900" tab_selected_background_color="#FFFFFF" />
-    <Results border_color="#FFFFFF" border_hover_color="#FFFFFF" background_color="#FFFFFF" background_hover_color="#FFFFFF" ads_background_color="#FDF6E5" ads_border_color="#FDF6E5" />
+    <Results border_color="#FFFFFF" border_hover_color="#FFFFFF" background_color="#FFFFFF" background_hover_color="#FFFFFF" ads_background_color="#fff7f5" ads_border_color="#FFFFFF" />
   </LookAndFeel>
   <annotations start="0" num="26" total="26">
     <Annotation about="experimedia.net/*" timestamp="0x0005058aa3f57755" href="ChFleHBlcmltZWRpYS5uZXQvKhDV7tWfqrHBAg">
@@ -207,6 +225,7 @@
       <AdditionalData attribute="original_url" value="http://roughtrade.com/*" />
     </Annotation>
   </annotations>
+  <AdSense />
   <EnterpriseAccount>
     <AccountAdmin first_name="Hugo" last_name="Vieilledent" email="hugo.vieilledent@gmail.com" phone="+4915731460179" country="DE" job_title="developer" />
     <Organization name="lp/ep finder" type="personal" size="20" />
