@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
  <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
    <ShortName>Lp/Ep Finder</ShortName>
-   <Description>Find records in online vinyl stores over the world</Description>
+   <Description>Find vinyl records in online record stores over the world</Description>
    <Tags>vinyl lp ep</Tags>
    <Contact>lpepfinder+opensearch@protonmail.com</Contact>
    <Url type="text/html"
 	template="https://lpepfinder.com/#gsc.q={searchTerms}"/>
-   <LongName>Lp/Ep Finder - find records in online vinyl stores over the world</LongName>
+   <LongName>Lp/Ep Finder - find vinyl records in online record stores over the world</LongName>
    <Image height="64" width="64" type="image/png">https://lpepfinder.com/public/favicons/favicon-64x64.png</Image>
    <Image height="48" width="48" type="image/vnd.microsoft.icon">https://lpepfinder.com/public/favicons/favicon.ico</Image>
    <Query role="example" searchTerms="Joy Division" />
