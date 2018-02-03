@@ -32,6 +32,8 @@ body {
 .SiteTitle img {
 	max-width: 2rem;
 	vertical-align: bottom;
+	margin-right: 0.5rem;
+	margin-left: 0.5rem;
 }
 
 h2 {
