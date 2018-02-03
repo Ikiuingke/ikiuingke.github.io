@@ -58,3 +58,9 @@ p {
 	padding: 0.5rem 0.3rem;
 	display: inline-block;
 }
+
+.twitter-timeline {
+	margin-left: auto;
+	margin-right: auto;
+	display: block !important;
+}
