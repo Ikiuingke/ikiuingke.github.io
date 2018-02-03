@@ -16,70 +16,7 @@
     <meta name="msapplication-config" content="/public/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="LP/EP Finder, vinyl records search engine" />
-    <style>
-			/* Internet4000 */
-			body {
-				font-family: Arial;
-				font-size: 16px;
-				padding: 0;
-				margin: 0;
-			}
-			.SiteHeader {
-				text-align: center;
-			}
-			.SiteBody {
-			}
-			.SiteNavigation {
-				text-align: center;
-				font-size: 0.8rem;
-			}
-			.SiteTitle {
-				margin: 0;
-				padding-bottom: 0.4rem;
-			}
-			.SiteTitle a {
-				text-decoration: none;
-				color: black;
-			}
-			.SiteTitle img {
-				max-width: 2rem;
-			}
-			p {
-				margin: 0;
-			}
-			.gsc-control-cse {
-				padding: 1rem 0 !important;
-			}
-			.gsc-search-box input.gsc-input {
-				padding-top: 0.5rem;
-				padding-bottom: 0.5rem;
-				text-indent: 0 !important;
-				background: none !important;
-			}
-			.gsc-search-box input.gsc-search-button {
-				padding-top: 0.5rem;
-				padding-bottom: 0.5rem;
-				height: auto;
-			}
-			.gcsc-branding {
-				display: none !important;
-			}
-
-			.Section {
-				margin-bottom: 2rem;
-			}
-			.Container {
-				max-width: 70rem;
-				margin-left: auto;
-				margin-right: auto;
-				padding-left: 2rem;
-				padding-right: 2rem;
-			}
-			.Nav-item {
-				padding: 0.5rem 0.3rem;
-				display: inline-block;
-			}
-    </style>
+		<link href="./styles/main.css" rel="stylesheet" type="text/css" />
 
   </head>
 
@@ -111,6 +48,10 @@
 				gname="storesearch"></gcse:searchresults>
     </section>
 
+		<section class="Container Section">
+			<h2>Popular queries</h2>
+			<article id="TopQueries"></article>
+		</section>
 
     <script>
 			(function() {
@@ -130,6 +71,10 @@
 				document.getElementById('gsc-i-id1').placeholder = 'Search for vinyl records';
 			};
 		</script>
+
+		<script src="https://unpkg.com/vue"></script>
+		<script src="https://cse.google.com/query_renderer.js"></script>
+		<script src="https://cse.google.com/api/partner-pub-4949522336006897/cse/5357169955/queries/js?view=week&callback=(new+PopularQueryRenderer(document.getElementById(%22TopQueries%22))).render"></script>
 
     <script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
