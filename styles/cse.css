@@ -42,3 +42,11 @@
 .gcsc-branding {
 	display: none !important;
 }
+.gsc-input-box {
+  padding: 0.5rem;
+}
+
+.gsc-tabsArea,
+.gsc-tabsArea > div {
+	height: auto !important;
+}
