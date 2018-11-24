@@ -5,14 +5,14 @@
 	 but this is easier and cheaper for now.
 	 https://youtu.be/S_Qm8oKWqjE
 	 Cheers!
- */
+*/
 
 .gsc-control-cse {
 	padding: 1rem 0 !important;
 }
 .gsc-control-cse,
 .gsc-control-cse
-.gsc-table-result {
+	.gsc-table-result {
 	font-size: 14px !important;
 }
 .gsc-tabHeader {
@@ -39,6 +39,15 @@
 	padding-bottom: 0.5rem;
 	height: auto;
 }
+.gsc-search-button.gsc-search-button-v2 {
+  padding: 1rem 1.9rem;
+  margin: 0.4rem;
+	cursor: pointer;
+}
+.gsc-search-button.gsc-search-button-v2:hover {
+  background-color: blue;
+}
+
 .gcsc-branding {
 	display: none !important;
 }
@@ -49,4 +58,40 @@
 .gsc-tabsArea,
 .gsc-tabsArea > div {
 	height: auto !important;
+}
+.gsc-tabHeader.gsc-tabhInactive:hover {
+	background-color: blue;
+	color: white;
+}
+
+
+.gsc-cursor-box {
+  margin-top: 2rem !important;
+}
+.gsc-cursor-page {
+  background-color: blue !important;
+  color: white !important;
+}
+
+@media screen and (min-width: 800px) {
+	.gsc-cursor-page {
+		padding: 0.8rem 1.1rem;
+		background-color: blue !important;
+		color: white !important;
+	}
+}
+
+
+/* little trick */
+.gsc-wrapper:after {
+	content: "↑ type in an artist, album, track name, or something unrelated";
+	text-align: center;
+	display: block;
+	font-size: 1.3rem;
+	user-select: none;
+	margin-top: 2rem;
+	opacity: 0.4;
+}
+.gsc-tabsArea ~ .gsc-wrapper:after {
+	display: none;
 }
