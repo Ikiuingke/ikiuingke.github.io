@@ -28,6 +28,11 @@
 	border-bottom-color: transparent !important;
 	padding-bottom: 0rem;
 }
+.gsc-search-box {
+    max-width: 40rem;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
 .gsc-search-box input.gsc-input {
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
