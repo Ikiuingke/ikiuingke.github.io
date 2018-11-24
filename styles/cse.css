@@ -58,6 +58,10 @@
 .gsc-tabsArea,
 .gsc-tabsArea > div {
 	height: auto !important;
+	overflow: visible !important;
+}
+.gsc-tabHeader {
+	height: auto !important;
 }
 .gsc-tabHeader.gsc-tabhInactive:hover {
 	background-color: blue;
