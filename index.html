@@ -77,12 +77,6 @@
 	})();
 	</script>
 
-	<script>
-	window.onload = function(){
-	    document.getElementById('gsc-i-id1').placeholder = 'Search vinyl records';
-	};
-	</script>
-
 	<!-- <script src="https://cse.google.com/query_renderer.js"></script>
 	     <script src="https://cse.google.com/api/partner-pub-4949522336006897/cse/5357169955/queries/js?view=week&callback=(new+PopularQueryRenderer(document.getElementById(%22TopQueries%22))).render"></script> -->
 
@@ -93,6 +87,12 @@
 	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 	ga('create', 'UA-7681725-7', 'auto');
 	ga('send', 'pageview');
+
+	window.onload = function(){
+	    document.getElementById('gsc-i-id1').placeholder = 'Search vinyl records'
+	    document.querySelector('.SiteBody').classList.add('is-ready')
+	};
 	</script>
+
     </body>
 </html>
