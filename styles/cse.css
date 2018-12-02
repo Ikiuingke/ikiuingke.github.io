@@ -48,16 +48,23 @@
   padding: 1rem 1.9rem;
   margin: 0.4rem;
 	cursor: pointer;
+	border: 2px solid blue;
+	background-color: darkcyan;
+	border-radius: 4px;
 }
 .gsc-search-button.gsc-search-button-v2:hover {
-  background-color: blue;
+	background-color: darkblue;
+  box-shadow: 1px 2px 1px blue;
 }
 
 .gcsc-branding {
 	display: none !important;
 }
-.gsc-input-box {
-  padding: 0.5rem;
+.gsc-input .gsc-input-box {
+	padding: 0.5rem 0.5rem 0.7rem;
+	border-radius: 3px;
+	border-width: 2px;
+	border-color: blue;
 }
 
 .gsc-tabsArea,
@@ -92,15 +99,15 @@
 
 
 /* little trick */
-.gsc-wrapper:after {
-	content: "↑ type in an artist, album, track name, or something unrelated";
-	text-align: center;
-	display: block;
-	font-size: 1.3rem;
-	user-select: none;
-	margin-top: 2rem;
-	opacity: 0.4;
-}
-.gsc-tabsArea ~ .gsc-wrapper:after {
-	display: none;
-}
+/* .gsc-wrapper:after { */
+/* 	content: "↑ type in an artist, album, track name, or something unrelated"; */
+/* 	text-align: center; */
+/* 	display: block; */
+/* 	font-size: 1.3rem; */
+/* 	user-select: none; */
+/* 	margin-top: 2rem; */
+/* 	opacity: 0.4; */
+/* } */
+/* .gsc-tabsArea ~ .gsc-wrapper:after { */
+/* 	display: none; */
+/* } */

@@ -11,7 +11,8 @@ html {
 }
 
 body {
-	font-family: Arial;
+	/* font-family: Arial; */
+  font-family: 'IBM Plex Mono', monospace;
 	font-size: 15px;
 	padding-top: 1rem;
 	padding-bottom: 3rem;
@@ -114,9 +115,13 @@ p {
 	display: flex;
 	justify-content: center;
 }
+.Nav--left {
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
 .Nav-item {
-	background-color: blue;
-	color: white;
+	color: blue;
+	font-weight: bold;
 	text-decoration: none;
 	font-size: 1rem;
 	padding: 0.7rem 0.5rem;
@@ -134,12 +139,6 @@ p {
 	.Nav-item--large {
 		font-size: 1.6rem;
 	}
-}
-
-.Button {
-    padding: 0.7rem;
-    background-color: blue;
-    color: white;
 }
 
 .twitter-timeline {
