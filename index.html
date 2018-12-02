@@ -86,7 +86,11 @@
 	ga('send', 'pageview');
 
 	window.onload = function(){
-	    document.getElementById('gsc-i-id1').placeholder = 'Type an artist, album, track name, or anything, really'
+	    var input = document.querySelector('#gsc-i-id1');
+	    if(input) {
+		input.placeholder = 'Type an artist, album, track name, or anything, really'
+	    }
+
 	    document.querySelector('.SiteBody').classList.add('is-ready')
 	};
 	</script>
