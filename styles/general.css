@@ -160,3 +160,6 @@ code {
 timeline-Header-title {
   display: none !important;
 }
+.CanClick {
+	pointer: cursor;
+}

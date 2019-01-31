@@ -37,6 +37,9 @@
 					</a>
 				</h1>
 				<p>Find vinyls in local record stores around the world.</p>
+				<p><small>
+					Tips: try to add <code class="Clickable" onclick="lpepfinder.filterResults()">-"out of stock"</code> after your search
+				</small></p>
 	</section>
 
 	<section class="SiteBody Container Section">
@@ -58,7 +61,6 @@
 					<a class="Nav-item" target="_blank" rel="noopener noreferrer" href="https://goo.gl/forms/dx85aOekImNFxRme2">Add new record store</a>
 					<a class="Nav-item" href="./about">About</a>
 				</nav>
-				<p>Tips: try to add <code>NOT "out of stock"</code> after your search</p>
 	    </aside>
 	</section>
 
@@ -79,21 +81,39 @@
 	     <script src="https://cse.google.com/api/partner-pub-4949522336006897/cse/5357169955/queries/js?view=week&callback=(new+PopularQueryRenderer(document.getElementById(%22TopQueries%22))).render"></script> -->
 
 	<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-				 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-7681725-7', 'auto');
-	ga('send', 'pageview');
+														 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-7681725-7', 'auto');
+		ga('send', 'pageview');
 
-	window.onload = function(){
-	    var input = document.querySelector('#gsc-i-id1');
-	    if(input) {
-		input.placeholder = 'Artist, album, track, label, cat#, or anything, really'
-	    }
+		var lpepfinder = {
+			// suffix search filter to search input value
+			filterResults: function() {
+				console.log('yolo')
+				var input = document.querySelector('input.gsc-input')
+				input.value = input.value + ' ' + '-"out of stock"'
+			},
 
-	    document.querySelector('.SiteBody').classList.add('is-ready')
-	};
+			// update the input placeholder
+			updateSearchPlaceholder: function() {
+				var input = document.querySelector('#gsc-i-id1');
+				if(input) {
+					input.placeholder = 'Artist, album, track, label, cat#, or anything, really'
+				}
+			},
+
+			init: function() {
+				this.updateSearchPlaceholder()
+				// give a ready state to the html page
+				document.querySelector('.SiteBody').classList.add('is-ready')
+			}
+		}
+
+		window.onload = function(){
+			lpepfinder.init()
+		}
 	</script>
 
     </body>
