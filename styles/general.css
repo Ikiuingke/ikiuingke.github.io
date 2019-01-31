@@ -32,8 +32,12 @@ body {
 }
 
 /* Global layout */
-.SiteHeader {
+.SiteHeader,
+.SiteFooter {
 	text-align: center;
+}
+.SiteFooter {
+	font-size: 0.9rem;
 }
 .SiteBody {
 	opacity: 0;
@@ -57,12 +61,15 @@ body {
 	margin-left: 0.5rem;
 }
 
-h2 {
-  font-size: 1.2rem;
-}
 /* Typography */
 p {
 	margin-top: 0;
+}
+h2 {
+  font-size: 1.2rem;
+}
+code {
+	background-color: wheat;
 }
 
 /* Horizontal and vertical rythm */
