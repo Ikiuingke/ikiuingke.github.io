@@ -53,6 +53,9 @@ body {
 .SiteTitle a {
 	text-decoration: none;
 	color: #0030ff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .SiteTitle img {
 	max-width: 4rem;
@@ -132,7 +135,7 @@ code {
 	text-decoration: none;
 	font-size: 1rem;
 	padding: 0.7rem 0.5rem;
-	margin: 0.3rem;
+	margin-right: 1rem;
 	display: inline-block;
 }
 .Nav-item--large {
