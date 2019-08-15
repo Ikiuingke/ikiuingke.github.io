@@ -129,6 +129,10 @@ code {
 	justify-content: flex-start;
 	flex-wrap: wrap;
 }
+.Nav--right {
+	justify-content: flex-end;
+	flex-wrap: wrap;
+}
 .Nav-item {
 	color: blue;
 	font-weight: bold;
