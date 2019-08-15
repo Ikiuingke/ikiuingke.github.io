@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomSearchEngine id="5357169955" creator="partner-pub-4949522336006897" keywords="LP EP Finder get any record from the best online vinyl stores" language="en" top_refinements="2147483647" encoding="UTF-8" domain="www.google.com" safesearch="true" country_code="US" enable_promotions="true" autocompletions="true">
+<CustomSearchEngine id="5357169955" creator="partner-pub-4949522336006897" keywords="LP EP Finder get any record from the best online vinyl stores" language="en" top_refinements="2147483647" encoding="UTF-8" domain="www.google.com" safesearch="false" country_code="US" enable_promotions="false" autocompletions="true">
   <Title>lpepfinder.com</Title>
   <Description>lpepfinder.com</Description>
   <Context>
@@ -94,6 +94,12 @@
         </Label>
         <Title>Europe</Title>
       </FacetItem>
+      <FacetItem>
+        <Label name="marketplace" mode="BOOST" enable_for_facet_search="false">
+          <Rewrite/>
+        </Label>
+        <Title>Marketplace</Title>
+      </FacetItem>
     </Facet>
     <BackgroundLabels>
       <Label name="_cse_5357169955" mode="FILTER"/>
@@ -108,12 +114,12 @@
       </synonymentry>
     </Synonyms>
   </Context>
-  <LookAndFeel code="2" resultsurl="lpepfinder.com" googlebranding="watermark" searchboxsize="55" resultswidth="800" element_layout="1" theme="1" custom_theme="true" text_font="verdana" url_length="full" element_branding="show" enable_cse_thumbnail="true" promotion_url_length="full" font="1">
+  <LookAndFeel code="2" resultsurl="lpepfinder.com" googlebranding="watermark" searchboxsize="55" resultswidth="800" element_layout="1" theme="1" custom_theme="true" text_font="verdana" url_length="full" element_branding="hide" enable_cse_thumbnail="true" promotion_url_length="full" font="1">
     <Logo height="50" top="true"/>
-    <Colors url="#008000" background="#FFFFFF" border="#FFFFFF" title="#0000FF" text="#000000" visited="#663399" title_hover="#0000CC" title_active="#0000CC"/>
-    <Promotions title_color="#0000FF" title_visited_color="#0000FF" url_color="#008000" background_color="#FFFFFF" border_color="#336699" snippet_color="#000000" title_hover_color="#0000FF" title_active_color="#0000FF"/>
-    <SearchControls input_border_color="#BCCDF0" button_border_color="#336699" button_background_color="#E9E9E9" tab_border_color="#E9E9E9" tab_background_color="#E9E9E9" tab_selected_border_color="#FF9900" tab_selected_background_color="#FFFFFF" button_icon_color="#FFFFFF"/>
-    <Results border_color="#FFFFFF" border_hover_color="#FFFFFF" background_color="#FFFFFF" background_hover_color="#FFFFFF" ads_background_color="#fff7f5" ads_border_color="#FFFFFF"/>
+    <Colors url="#008B8B" title="#0000FF" text="#000000" visited="#663399" title_hover="#0000CC" title_active="#0000CC"/>
+    <Promotions title_color="#6AA84F" title_visited_color="#93C47D" url_color="#008000" background_color="#FFFFFF" border_color="#336699" snippet_color="#000000" title_hover_color="#0000FF" title_active_color="#0000FF"/>
+    <SearchControls input_border_color="#BCCDF0" button_border_color="#336699" button_background_color="#E9E9E9" tab_border_color="#000000" tab_background_color="#EEEEEE" tab_selected_border_color="#0000FF" button_icon_color="#FFFFFF"/>
+    <Results/>
   </LookAndFeel>
   <annotations start="0" num="26" total="26">
     <Annotation about="experimedia.net/*" timestamp="0x0005058aa3f57755" href="ChFleHBlcmltZWRpYS5uZXQvKhDV7tWfqrHBAg">
@@ -250,7 +256,9 @@
   <AnalyticsConfig/>
   <ImageSearchSettings enable="false"/>
   <autocomplete_settings convert_promotions="true" match_mode="1"/>
-  <cse_advance_settings public_url_visibility="2" enable_facet_search="false">
-    <web_search_options restrict_safe_search="2"/>
+  <sort_by_keys label="Relevance" key=""/>
+  <sort_by_keys label="Date" key="date"/>
+  <cse_advance_settings enable_facet_search="false">
+    <web_search_options restrict_safe_search="0"/>
   </cse_advance_settings>
 </CustomSearchEngine>

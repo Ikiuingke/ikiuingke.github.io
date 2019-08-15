@@ -1,24 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Annotations start="0" num="115" total="115">
-  <Annotation about="www.metrowax.com/*" timestamp="0x00057b645ab08f21" href="ChJ3d3cubWV0cm93YXguY29tLyoQoZ7C1cXs3gI">
+<Annotations start="0" num="108" total="108">
+  <Annotation about="*.dizonord.fr/*" timestamp="0x000586012f331438" href="Cg8qLmRpem9ub3JkLmZyLyoQuKjM-ZLA4QI=">
+    <Label name="_cse_5357169955"/>
+    <Label name="europe"/>
+    <Label name="france"/>
+    <AdditionalData attribute="original_url" value="https://dizonord.fr/"/>
+  </Annotation>
+  <Annotation about="www.bpitch.de/en/catalogue/*" timestamp="0x000581cb5d631675" href="Chx3d3cuYnBpdGNoLmRlL2VuL2NhdGFsb2d1ZS8qEPWsjOu1ueAC">
+    <Label name="_cse_5357169955"/>
+    <Label name="germany"/>
+    <AdditionalData attribute="original_url" value="https://www.bpitch.de/en/catalogue/"/>
+  </Annotation>
+  <Annotation about="www.lofidelic.com/*" timestamp="0x000580a8f5bf47c3" href="ChN3d3cubG9maWRlbGljLmNvbS8qEMOP_a2PleAC">
     <Label name="_cse_5357169955"/>
     <Label name="usa"/>
-    <AdditionalData attribute="original_url" value="http://www.metrowax.com/"/>
+    <AdditionalData attribute="original_url" value="https://www.lofidelic.com/"/>
   </Annotation>
-  <Annotation about="www.betinos.com/*" timestamp="0x00057b645740ef8f" href="ChF3d3cuYmV0aW5vcy5jb20vKhCP34O6xezeAg">
+  <Annotation about="lp.reverb.com/*" timestamp="0x00057db47b304341" href="Cg9scC5yZXZlcmIuY29tLyoQwYbB2ce23wI=">
     <Label name="_cse_5357169955"/>
-    <Label name="france"/>
-    <AdditionalData attribute="original_url" value="http://www.betinos.com/"/>
+    <Label name="marketplace"/>
+    <AdditionalData attribute="original_url" value="https://lp.reverb.com/"/>
   </Annotation>
-  <Annotation about="www.dubwize-records.com/*" timestamp="0x00057b6455402756" href="Chl3d3cuZHVid2l6ZS1yZWNvcmRzLmNvbS8qENbOgKrF7N4C">
+  <Annotation about="*.idlehandsbristol.com/*" timestamp="0x00057db4419c83b5" href="ChgqLmlkbGVoYW5kc2JyaXN0b2wuY29tLyoQtYfyjMS23wI=">
     <Label name="_cse_5357169955"/>
+    <Label name="europe"/>
+    <Label name="uk"/>
+    <AdditionalData attribute="original_url" value="https://idlehandsbristol.com"/>
+  </Annotation>
+  <Annotation about="www.vinylscratch.de/home.html" timestamp="0x00057ce434c537a9" href="Ch13d3cudmlueWxzY3JhdGNoLmRlL2hvbWUuaHRtbBCp75Smw5zfAg==">
+    <Label name="_cse_5357169955"/>
+    <Label name="europe"/>
+    <Label name="germany"/>
+    <AdditionalData attribute="original_url" value="http://www.vinylscratch.de/home.html"/>
+  </Annotation>
+  <Annotation about="*.edsawesomesounds.com/*" timestamp="0x00057c33398a2dce" href="ChgqLmVkc2F3ZXNvbWVzb3VuZHMuY29tLyoQztuozLOG3wI=">
+    <Label name="_cse_5357169955"/>
+    <Label name="usa"/>
+    <AdditionalData attribute="original_url" value="https://edsawesomesounds.com/"/>
+  </Annotation>
+  <Annotation about="www.raresoulman.co.uk/*" timestamp="0x00057b6b2a225c9c" href="Chd3d3cucmFyZXNvdWxtYW4uY28udWsvKhCcuYnRsu3eAg==">
+    <Label name="_cse_5357169955"/>
+    <Label name="europe"/>
+    <Label name="uk"/>
+    <AdditionalData attribute="original_url" value="https://www.raresoulman.co.uk/"/>
+  </Annotation>
+  <Annotation about="www.dubwize-records.com/*" timestamp="0x00057b6b2992a62d" href="Chl3d3cuZHVid2l6ZS1yZWNvcmRzLmNvbS8qEK3Mysyy7d4C">
+    <Label name="_cse_5357169955"/>
+    <Label name="europe"/>
     <Label name="france"/>
     <AdditionalData attribute="original_url" value="http://www.dubwize-records.com"/>
   </Annotation>
-  <Annotation about="www.raresoulman.co.uk/*" timestamp="0x00057b63d65f17d1" href="Chd3d3cucmFyZXNvdWxtYW4uY28udWsvKhDRr_yyvezeAg">
+  <Annotation about="www.betinos.com/*" timestamp="0x00057b6b2909aa0d" href="ChF3d3cuYmV0aW5vcy5jb20vKhCN1KbIsu3eAg==">
     <Label name="_cse_5357169955"/>
-    <Label name="uk"/>
-    <AdditionalData attribute="original_url" value="https://www.raresoulman.co.uk/"/>
+    <Label name="europe"/>
+    <Label name="france"/>
+    <AdditionalData attribute="original_url" value="http://www.betinos.com/"/>
+  </Annotation>
+  <Annotation about="*.recordsalbums.com/*" timestamp="0x00057b6b27a70ec6" href="ChUqLnJlY29yZHNhbGJ1bXMuY29tLyoQxp2cvbLt3gI=">
+    <Label name="_cse_5357169955"/>
+    <Label name="usa"/>
+    <AdditionalData attribute="original_url" value="https://recordsalbums.com/"/>
+  </Annotation>
+  <Annotation about="www.metrowax.com/*" timestamp="0x00057b645ab08f21" href="ChJ3d3cubWV0cm93YXguY29tLyoQoZ7C1cXs3gI=">
+    <Label name="_cse_5357169955"/>
+    <Label name="usa"/>
+    <AdditionalData attribute="original_url" value="http://www.metrowax.com/"/>
   </Annotation>
   <Annotation about="www.voidvinyl.com/*" timestamp="0x000577b2a0f82e70" href="ChN3d3cudm9pZHZpbnlsLmNvbS8qEPDc4Ieq9t0C">
     <Label name="_cse_5357169955"/>
@@ -26,42 +72,42 @@
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="https://www.voidvinyl.com/"/>
   </Annotation>
-  <Annotation about="www.bizarro.life/*" timestamp="0x000574044c795605" href="ChJ3d3cuYml6YXJyby5saWZlLyoQhazl48SA3QI">
+  <Annotation about="www.bizarro.life/*" timestamp="0x000574044c795605" href="ChJ3d3cuYml6YXJyby5saWZlLyoQhazl48SA3QI=">
     <Label name="_cse_5357169955"/>
     <Label name="australia"/>
     <AdditionalData attribute="original_url" value="https://www.bizarro.life"/>
   </Annotation>
-  <Annotation about="www.seventyeightrecords.com/*" timestamp="0x0005644b8875eb88" href="Ch13d3cuc2V2ZW50eWVpZ2h0cmVjb3Jkcy5jb20vKhCI19fDuInZAg">
+  <Annotation about="www.seventyeightrecords.com/*" timestamp="0x0005644b8875eb88" href="Ch13d3cuc2V2ZW50eWVpZ2h0cmVjb3Jkcy5jb20vKhCI19fDuInZAg==">
     <Label name="_cse_5357169955"/>
     <Label name="europe"/>
     <Label name="netherlands"/>
     <AdditionalData attribute="original_url" value="https://www.seventyeightrecords.com/"/>
   </Annotation>
-  <Annotation about="www.bilborecords.be/*" timestamp="0x000563fab119744f" href="ChV3d3cuYmlsYm9yZWNvcmRzLmJlLyoQz-jliKv_2AI">
+  <Annotation about="www.bilborecords.be/*" timestamp="0x000563fab119744f" href="ChV3d3cuYmlsYm9yZWNvcmRzLmJlLyoQz-jliKv_2AI=">
     <Label name="_cse_5357169955"/>
     <Label name="belgium"/>
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://www.bilborecords.be/"/>
   </Annotation>
-  <Annotation about="www.blackslabrecords.com/*" timestamp="0x000563faaba509e8" href="Chp3d3cuYmxhY2tzbGFicmVjb3Jkcy5jb20vKhDok5Tdqv_YAg">
+  <Annotation about="www.blackslabrecords.com/*" timestamp="0x000563faaba509e8" href="Chp3d3cuYmxhY2tzbGFicmVjb3Jkcy5jb20vKhDok5Tdqv_YAg==">
     <Label name="_cse_5357169955"/>
     <Label name="europe"/>
     <Label name="uk"/>
     <AdditionalData attribute="original_url" value="http://www.blackslabrecords.com"/>
   </Annotation>
-  <Annotation about="*.vynilla.be/*" timestamp="0x000563faa199ef2b" href="Cg4qLnZ5bmlsbGEuYmUvKhCr3ueMqv_YAg">
+  <Annotation about="*.vynilla.be/*" timestamp="0x000563faa199ef2b" href="Cg4qLnZ5bmlsbGEuYmUvKhCr3ueMqv_YAg==">
     <Label name="_cse_5357169955"/>
     <Label name="belgium"/>
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="https://vynilla.be/"/>
   </Annotation>
-  <Annotation about="www.bol.com/nl/m/muziek/lp-s/*" timestamp="0x000563fa91a476fb" href="Ch53d3cuYm9sLmNvbS9ubC9tL211emllay9scC1zLyoQ--2Rjan_2AI">
+  <Annotation about="www.bol.com/nl/m/muziek/lp-s/*" timestamp="0x000563fa91a476fb" href="Ch53d3cuYm9sLmNvbS9ubC9tL211emllay9scC1zLyoQ--2Rjan_2AI=">
     <Label name="_cse_5357169955"/>
     <Label name="europe"/>
     <Label name="netherlands"/>
     <AdditionalData attribute="original_url" value="https://www.bol.com/nl/m/muziek/lp-s/*"/>
   </Annotation>
-  <Annotation about="*.musicmediacorner.be/*" timestamp="0x000563fa8b0a515f" href="ChcqLm11c2ljbWVkaWFjb3JuZXIuYmUvKhDfoqnYqP_YAg">
+  <Annotation about="*.musicmediacorner.be/*" timestamp="0x000563fa8b0a515f" href="ChcqLm11c2ljbWVkaWFjb3JuZXIuYmUvKhDfoqnYqP_YAg==">
     <Label name="_cse_5357169955"/>
     <Label name="belgium"/>
     <Label name="europe"/>
@@ -97,7 +143,7 @@
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://rushhour.nl/*"/>
   </Annotation>
-  <Annotation about="deejay.de/*" timestamp="0x000563f9ca6c13bf" href="CgtkZWVqYXkuZGUvKhC_p7DTnP_YAg">
+  <Annotation about="deejay.de/*" timestamp="0x000563f9ca6c13bf" href="CgtkZWVqYXkuZGUvKhC_p7DTnP_YAg==">
     <Label name="_cse_5357169955"/>
     <Label name="germany"/>
     <Label name="europe"/>
@@ -121,13 +167,13 @@
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://hhv.de/shop/*"/>
   </Annotation>
-  <Annotation about="www.phonicarecords.com/*" timestamp="0x000563f9c9163dc3" href="Chh3d3cucGhvbmljYXJlY29yZHMuY29tLyoQw_vYyJz_2AI">
+  <Annotation about="www.phonicarecords.com/*" timestamp="0x000563f9c9163dc3" href="Chh3d3cucGhvbmljYXJlY29yZHMuY29tLyoQw_vYyJz_2AI=">
     <Label name="_cse_5357169955"/>
     <Label name="uk"/>
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://www.phonicarecords.com/*"/>
   </Annotation>
-  <Annotation about="www.piccadillyrecords.com/*" timestamp="0x000563f9c9163dbc" href="Cht3d3cucGljY2FkaWxseXJlY29yZHMuY29tLyoQvPvYyJz_2AI">
+  <Annotation about="www.piccadillyrecords.com/*" timestamp="0x000563f9c9163dbc" href="Cht3d3cucGljY2FkaWxseXJlY29yZHMuY29tLyoQvPvYyJz_2AI=">
     <Label name="_cse_5357169955"/>
     <Label name="uk"/>
     <Label name="europe"/>
@@ -139,13 +185,13 @@
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://honestjons.com/*"/>
   </Annotation>
-  <Annotation about="spacehall.de/shop/content/*" timestamp="0x000563f9c9163dad" href="ChtzcGFjZWhhbGwuZGUvc2hvcC9jb250ZW50LyoQrfvYyJz_2AI">
+  <Annotation about="spacehall.de/shop/content/*" timestamp="0x000563f9c9163dad" href="ChtzcGFjZWhhbGwuZGUvc2hvcC9jb250ZW50LyoQrfvYyJz_2AI=">
     <Label name="_cse_5357169955"/>
     <Label name="germany"/>
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://spacehall.de/shop/content/*"/>
   </Annotation>
-  <Annotation about="oye-records.com/*" timestamp="0x000563f9c9163da6" href="ChFveWUtcmVjb3Jkcy5jb20vKhCm-9jInP_YAg">
+  <Annotation about="oye-records.com/*" timestamp="0x000563f9c9163da6" href="ChFveWUtcmVjb3Jkcy5jb20vKhCm-9jInP_YAg==">
     <Label name="_cse_5357169955"/>
     <Label name="germany"/>
     <Label name="europe"/>
@@ -169,7 +215,7 @@
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://basscadetrecords.com/*"/>
   </Annotation>
-  <Annotation about="www.htfr.com/*" timestamp="0x000563f9c9163d86" href="Cg53d3cuaHRmci5jb20vKhCG-9jInP_YAg">
+  <Annotation about="www.htfr.com/*" timestamp="0x000563f9c9163d86" href="Cg53d3cuaHRmci5jb20vKhCG-9jInP_YAg==">
     <Label name="_cse_5357169955"/>
     <Label name="uk"/>
     <Label name="europe"/>
@@ -181,37 +227,37 @@
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://www.kompakt.fm/releases/*"/>
   </Annotation>
-  <Annotation about="www.normanrecords.com/*" timestamp="0x000563f9c7cb6e92" href="Chd3d3cubm9ybWFucmVjb3Jkcy5jb20vKhCS3a2-nP_YAg">
+  <Annotation about="www.normanrecords.com/*" timestamp="0x000563f9c7cb6e92" href="Chd3d3cubm9ybWFucmVjb3Jkcy5jb20vKhCS3a2-nP_YAg==">
     <Label name="_cse_5357169955"/>
     <Label name="uk"/>
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="https://www.normanrecords.com/*"/>
   </Annotation>
-  <Annotation about="www.k-records.be/*" timestamp="0x000563f9c71a6979" href="ChJ3d3cuay1yZWNvcmRzLmJlLyoQ-dLpuJz_2AI">
+  <Annotation about="www.k-records.be/*" timestamp="0x000563f9c71a6979" href="ChJ3d3cuay1yZWNvcmRzLmJlLyoQ-dLpuJz_2AI=">
     <Label name="_cse_5357169955"/>
     <Label name="belgium"/>
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://www.k-records.be/*"/>
   </Annotation>
-  <Annotation about="www.wallysgrooveworld.com/*" timestamp="0x000563f9c71a6972" href="Cht3d3cud2FsbHlzZ3Jvb3Zld29ybGQuY29tLyoQ8tLpuJz_2AI">
+  <Annotation about="www.wallysgrooveworld.com/*" timestamp="0x000563f9c71a6972" href="Cht3d3cud2FsbHlzZ3Jvb3Zld29ybGQuY29tLyoQ8tLpuJz_2AI=">
     <Label name="_cse_5357169955"/>
     <Label name="belgium"/>
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://www.wallysgrooveworld.com/*"/>
   </Annotation>
-  <Annotation about="www.sensationrecords.com/*" timestamp="0x000563f9c71a696b" href="Chp3d3cuc2Vuc2F0aW9ucmVjb3Jkcy5jb20vKhDr0um4nP_YAg">
+  <Annotation about="www.sensationrecords.com/*" timestamp="0x000563f9c71a696b" href="Chp3d3cuc2Vuc2F0aW9ucmVjb3Jkcy5jb20vKhDr0um4nP_YAg==">
     <Label name="_cse_5357169955"/>
     <Label name="belgium"/>
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://www.sensationrecords.com/*"/>
   </Annotation>
-  <Annotation about="chezemile-records.com/en/*" timestamp="0x000563f9c71a6963" href="ChpjaGV6ZW1pbGUtcmVjb3Jkcy5jb20vZW4vKhDj0um4nP_YAg">
+  <Annotation about="chezemile-records.com/en/*" timestamp="0x000563f9c71a6963" href="ChpjaGV6ZW1pbGUtcmVjb3Jkcy5jb20vZW4vKhDj0um4nP_YAg==">
     <Label name="_cse_5357169955"/>
     <Label name="france"/>
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://chezemile-records.com/en/*"/>
   </Annotation>
-  <Annotation about="www.toolboxrecords.com/*" timestamp="0x000563f9c71a695b" href="Chh3d3cudG9vbGJveHJlY29yZHMuY29tLyoQ29LpuJz_2AI">
+  <Annotation about="www.toolboxrecords.com/*" timestamp="0x000563f9c71a695b" href="Chh3d3cudG9vbGJveHJlY29yZHMuY29tLyoQ29LpuJz_2AI=">
     <Label name="_cse_5357169955"/>
     <Label name="france"/>
     <Label name="europe"/>
@@ -223,7 +269,7 @@
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://www.techno-import.fr/*"/>
   </Annotation>
-  <Annotation about="www.souljazzrecords.co.uk/index.php" timestamp="0x000563f9c71a6946" href="CiN3d3cuc291bGphenpyZWNvcmRzLmNvLnVrL2luZGV4LnBocBDG0um4nP_YAg">
+  <Annotation about="www.souljazzrecords.co.uk/index.php" timestamp="0x000563f9c71a6946" href="CiN3d3cuc291bGphenpyZWNvcmRzLmNvLnVrL2luZGV4LnBocBDG0um4nP_YAg==">
     <Label name="_cse_5357169955"/>
     <Label name="uk"/>
     <Label name="europe"/>
@@ -235,25 +281,25 @@
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://www.redeyerecords.co.uk/*"/>
   </Annotation>
-  <Annotation about="*.radioshopvinilo.com/*" timestamp="0x000563f9c56dd1a1" href="ChcqLnJhZGlvc2hvcHZpbmlsby5jb20vKhCho7ernP_YAg">
+  <Annotation about="*.radioshopvinilo.com/*" timestamp="0x000563f9c56dd1a1" href="ChcqLnJhZGlvc2hvcHZpbmlsby5jb20vKhCho7ernP_YAg==">
     <Label name="_cse_5357169955"/>
     <Label name="spain"/>
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="radioshopvinilo.com"/>
   </Annotation>
-  <Annotation about="www.whatrecords.co.uk/*" timestamp="0x000563f9c56dd199" href="Chd3d3cud2hhdHJlY29yZHMuY28udWsvKhCZo7ernP_YAg">
+  <Annotation about="www.whatrecords.co.uk/*" timestamp="0x000563f9c56dd199" href="Chd3d3cud2hhdHJlY29yZHMuY28udWsvKhCZo7ernP_YAg==">
     <Label name="_cse_5357169955"/>
     <Label name="uk"/>
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://www.whatrecords.co.uk/*"/>
   </Annotation>
-  <Annotation about="www.globalgroove.co.uk/*" timestamp="0x000563f9c56dd192" href="Chh3d3cuZ2xvYmFsZ3Jvb3ZlLmNvLnVrLyoQkqO3q5z_2AI">
+  <Annotation about="www.globalgroove.co.uk/*" timestamp="0x000563f9c56dd192" href="Chh3d3cuZ2xvYmFsZ3Jvb3ZlLmNvLnVrLyoQkqO3q5z_2AI=">
     <Label name="_cse_5357169955"/>
     <Label name="uk"/>
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://www.globalgroove.co.uk/*"/>
   </Annotation>
-  <Annotation about="www.souljazzrecords.co.uk/*" timestamp="0x000563f9c56dd18b" href="Cht3d3cuc291bGphenpyZWNvcmRzLmNvLnVrLyoQi6O3q5z_2AI">
+  <Annotation about="www.souljazzrecords.co.uk/*" timestamp="0x000563f9c56dd18b" href="Cht3d3cuc291bGphenpyZWNvcmRzLmNvLnVrLyoQi6O3q5z_2AI=">
     <Label name="_cse_5357169955"/>
     <Label name="uk"/>
     <Label name="europe"/>
@@ -265,43 +311,43 @@
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://www.vinylexchange.co.uk/*"/>
   </Annotation>
-  <Annotation about="www.djshop.de/*" timestamp="0x000563f9c56dd17a" href="Cg93d3cuZGpzaG9wLmRlLyoQ-qK3q5z_2AI">
+  <Annotation about="www.djshop.de/*" timestamp="0x000563f9c56dd17a" href="Cg93d3cuZGpzaG9wLmRlLyoQ-qK3q5z_2AI=">
     <Label name="_cse_5357169955"/>
     <Label name="germany"/>
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://www.djshop.de/*"/>
   </Annotation>
-  <Annotation about="www.banquetrecords.com/*" timestamp="0x000563f9c56dd16b" href="Chh3d3cuYmFucXVldHJlY29yZHMuY29tLyoQ66K3q5z_2AI">
+  <Annotation about="www.banquetrecords.com/*" timestamp="0x000563f9c56dd16b" href="Chh3d3cuYmFucXVldHJlY29yZHMuY29tLyoQ66K3q5z_2AI=">
     <Label name="_cse_5357169955"/>
     <Label name="uk"/>
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://www.banquetrecords.com/*"/>
   </Annotation>
-  <Annotation about="www.triplevision.nl/*" timestamp="0x000563f9c156bd67" href="ChV3d3cudHJpcGxldmlzaW9uLm5sLyoQ5_raipz_2AI">
+  <Annotation about="www.triplevision.nl/*" timestamp="0x000563f9c156bd67" href="ChV3d3cudHJpcGxldmlzaW9uLm5sLyoQ5_raipz_2AI=">
     <Label name="_cse_5357169955"/>
     <Label name="netherlands"/>
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://www.triplevision.nl/"/>
   </Annotation>
-  <Annotation about="www.kudosrecords.co.uk/*" timestamp="0x000563f9c156bd52" href="Chh3d3cua3Vkb3NyZWNvcmRzLmNvLnVrLyoQ0vraipz_2AI">
+  <Annotation about="www.kudosrecords.co.uk/*" timestamp="0x000563f9c156bd52" href="Chh3d3cua3Vkb3NyZWNvcmRzLmNvLnVrLyoQ0vraipz_2AI=">
     <Label name="_cse_5357169955"/>
     <Label name="uk"/>
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="https://www.kudosrecords.co.uk/"/>
   </Annotation>
-  <Annotation about="www.unearthedsounds.co.uk/*" timestamp="0x000563f9c156bd36" href="Cht3d3cudW5lYXJ0aGVkc291bmRzLmNvLnVrLyoQtvraipz_2AI">
+  <Annotation about="www.unearthedsounds.co.uk/*" timestamp="0x000563f9c156bd36" href="Cht3d3cudW5lYXJ0aGVkc291bmRzLmNvLnVrLyoQtvraipz_2AI=">
     <Label name="_cse_5357169955"/>
     <Label name="uk"/>
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://www.unearthedsounds.co.uk/"/>
   </Annotation>
-  <Annotation about="www.ultrasuonirecords.com/*" timestamp="0x000563f9c156bd25" href="Cht3d3cudWx0cmFzdW9uaXJlY29yZHMuY29tLyoQpfraipz_2AI">
+  <Annotation about="www.ultrasuonirecords.com/*" timestamp="0x000563f9c156bd25" href="Cht3d3cudWx0cmFzdW9uaXJlY29yZHMuY29tLyoQpfraipz_2AI=">
     <Label name="_cse_5357169955"/>
     <Label name="italy"/>
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://www.ultrasuonirecords.com/"/>
   </Annotation>
-  <Annotation about="www.mutingthenoise.com/*" timestamp="0x000563f9bfca98dc" href="Chh3d3cubXV0aW5ndGhlbm9pc2UuY29tLyoQ3LGq_pv_2AI">
+  <Annotation about="www.mutingthenoise.com/*" timestamp="0x000563f9bfca98dc" href="Chh3d3cubXV0aW5ndGhlbm9pc2UuY29tLyoQ3LGq_pv_2AI=">
     <Label name="_cse_5357169955"/>
     <Label name="germany"/>
     <Label name="europe"/>
@@ -313,67 +359,67 @@
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://712.bigcartel.com/"/>
   </Annotation>
-  <Annotation about="extendandplay-records.com/shop/*" timestamp="0x000563f9bfca98c3" href="CiBleHRlbmRhbmRwbGF5LXJlY29yZHMuY29tL3Nob3AvKhDDsar-m__YAg">
+  <Annotation about="extendandplay-records.com/shop/*" timestamp="0x000563f9bfca98c3" href="CiBleHRlbmRhbmRwbGF5LXJlY29yZHMuY29tL3Nob3AvKhDDsar-m__YAg==">
     <Label name="_cse_5357169955"/>
     <Label name="france"/>
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://extendandplay-records.com/shop/"/>
   </Annotation>
-  <Annotation about="www.vinyl-digital.com/*" timestamp="0x000563f9bfca98b6" href="Chd3d3cudmlueWwtZGlnaXRhbC5jb20vKhC2sar-m__YAg">
+  <Annotation about="www.vinyl-digital.com/*" timestamp="0x000563f9bfca98b6" href="Chd3d3cudmlueWwtZGlnaXRhbC5jb20vKhC2sar-m__YAg==">
     <Label name="_cse_5357169955"/>
     <Label name="germany"/>
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://www.vinyl-digital.com/"/>
   </Annotation>
-  <Annotation about="shop.lachinerie.fr/*" timestamp="0x000563f9bfca98aa" href="ChRzaG9wLmxhY2hpbmVyaWUuZnIvKhCqsar-m__YAg">
+  <Annotation about="shop.lachinerie.fr/*" timestamp="0x000563f9bfca98aa" href="ChRzaG9wLmxhY2hpbmVyaWUuZnIvKhCqsar-m__YAg==">
     <Label name="_cse_5357169955"/>
     <Label name="france"/>
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="https://shop.lachinerie.fr/"/>
   </Annotation>
-  <Annotation about="www.ledisquestore.com/*" timestamp="0x000563f9bfca989a" href="Chd3d3cubGVkaXNxdWVzdG9yZS5jb20vKhCasar-m__YAg">
+  <Annotation about="www.ledisquestore.com/*" timestamp="0x000563f9bfca989a" href="Chd3d3cubGVkaXNxdWVzdG9yZS5jb20vKhCasar-m__YAg==">
     <Label name="_cse_5357169955"/>
     <Label name="italy"/>
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://www.ledisquestore.com/"/>
   </Annotation>
-  <Annotation about="www.rebirthdistribution.com/*" timestamp="0x000563f9bfca9864" href="Ch13d3cucmViaXJ0aGRpc3RyaWJ1dGlvbi5jb20vKhDksKr-m__YAg">
+  <Annotation about="www.rebirthdistribution.com/*" timestamp="0x000563f9bfca9864" href="Ch13d3cucmViaXJ0aGRpc3RyaWJ1dGlvbi5jb20vKhDksKr-m__YAg==">
     <Label name="_cse_5357169955"/>
     <Label name="italy"/>
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://www.rebirthdistribution.com/"/>
   </Annotation>
-  <Annotation about="www.yoyaku.io/*" timestamp="0x000563f9be3b4213" href="Cg93d3cueW95YWt1LmlvLyoQk4Tt8Zv_2AI">
+  <Annotation about="www.yoyaku.io/*" timestamp="0x000563f9be3b4213" href="Cg93d3cueW95YWt1LmlvLyoQk4Tt8Zv_2AI=">
     <Label name="_cse_5357169955"/>
     <Label name="france"/>
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="https://www.yoyaku.io/*"/>
   </Annotation>
-  <Annotation about="*.pikebaysound.com/*" timestamp="0x000563f9be3b4207" href="ChQqLnBpa2ViYXlzb3VuZC5jb20vKhCHhO3xm__YAg">
+  <Annotation about="*.pikebaysound.com/*" timestamp="0x000563f9be3b4207" href="ChQqLnBpa2ViYXlzb3VuZC5jb20vKhCHhO3xm__YAg==">
     <Label name="_cse_5357169955"/>
     <Label name="norway"/>
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://pikebaysound.com/"/>
   </Annotation>
-  <Annotation about="*.bordelloaparigi.com/*" timestamp="0x000563f9be3b41f9" href="ChcqLmJvcmRlbGxvYXBhcmlnaS5jb20vKhD5g-3xm__YAg">
+  <Annotation about="*.bordelloaparigi.com/*" timestamp="0x000563f9be3b41f9" href="ChcqLmJvcmRlbGxvYXBhcmlnaS5jb20vKhD5g-3xm__YAg==">
     <Label name="_cse_5357169955"/>
     <Label name="netherlands"/>
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="https://bordelloaparigi.com"/>
   </Annotation>
-  <Annotation about="*.domesticarecords.com/*" timestamp="0x000563f9be3b41e7" href="ChgqLmRvbWVzdGljYXJlY29yZHMuY29tLyoQ54Pt8Zv_2AI">
+  <Annotation about="*.domesticarecords.com/*" timestamp="0x000563f9be3b41e7" href="ChgqLmRvbWVzdGljYXJlY29yZHMuY29tLyoQ54Pt8Zv_2AI=">
     <Label name="_cse_5357169955"/>
     <Label name="spain"/>
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="https://domesticarecords.com/"/>
   </Annotation>
-  <Annotation about="www.publicpossession.com/*" timestamp="0x000563f9bcc62672" href="Chp3d3cucHVibGljcG9zc2Vzc2lvbi5jb20vKhDyzJjmm__YAg">
+  <Annotation about="www.publicpossession.com/*" timestamp="0x000563f9bcc62672" href="Chp3d3cucHVibGljcG9zc2Vzc2lvbi5jb20vKhDyzJjmm__YAg==">
     <Label name="_cse_5357169955"/>
     <Label name="germany"/>
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://www.publicpossession.com/"/>
   </Annotation>
-  <Annotation about="www.rotibabi.com/*" timestamp="0x000563f9bc346224" href="ChJ3d3cucm90aWJhYmkuY29tLyoQpMTR4Zv_2AI">
+  <Annotation about="www.rotibabi.com/*" timestamp="0x000563f9bc346224" href="ChJ3d3cucm90aWJhYmkuY29tLyoQpMTR4Zv_2AI=">
     <Label name="_cse_5357169955"/>
     <Label name="netherlands"/>
     <Label name="europe"/>
@@ -385,13 +431,13 @@
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://www.viniil.com/"/>
   </Annotation>
-  <Annotation about="shop.phantasysound.co.uk/*" timestamp="0x000563f9bc346213" href="ChpzaG9wLnBoYW50YXN5c291bmQuY28udWsvKhCTxNHhm__YAg">
+  <Annotation about="shop.phantasysound.co.uk/*" timestamp="0x000563f9bc346213" href="ChpzaG9wLnBoYW50YXN5c291bmQuY28udWsvKhCTxNHhm__YAg==">
     <Label name="_cse_5357169955"/>
     <Label name="uk"/>
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="https://shop.phantasysound.co.uk/"/>
   </Annotation>
-  <Annotation about="www.recordstore.co.uk/*" timestamp="0x000563f9bc346203" href="Chd3d3cucmVjb3Jkc3RvcmUuY28udWsvKhCDxNHhm__YAg">
+  <Annotation about="www.recordstore.co.uk/*" timestamp="0x000563f9bc346203" href="Chd3d3cucmVjb3Jkc3RvcmUuY28udWsvKhCDxNHhm__YAg==">
     <Label name="_cse_5357169955"/>
     <Label name="uk"/>
     <Label name="europe"/>
@@ -403,7 +449,7 @@
     <Label name="europe"/>
     <AdditionalData attribute="original_url" value="http://bikiniwaxxrecords.com/"/>
   </Annotation>
-  <Annotation about="*.soundsoftheuniverse.com/*" timestamp="0x000563f9bb3830c4" href="ChsqLnNvdW5kc29mdGhldW5pdmVyc2UuY29tLyoQxOHg2Zv_2AI">
+  <Annotation about="*.soundsoftheuniverse.com/*" timestamp="0x000563f9bb3830c4" href="ChsqLnNvdW5kc29mdGhldW5pdmVyc2UuY29tLyoQxOHg2Zv_2AI=">
     <Label name="_cse_5357169955"/>
     <Label name="uk"/>
     <Label name="europe"/>
@@ -420,27 +466,27 @@
     <Label name="australia"/>
     <AdditionalData attribute="original_url" value="https://www.redeye.com.au"/>
   </Annotation>
-  <Annotation about="www.bigloverecords.jp/*" timestamp="0x000563ec7d975de7" href="Chd3d3cuYmlnbG92ZXJlY29yZHMuanAvKhDnu93sx_3YAg">
+  <Annotation about="www.bigloverecords.jp/*" timestamp="0x000563ec7d975de7" href="Chd3d3cuYmlnbG92ZXJlY29yZHMuanAvKhDnu93sx_3YAg==">
     <Label name="_cse_5357169955"/>
     <Label name="japan"/>
     <AdditionalData attribute="original_url" value="http://www.bigloverecords.jp/"/>
   </Annotation>
-  <Annotation about="www.undergroundgallery.jp/*" timestamp="0x000563ec7d975dd1" href="Cht3d3cudW5kZXJncm91bmRnYWxsZXJ5LmpwLyoQ0bvd7Mf92AI">
+  <Annotation about="www.undergroundgallery.jp/*" timestamp="0x000563ec7d975dd1" href="Cht3d3cudW5kZXJncm91bmRnYWxsZXJ5LmpwLyoQ0bvd7Mf92AI=">
     <Label name="_cse_5357169955"/>
     <Label name="japan"/>
     <AdditionalData attribute="original_url" value="http://www.undergroundgallery.jp/"/>
   </Annotation>
-  <Annotation about="www.record8.com/*" timestamp="0x00056218ee036539" href="ChF3d3cucmVjb3JkOC5jb20vKhC5yo3wjsPYAg">
+  <Annotation about="www.record8.com/*" timestamp="0x00056218ee036539" href="ChF3d3cucmVjb3JkOC5jb20vKhC5yo3wjsPYAg==">
     <Label name="_cse_5357169955"/>
     <Label name="japan"/>
     <AdditionalData attribute="original_url" value="http://www.record8.com/"/>
   </Annotation>
-  <Annotation about="www.castle-records.net/*" timestamp="0x00056218ceb1e195" href="Chh3d3cuY2FzdGxlLXJlY29yZHMubmV0LyoQlcPH9YzD2AI">
+  <Annotation about="www.castle-records.net/*" timestamp="0x00056218ceb1e195" href="Chh3d3cuY2FzdGxlLXJlY29yZHMubmV0LyoQlcPH9YzD2AI=">
     <Label name="_cse_5357169955"/>
     <Label name="japan"/>
     <AdditionalData attribute="original_url" value="http://www.castle-records.net/"/>
   </Annotation>
-  <Annotation about="www.undergroundhiphop.com/*" timestamp="0x00056218c3f13d66" href="Cht3d3cudW5kZXJncm91bmRoaXBob3AuY29tLyoQ5vrEn4zD2AI">
+  <Annotation about="www.undergroundhiphop.com/*" timestamp="0x00056218c3f13d66" href="Cht3d3cudW5kZXJncm91bmRoaXBob3AuY29tLyoQ5vrEn4zD2AI=">
     <Label name="_cse_5357169955"/>
     <Label name="usa"/>
     <AdditionalData attribute="original_url" value="https://www.undergroundhiphop.com"/>
@@ -450,7 +496,7 @@
     <Label name="japan"/>
     <AdditionalData attribute="original_url" value="http://www.newtone-records.com/"/>
   </Annotation>
-  <Annotation about="www.stradarecords.com/*" timestamp="0x00056218b4acc4a5" href="Chd3d3cuc3RyYWRhcmVjb3Jkcy5jb20vKhClibOli8PYAg">
+  <Annotation about="www.stradarecords.com/*" timestamp="0x00056218b4acc4a5" href="Chd3d3cuc3RyYWRhcmVjb3Jkcy5jb20vKhClibOli8PYAg==">
     <Label name="_cse_5357169955"/>
     <Label name="japan"/>
     <AdditionalData attribute="original_url" value="http://www.stradarecords.com/"/>
@@ -475,7 +521,7 @@
     <Label name="canada"/>
     <AdditionalData attribute="original_url" value="http://summercool.storenvy.com/"/>
   </Annotation>
-  <Annotation about="webstore.gramaphonerecords.com/*" timestamp="0x00056218976fced8" href="CiB3ZWJzdG9yZS5ncmFtYXBob25lcmVjb3Jkcy5jb20vKhDYnb-7icPYAg">
+  <Annotation about="webstore.gramaphonerecords.com/*" timestamp="0x00056218976fced8" href="CiB3ZWJzdG9yZS5ncmFtYXBob25lcmVjb3Jkcy5jb20vKhDYnb-7icPYAg==">
     <Label name="_cse_5357169955"/>
     <Label name="usa"/>
     <AdditionalData attribute="original_url" value="http://webstore.gramaphonerecords.com/"/>
@@ -485,17 +531,17 @@
     <Label name="japan"/>
     <AdditionalData attribute="original_url" value="http://hangesha.shop-pro.jp/"/>
   </Annotation>
-  <Annotation about="www.tanzmusicrecords.com/*" timestamp="0x000562188c3cb991" href="Chp3d3cudGFuem11c2ljcmVjb3Jkcy5jb20vKhCR8_LhiMPYAg">
+  <Annotation about="www.tanzmusicrecords.com/*" timestamp="0x000562188c3cb991" href="Chp3d3cudGFuem11c2ljcmVjb3Jkcy5jb20vKhCR8_LhiMPYAg==">
     <Label name="_cse_5357169955"/>
     <Label name="japan"/>
     <AdditionalData attribute="original_url" value="http://www.tanzmusicrecords.com/"/>
   </Annotation>
-  <Annotation about="*.pigeon-records.jp/*" timestamp="0x000562188adb8976" href="ChUqLnBpZ2Vvbi1yZWNvcmRzLmpwLyoQ9pLu1ojD2AI">
+  <Annotation about="*.pigeon-records.jp/*" timestamp="0x000562188adb8976" href="ChUqLnBpZ2Vvbi1yZWNvcmRzLmpwLyoQ9pLu1ojD2AI=">
     <Label name="_cse_5357169955"/>
     <Label name="japan"/>
     <AdditionalData attribute="original_url" value="http://pigeon-records.jp/"/>
   </Annotation>
-  <Annotation about="palm-records.shop-pro.jp/*" timestamp="0x00056218851f4419" href="ChpwYWxtLXJlY29yZHMuc2hvcC1wcm8uanAvKhCZiP2oiMPYAg">
+  <Annotation about="palm-records.shop-pro.jp/*" timestamp="0x00056218851f4419" href="ChpwYWxtLXJlY29yZHMuc2hvcC1wcm8uanAvKhCZiP2oiMPYAg==">
     <Label name="_cse_5357169955"/>
     <Label name="japan"/>
     <AdditionalData attribute="original_url" value="http://palm-records.shop-pro.jp/"/>
@@ -505,17 +551,17 @@
     <Label name="korea"/>
     <AdditionalData attribute="original_url" value="http://www.cliquerec.com/*"/>
   </Annotation>
-  <Annotation about="www.meditations.jp/*" timestamp="0x00053f3f98c2a738" href="ChR3d3cubWVkaXRhdGlvbnMuanAvKhC4zorG-efPAg">
+  <Annotation about="www.meditations.jp/*" timestamp="0x00053f3f98c2a738" href="ChR3d3cubWVkaXRhdGlvbnMuanAvKhC4zorG-efPAg==">
     <Label name="_cse_5357169955"/>
     <Label name="japan"/>
     <AdditionalData attribute="original_url" value="www.meditations.jp"/>
   </Annotation>
-  <Annotation about="climbmountanalog.com/products-page/*" timestamp="0x00052f9a769f91bc" href="CiRjbGltYm1vdW50YW5hbG9nLmNvbS9wcm9kdWN0cy1wYWdlLyoQvKP-tKfzywI">
+  <Annotation about="climbmountanalog.com/products-page/*" timestamp="0x00052f9a769f91bc" href="CiRjbGltYm1vdW50YW5hbG9nLmNvbS9wcm9kdWN0cy1wYWdlLyoQvKP-tKfzywI=">
     <Label name="_cse_5357169955"/>
     <Label name="usa"/>
     <AdditionalData attribute="original_url" value="http://climbmountanalog.com/products-page/"/>
   </Annotation>
-  <Annotation about="*.freestyleonline.net/*" timestamp="0x00052b3e9dac56c3" href="ChcqLmZyZWVzdHlsZW9ubGluZS5uZXQvKhDDrbHt6efKAg">
+  <Annotation about="*.freestyleonline.net/*" timestamp="0x00052b3e9dac56c3" href="ChcqLmZyZWVzdHlsZW9ubGluZS5uZXQvKhDDrbHt6efKAg==">
     <Label name="_cse_5357169955"/>
     <Label name="japan"/>
     <AdditionalData attribute="original_url" value="https://freestyleonline.net/"/>
@@ -525,31 +571,27 @@
     <Label name="usa"/>
     <AdditionalData attribute="original_url" value="http://downtown304.com/"/>
   </Annotation>
-  <Annotation about="*.diskunion.net/*" timestamp="0x00051d55993c8679" href="ChEqLmRpc2t1bmlvbi5uZXQvKhD5jPLJ2arHAg">
+  <Annotation about="*.diskunion.net/*" timestamp="0x00051d55993c8679" href="ChEqLmRpc2t1bmlvbi5uZXQvKhD5jPLJ2arHAg==">
     <Label name="_cse_5357169955"/>
     <Label name="japan"/>
     <AdditionalData attribute="original_url" value="http://diskunion.net/"/>
   </Annotation>
-  <Annotation about="www.technique.co.jp/*" timestamp="0x00051aea0b5c5e25" href="ChV3d3cudGVjaG5pcXVlLmNvLmpwLyoQpbzx2qDdxgI">
+  <Annotation about="www.technique.co.jp/*" timestamp="0x00051aea0b5c5e25" href="ChV3d3cudGVjaG5pcXVlLmNvLmpwLyoQpbzx2qDdxgI=">
     <Label name="_cse_5357169955"/>
     <Label name="japan"/>
     <AdditionalData attribute="original_url" value="http://www.technique.co.jp/"/>
   </Annotation>
-  <Annotation about="www.recordsbymail.com/*" timestamp="0x000518ccd3664f76" href="Chd3d3cucmVjb3Jkc2J5bWFpbC5jb20vKhD2npmbzZnGAg">
+  <Annotation about="www.recordsbymail.com/*" timestamp="0x000518ccd3664f76" href="Chd3d3cucmVjb3Jkc2J5bWFpbC5jb20vKhD2npmbzZnGAg==">
     <Label name="_cse_5357169955"/>
     <Label name="usa"/>
     <AdditionalData attribute="original_url" value="http://www.recordsbymail.com/*"/>
   </Annotation>
-  <Annotation about="www.soundstagedirect.com/*" timestamp="0x000518ccd1504e52" href="Chp3d3cuc291bmRzdGFnZWRpcmVjdC5jb20vKhDSnMGKzZnGAg">
+  <Annotation about="www.soundstagedirect.com/*" timestamp="0x000518ccd1504e52" href="Chp3d3cuc291bmRzdGFnZWRpcmVjdC5jb20vKhDSnMGKzZnGAg==">
     <Label name="_cse_5357169955"/>
     <Label name="usa"/>
     <AdditionalData attribute="original_url" value="http://www.soundstagedirect.com/*"/>
   </Annotation>
-  <Annotation about="http://www.vinyl-records.biz/*" timestamp="0x000518ccb42a43a8" href="Ch5odHRwOi8vd3d3LnZpbnlsLXJlY29yZHMuYml6LyoQqIepocuZxgI">
-    <Label name="_cse_5357169955"/>
-    <AdditionalData attribute="original_url" value="http://www.vinyl-records.biz/*"/>
-  </Annotation>
-  <Annotation about="www.audiophileusa.com/*" timestamp="0x000518cc90203d9d" href="Chd3d3cuYXVkaW9waGlsZXVzYS5jb20vKhCd-4CByZnGAg">
+  <Annotation about="www.audiophileusa.com/*" timestamp="0x000518cc90203d9d" href="Chd3d3cuYXVkaW9waGlsZXVzYS5jb20vKhCd-4CByZnGAg==">
     <Label name="_cse_5357169955"/>
     <Label name="usa"/>
     <AdditionalData attribute="original_url" value="http://www.audiophileusa.com/"/>
@@ -564,65 +606,9 @@
     <Label name="usa"/>
     <AdditionalData attribute="original_url" value="http://www.forcedexposure.com/home.html/*"/>
   </Annotation>
-  <Annotation about="experimedia.net/*" timestamp="0x0005058aa3f57755" href="ChFleHBlcmltZWRpYS5uZXQvKhDV7tWfqrHBAg">
+  <Annotation about="experimedia.net/*" timestamp="0x0005058aa3f57755" href="ChFleHBlcmltZWRpYS5uZXQvKhDV7tWfqrHBAg==">
     <Label name="_cse_5357169955"/>
     <Label name="usa"/>
     <AdditionalData attribute="original_url" value="http://experimedia.net/*"/>
-  </Annotation>
-  <Annotation about="*.hardwax.com/*" timestamp="0x00050084aee8222c" href="Cg8qLmhhcmR3YXguY29tLyoQrMSg98qQwAI">
-    <Label name="germany"/>
-    <AdditionalData attribute="original_url" value="https://hardwax.com/"/>
-  </Annotation>
-  <Annotation about="www.roughtrade.com/*" timestamp="0x00050084aee82223" href="ChR3d3cucm91Z2h0cmFkZS5jb20vKhCjxKD3ypDAAg">
-    <Label name="uk"/>
-    <AdditionalData attribute="original_url" value="http://www.roughtrade.com/*"/>
-  </Annotation>
-  <Annotation about="*.rushhour.nl/*" timestamp="0x00050084aee8221a" href="Cg8qLnJ1c2hob3VyLm5sLyoQmsSg98qQwAI">
-    <Label name="netherlands"/>
-    <AdditionalData attribute="original_url" value="http://rushhour.nl"/>
-  </Annotation>
-  <Annotation about="decks.de/*" timestamp="0x00050084aee82211" href="CgpkZWNrcy5kZS8qEJHEoPfKkMAC">
-    <Label name="germany"/>
-    <AdditionalData attribute="original_url" value="http://decks.de/*"/>
-  </Annotation>
-  <Annotation about="*.oye-records.com/*" timestamp="0x00050084aee82208" href="ChMqLm95ZS1yZWNvcmRzLmNvbS8qEIjEoPfKkMAC">
-    <Label name="germany"/>
-    <AdditionalData attribute="original_url" value="https://oye-records.com/"/>
-  </Annotation>
-  <Annotation about="www.phonicarecords.com/*" timestamp="0x00050084aee821fd" href="Chh3d3cucGhvbmljYXJlY29yZHMuY29tLyoQ_cOg98qQwAI">
-    <Label name="uk"/>
-    <AdditionalData attribute="original_url" value="http://www.phonicarecords.com/*"/>
-  </Annotation>
-  <Annotation about="www.piccadillyrecords.com/*" timestamp="0x00050084aee821f3" href="Cht3d3cucGljY2FkaWxseXJlY29yZHMuY29tLyoQ88Og98qQwAI">
-    <Label name="uk"/>
-    <AdditionalData attribute="original_url" value="http://www.piccadillyrecords.com/*"/>
-  </Annotation>
-  <Annotation about="hhv.de/shop/*" timestamp="0x00050084aee821e8" href="Cg1oaHYuZGUvc2hvcC8qEOjDoPfKkMAC">
-    <Label name="germany"/>
-    <AdditionalData attribute="original_url" value="http://hhv.de/shop/*"/>
-  </Annotation>
-  <Annotation about="*.roughtrade.com/*" timestamp="0x00050084aee821dd" href="ChIqLnJvdWdodHJhZGUuY29tLyoQ3cOg98qQwAI">
-    <Label name="uk"/>
-    <AdditionalData attribute="original_url" value="http://roughtrade.com"/>
-  </Annotation>
-  <Annotation about="*.deejay.de/*" timestamp="0x00050084aee821d1" href="Cg0qLmRlZWpheS5kZS8qENHDoPfKkMAC">
-    <Label name="germany"/>
-    <AdditionalData attribute="original_url" value="http://deejay.de"/>
-  </Annotation>
-  <Annotation about="honestjons.com/*" timestamp="0x00050084aee821c5" href="ChBob25lc3Rqb25zLmNvbS8qEMXDoPfKkMAC">
-    <Label name="uk"/>
-    <AdditionalData attribute="original_url" value="http://honestjons.com/*"/>
-  </Annotation>
-  <Annotation about="spacehall.de/shop/content/*" timestamp="0x00050084aee821b9" href="ChtzcGFjZWhhbGwuZGUvc2hvcC9jb250ZW50LyoQucOg98qQwAI">
-    <Label name="germany"/>
-    <AdditionalData attribute="original_url" value="http://spacehall.de/shop/content/*"/>
-  </Annotation>
-  <Annotation about="*.clone.nl/*" timestamp="0x00050084aee821ab" href="CgwqLmNsb25lLm5sLyoQq8Og98qQwAI">
-    <Label name="netherlands"/>
-    <AdditionalData attribute="original_url" value="http://clone.nl"/>
-  </Annotation>
-  <Annotation about="spacehall.de/shop/content*" timestamp="0x00050084aee82197" href="ChpzcGFjZWhhbGwuZGUvc2hvcC9jb250ZW50KhCXw6D3ypDAAg">
-    <Label name="germany"/>
-    <AdditionalData attribute="original_url" value="http://spacehall.de/shop/content"/>
   </Annotation>
 </Annotations>
