@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
  <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-   <ShortName>Lp/Ep Finder</ShortName>
+   <ShortName>Vinyl Finder</ShortName>
    <Description>Find vinyls online, in local record stores around the world</Description>
    <Tags>vinyl lp ep</Tags>
    <Contact>lpepfinder+opensearch@protonmail.com</Contact>
    <Url type="text/html"
-	template="https://lpepfinder.com/#gsc.q={searchTerms}"/>
-   <LongName>Lp/Ep Finder - find vinyls online, in local record stores around the world</LongName>
+	template="https://vinyl.internet4000.com.com/#gsc.q={searchTerms}"/>
+   <LongName>Vinyl Finder - find vinyls online, in local record stores around the world</LongName>
    <Image height="64" width="64" type="image/png">https://lpepfinder.com/public/favicons/favicon-64x64.png</Image>
    <Image height="48" width="48" type="image/vnd.microsoft.icon">https://lpepfinder.com/public/favicons/favicon.ico</Image>
    <Query role="example" searchTerms="Joy Division" />
    <Developer>Internet4000</Developer>
    <Attribution>
-     LP/EP  Finder @ Internet4000
+     Vinyl Finder @ Internet4000
    </Attribution>
    <SyndicationRight>open</SyndicationRight>
    <AdultContent>false</AdultContent>
