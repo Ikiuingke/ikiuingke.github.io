@@ -1,51 +1,50 @@
 <!DOCTYPE html>
 <html>
-    <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Vinyl Finder</title>
-	<meta name="description" content="Find vinyls online, in local record stores around the world">
+  <head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Vinyl Finder</title>
+		<meta name="description" content="Find vinyls online, in local record stores around the world">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<link rel="apple-touch-icon" sizes="180x180" href="/public/favicons/apple-touch-icon.png">
-	<link rel="icon" type="image/png" href="/public/favicons/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="/public/favicons/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="/public/favicons/manifest.json">
-	<link rel="mask-icon" href="/public/favicons/safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="shortcut icon" href="/public/favicons/favicon.ico">
-	<meta name="msapplication-config" content="/public/favicons/browserconfig.xml">
-	<meta name="theme-color" content="#ffffff">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="apple-touch-icon" sizes="180x180" href="/public/favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="/public/favicons/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="/public/favicons/favicon-16x16.png" sizes="16x16">
+		<link rel="manifest" href="/public/favicons/manifest.json">
+		<link rel="mask-icon" href="/public/favicons/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="shortcut icon" href="/public/favicons/favicon.ico">
+		<meta name="msapplication-config" content="/public/favicons/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
 
-	<link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Vinyl Finder, vinyl records search engine" />
+		<link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Vinyl Finder, vinyl records search engine" />
 
-	<meta property="og:url" content="https://vinyl.internet4000.com"/>
-	<meta property="og:type" content="website"/>
-	<meta property="og:title" content="Vinyl Finder"/>
-	<meta property="og:description" content="Find vinyls online, in local record stores around the world."/>
-	<meta property="og:image" content="https://vinyl.internet4000.com/public/logo.png"/>
+		<meta property="og:url" content="https://vinyl.internet4000.com"/>
+		<meta property="og:type" content="website"/>
+		<meta property="og:title" content="Vinyl Finder"/>
+		<meta property="og:description" content="Find vinyls online, in local record stores around the world."/>
+		<meta property="og:image" content="https://vinyl.internet4000.com/public/logo.png"/>
 
-	<link href="./styles/main.css" rel="stylesheet" type="text/css" />
+		<link href="./styles/main.css" rel="stylesheet" type="text/css" />
 
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	<script>(adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "ca-pub-7578240828852744",enable_page_level_ads: true});</script>
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<script>(adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "ca-pub-7578240828852744",enable_page_level_ads: true});</script>
 
-    </head>
+  </head>
 
-    <body>
-			<section class="SiteHeader Container Section">
-				<h1 class="SiteTitle">
-					<a href="/">
-						<img alt="" src="public/logo.png"/>
-						<span>Vinyl Finder</span>
-					</a>
-				</h1>
-				<p>Find vinyls in local record stores around the world.</p>
-	</section>
+  <body>
+		<section class="SiteHeader Container Section">
+			<h1 class="SiteTitle">
+				<a href="/">
+					Vinyl Finder
+				</a>
+			</h1>
+			<p>Find vinyls in local record stores around the world.</p>
+		</section>
 
-	<section class="SiteBody Container Section">
+		<section class="SiteBody Container Section">
 	    <gcse:searchbox
-		gname="storesearch"
-		       enableHistory="true"></gcse:searchbox>
+				gname="storesearch"
+		    enableHistory="true"></gcse:searchbox>
 	    <gcse:searchresults
 				gname="storesearch"></gcse:searchresults>
 			<p>
@@ -55,48 +54,48 @@
 					</small>
 				</center>
 			</p>
-	</section>
+		</section>
 
-	<section class="SiteFooter Container Section">
+		<section class="SiteFooter Container Section">
 	    <aside>
 				<nav class="Nav Nav--right">
 					<a class="Nav-item" href="./about">About</a>
 				</nav>
 	    </aside>
-	</section>
+		</section>
 
 
-	<script async src="https://cse.google.com/cse.js?cx=010629519132760995870:yi4eyysyzr0"></script>
+		<script async src="https://cse.google.com/cse.js?cx=010629519132760995870:yi4eyysyzr0"></script>
 
-	<script>
+		<script>
 
-		var lpepfinder = {
-			// suffix search filter to search input value
-			filterResults: function() {
-				console.log('yolo')
-				var input = document.querySelector('input.gsc-input')
-				input.value = input.value + ' ' + '-"out of stock"'
-			},
+			var lpepfinder = {
+				// suffix search filter to search input value
+				filterResults: function() {
+					console.log('yolo')
+					var input = document.querySelector('input.gsc-input')
+					input.value = input.value + ' ' + '-"out of stock"'
+				},
 
-			// update the input placeholder
-			updateSearchPlaceholder: function() {
-				var input = document.querySelector('#gsc-i-id1');
-				if(input) {
-					input.placeholder = 'Artist, album, track, label, cat#, or anything, really'
+				// update the input placeholder
+				updateSearchPlaceholder: function() {
+					var input = document.querySelector('#gsc-i-id1');
+					if(input) {
+						input.placeholder = 'Artist, album, track, label, cat#, or anything, really'
+					}
+				},
+
+				init: function() {
+					this.updateSearchPlaceholder()
+					// give a ready state to the html page
+					document.querySelector('.SiteBody').classList.add('is-ready')
 				}
-			},
-
-			init: function() {
-				this.updateSearchPlaceholder()
-				// give a ready state to the html page
-				document.querySelector('.SiteBody').classList.add('is-ready')
 			}
-		}
 
-		window.onload = function(){
-			lpepfinder.init()
-		}
-	</script>
+			window.onload = function(){
+				lpepfinder.init()
+			}
+		</script>
 
-    </body>
+  </body>
 </html>

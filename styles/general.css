@@ -57,6 +57,9 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+.SiteTitle--left a {
+	justify-content: flex-start;
+}
 .SiteTitle img {
 	max-width: 4rem;
 	vertical-align: bottom;
