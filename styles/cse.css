@@ -21,6 +21,15 @@
 .gsc-cursor-page {
 	padding: 0.5rem;
 }
+.gcsc-more-maybe-branding-root {
+  display: none;
+}
+.gsc-cursor-current-page {
+	font-size: 1rem;
+}
+.gsc-refinementHeader {
+	font-size: 1rem;
+}
 .gsc-tabsArea {
 	border-color: transparent !important;
 }
