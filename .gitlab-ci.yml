@@ -1,7 +1,7 @@
 pages:
   script:
   - mkdir .public
-  - cp -r * .public
+  - cp -r *.txt *.html about static styles .public
   - mv .public public
   artifacts:
     paths:
