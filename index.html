@@ -68,7 +68,7 @@
 			<aside>
 				<nav class="Nav Nav--right">
 					<a class="Nav-item" href="./about">About</a>
-					<a class="Nav-item" href="https://matrix.to/#/#vinyl-finder:matrix.org">#vinyl-finder:matrix.org</a>
+					<a class="Nav-item" href="https://matrix.to/#/#vinyl-finder:matrix.org" title="Community chat room on matrix.org">#vinyl-finder:matrix.org</a>
 				</nav>
 			</aside>
 		</section>
@@ -81,7 +81,6 @@
 			var lpepfinder = {
 				// suffix search filter to search input value
 				filterResults: function() {
-					console.log('yolo')
 					var input = document.querySelector('input.gsc-input')
 					input.value = input.value + ' ' + '-"out of stock"'
 				},
