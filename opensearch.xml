@@ -2,8 +2,8 @@
  <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
    <ShortName>Vinyl Finder</ShortName>
    <Description>Find vinyls online, in local record stores around the world</Description>
-   <Tags>vinyl lp ep</Tags>
-   <Contact>lpepfinder+opensearch@protonmail.com</Contact>
+   <Tags>vinyl record LP EP finder search engine</Tags>
+   <Contact>internet4000+vinyl@protonmail.com</Contact>
    <Url type="text/html"
 				template="https://internet4000.gitlab.io/vinyl-finder/#gsc.q={searchTerms}"/>
    <LongName>Vinyl Finder - find vinyls online, in local record stores around the world</LongName>
