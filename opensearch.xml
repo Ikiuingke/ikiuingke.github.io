@@ -5,14 +5,14 @@
    <Tags>vinyl record LP EP finder search engine</Tags>
    <Contact>internet4000+vinyl@protonmail.com</Contact>
    <Url type="text/html"
-				template="https://internet4000.gitlab.io/vinyl-finder/#gsc.q={searchTerms}"/>
+				template="https://vinyl-finder.gitlab.io/#gsc.q={searchTerms}"/>
    <LongName>Vinyl Finder - find vinyls online, in local record stores around the world</LongName>
-   <Image height="64" width="64" type="image/png">https://internet4000.gitlab.io/vinyl-finder/static/favicons/favicon-64x64.png</Image>
-   <Image height="48" width="48" type="image/vnd.microsoft.icon">https://internet4000.gitlab.io/vinyl-finder/static/favicons/favicon.ico</Image>
+   <Image height="64" width="64" type="image/png">https://vinyl-finder.gitlab.io/static/favicons/favicon-64x64.png</Image>
+   <Image height="48" width="48" type="image/vnd.microsoft.icon">https://vinyl-finder.gitlab.io/static/favicons/favicon.ico</Image>
    <Query role="example" searchTerms="Joy Division" />
    <Developer>Internet4000</Developer>
    <Attribution>
-     Vinyl Finder @ Internet4000
+     vinyl-finder
    </Attribution>
    <SyndicationRight>open</SyndicationRight>
    <AdultContent>false</AdultContent>
