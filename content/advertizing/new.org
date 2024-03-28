@@ -1,0 +1,27 @@
+#+TITLE: New promotion campaign
+
+#+ATTR_HTML: :text-center true
+New [[file:index.org][advertizing]] campaign on [[file:../index.org][vinyl-finder]].
+
+#+begin_export html
+<iframe
+  src="https://docs.google.com/forms/d/e/1FAIpQLSchFYiAuKOWIj2wT2iopvfuSkbjBGhRfWROOEmBWHbPzc3IcA/viewform?embedded=true"
+	frameborder="0"
+	marginheight="0"
+	marginwidth="0"
+>Loading…</iframe>
+#+end_export
+
+#+begin_export html
+<style>
+body {
+	padding: 0;
+}
+header {
+	display: none;
+}
+p {
+	margin: 0;
+}
+</style>
+#+end_export

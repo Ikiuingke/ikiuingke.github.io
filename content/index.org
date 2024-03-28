@@ -20,6 +20,6 @@
 - [[file:about.org][about]]
 - [[file:contact.org][contact]]
 - [[https://gitlab.com/vinyl-finder][code]]
-- [[https://analytics.eu.umami.is/share/xece1KrkTcpjzEfE/vinyl-finder][analytics]]
-- [[file:advertizing.org][advertizing]]
+- [[file:analytics.org][analytics]]
+- [[file:advertizing/index.org][advertizing]]
 - [[./cms][cms]]

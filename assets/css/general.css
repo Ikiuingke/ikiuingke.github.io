@@ -88,3 +88,10 @@ ul[list-type="nav"] {
 ul[list-type="nav"] a {
 	padding: var(--s);
 }
+
+/* google forms */
+iframe[src^="https://docs.google.com/forms"]
+{
+	width: 100%;
+	height: 90vh;
+}

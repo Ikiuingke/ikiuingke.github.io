@@ -6,7 +6,6 @@ Use contextual search targeting to display the right message at the
 right time in the search results.
 
 * Network
-
 - Reach musical audience
 
 With a mission towards music lovers, we reach fans of music and vinyls
@@ -33,6 +32,8 @@ musically invested actors.
 - Artist sand content creators
 - Industry specialists and curious
 
+The site analytics are privacy respecting and public.
+
 * Start a campaign
-To start advertizing your message, get in touch from the [[file:contact.org][contact page]],
-our site analytics are public.
+Advertize a [[file:new.org][new promotion campaign]] with your message, or get in touch
+from the [[file:../contact.org][contact page]] with any questions.
