@@ -1,10 +1,11 @@
-#+TITLE: Advertisers
+#+TITLE: Advertizing
 
-Reach [[file:index.org][music fans]] with the perfect message.
+Reach [[file:index.org][music fans]] with the perfect message and right words.
+
+Use contextual search targeting to display the right message at the
+right time in the search results.
 
 * Network
-Use contextual search targeting to display the right message at the
-right time.
 
 - Reach musical audience
 
@@ -33,6 +34,5 @@ musically invested actors.
 - Industry specialists and curious
 
 * Start a campaign
-To start advertising your message, get in touch from the [[file:info.org][info page]],
-all campaigns use google [[https://programmablesearchengine.google.com/about/][search]] and [[https://adsense.google.com][ads]] technologies.
-	
+To start advertizing your message, get in touch from the [[file:contact.org][contact page]],
+our site analytics are public.
