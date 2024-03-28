@@ -77,3 +77,14 @@ vf-searchbox {
 [text-center] {
 	text-align: center;
 }
+
+/* lists */
+ul[list-type="nav"] {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	justify-content: center;
+}
+ul[list-type="nav"] a {
+	padding: var(--s);
+}
