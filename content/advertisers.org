@@ -14,8 +14,7 @@ that other networks can't.
 - Contextual ads
 
 Each campaign is shown on the search result page for the selected
-keywords, using the most [[https://programmablesearchengine.google.com/about/][advanced search engine]] and [[https://adsense.google.com][advertising]]
-technologies.
+keywords.
 
 - Customer focused
 
@@ -34,5 +33,6 @@ musically invested actors.
 - Industry specialists and curious
 
 * Start a campaign
-To start advertising your message, get in touch from the [[file:about.org][about page]].
+To start advertising your message, get in touch from the [[file:info.org][info page]],
+all campaigns use google [[https://programmablesearchengine.google.com/about/][search]] and [[https://adsense.google.com][ads]] technologies.
 	
