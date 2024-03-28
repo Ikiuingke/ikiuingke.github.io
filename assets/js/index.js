@@ -4,7 +4,7 @@ const vinylFinder = {
 		var input = document.querySelector("#gsc-i-id1");
 		if (input) {
 			input.placeholder =
-				"Artist, album, track title, label, cat#, release year…";
+				"Artist, album, track, label, cat#, date, description…";
 		}
 	},
 
