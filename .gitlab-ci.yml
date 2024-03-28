@@ -1,10 +1,22 @@
 ---
 ---
+stages:
+  - site-publish
+
+image: archlinux:latest
+
+services:
+  - docker:dind
+
+before_script:
+  - pacman -Syu --noconfirm
+  - pacman -S --noconfirm nodejs npm emacs git
+
 pages:
+  stage: site-publish
   script:
-    - mkdir .public
-    - cp -r *.txt *.html about static styles .public
-    - mv .public public
+    - npm install
+    - npm run publish-pages
   artifacts:
     paths:
       - public

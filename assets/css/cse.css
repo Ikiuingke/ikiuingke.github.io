@@ -1,0 +1,43 @@
+.gsc-search-button.gsc-search-button-v2 {
+	padding: 1rem 1.9rem;
+	margin: 0.4rem;
+	cursor: pointer;
+	border: 2px solid var(--c-border);
+	background-color: var(--c-button-search);
+	border-radius: 4px;
+}
+.gsc-search-button.gsc-search-button-v2:hover {
+	background-color: var(--c-button);
+	box-shadow: 1px 2px 1px var(--c-border);
+}
+
+.gcsc-branding {
+	display: none !important;
+}
+.gsc-input .gsc-input-box {
+	padding: 0.5rem 0.5rem 0.7rem;
+	border-radius: 3px;
+	border-width: 2px;
+	border-color: var(--c-border);
+}
+
+.gsc-tabsArea,
+.gsc-tabsArea > div {
+	height: auto !important;
+	overflow: visible !important;
+}
+.gsc-tabHeader.gsc-tabhInactive:hover {
+	background-color: var(--c-link);
+	color: var(--c-pagination);
+}
+.gsc-refinementHeader {
+	margin: calc(var(--s) / 2);
+}
+.gcsc-more-maybe-branding-root {
+	padding: var(--s);
+}
+.gsc-cursor-page {
+	background-color: var(--c-button) !important;
+	color: var(--c-pagination) !important;
+	padding: var(--s) calc(var(--s) * 2);
+}

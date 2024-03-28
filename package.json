@@ -1,5 +1,16 @@
 {
 	"scripts": {
-		"dev": "npx serve"
+		"dev": "emacs-ssg watch",
+		"build": "emacs-ssg build",
+		"publish-pages": "emacs-ssg publish-pages"
+	},
+	"devDependencies": {
+		"@sctlib/emacs-ssg": "^0.0.13",
+		"prettier": "^3.2.5"
+	},
+	"prettierrc": {},
+	"@sctlib/emacs-ssg": {
+		"with-toc": false,
+		"with-title": true
 	}
 }

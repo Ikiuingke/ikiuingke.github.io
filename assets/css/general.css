@@ -1,0 +1,79 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+:root {
+	--line-height: 1.6;
+	--s: 0.5rem;
+	--s-container: 70rem;
+	--c-link: blue;
+	--c-border: var(--c-link);
+	--c-button: darkblue;
+	--c-button-search: darkorchid;
+	--c-pagination: white;
+}
+
+html {
+	display: flex;
+	min-height: 100%;
+	line-height: var(--line-height);
+}
+body {
+	max-width: var(--s-container);
+	width: 100%;
+	padding: var(--s);
+	margin: 0;
+}
+html,
+body {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+main {
+}
+
+header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+header h1 {
+	padding: 0 var(--s);
+	margin: 0;
+}
+header a {
+	text-decoration: none;
+}
+
+header,
+footer {
+	padding: var(--s);
+}
+
+summary {
+	cursor: pointer;
+	padding: var(--s);
+}
+
+a {
+	color: var(--c-link);
+}
+
+vf-searchbox {
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+/* styles by attriute for layout */
+[text-center] {
+	text-align: center;
+}

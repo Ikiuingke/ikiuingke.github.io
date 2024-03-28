@@ -1,0 +1,17 @@
+#+TITLE: Vinyl Finder
+#+INCLUDE: ./templates/head-extra.org
+
+#+begin_export html
+<vf-searchbox>
+	<gcse:searchbox gname="storesearch" enableHistory="true"></gcse:searchbox>
+</vf-searchbox>
+#+end_export
+
+#+begin_export html
+<vf-searchresults>
+	<gcse:searchresults gname="storesearch"></gcse:searchresults>
+</vf-searchresults>
+#+end_export
+
+#+ATTR_HTML: :text-center true
+[[./][Vinyl Finder]] 🌍 search vinyls in local record stores around the world ([[file:about.org][about]], [[file:info.org][info]]).

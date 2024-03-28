@@ -1,0 +1,17 @@
+#+TITLE: Info — Vinyl Finder
+#+INCLUDE: ./templates/head-extra.org
+
+To get in touch, add a new record store, give feedback or comments, or
+get more information about the projects.
+
+- [[https://gitlab.com/vinyl-finder][gitlab]] source code
+- [[https://gitlab.com/vinyl-finder/vinyl-finder.gitlab.io/issues][new issue]] on git
+- [[mailto:contact-project+vinyl-finder-vinyl-finder-gitlab-io-info@incoming.gitlab.com][email]] contact
+- [[https://matrix.to/#/#vinyl-finder:matrix.org][community chat]] on matrix
+- [[file:advertisers.org][advertisers]] for promotional campaigns
+- [[https://analytics.eu.umami.is/share/xece1KrkTcpjzEfE/vinyl-finder][visit analytics]] are public
+
+#+CAPTION: Vinyl Finder Logo
+#+INCLUDE: ./templates/favicon.org
+
+[[../][← back to search]]

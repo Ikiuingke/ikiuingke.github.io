@@ -1,9 +1,2 @@
-node_modules
-dist
-.tmp
-.sass-cache
-app/bower_components
-*.sublime-project
-*.sublime-workspace
-*.DS_Store
-.grunt
+public/
+node_modules/
