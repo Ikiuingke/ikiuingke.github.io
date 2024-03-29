@@ -1,4 +1,4 @@
-#+TITLE: About — Vinyl Finder
+#+TITLE: [[file:about.org][About]] — Vinyl Finder
 #+INCLUDE: ./templates/head-extra.org
 
 [[file:index.org][Vinyl Finder]] is a free search engine focusing on [[https://en.wikipedia.org/wiki/Record_collecting][vinyl records]] sold by local record stores.

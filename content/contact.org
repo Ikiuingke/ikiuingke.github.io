@@ -1,20 +1,24 @@
-#+TITLE: Contact — Vinyl Finder
+#+TITLE: [[file:contact.org][Contact]] — Vinyl Finder
 #+INCLUDE: ./templates/head-extra.org
 
-To get in touch, add a new record store, give feedback or comments, or
-find more information about the projects.
+Feedback, comments, new record store, or more information about the
+projects.
 
 * Communication
 To get in touch with the team.
-- [[mailto:vinylfindergitlab@duck.com][email]] support
-- [[https://matrix.to/#/#vinyl-finder:matrix.org][community chat]] on matrix
-- [[file:data/stores/new.org][new record store]] form
-- [[https://gitlab.com/vinyl-finder/vinyl-finder.gitlab.io/issues][new issue]] on gitlab
+- [[file:data/stores/new.org][New record store]] submission
+- [[https://matrix.to/#/#vinyl-finder:matrix.org][Community chat]] on matrix
+- [[https://gitlab.com/vinyl-finder/vinyl-finder.gitlab.io/issues][Code issue]] on gitlab
+- [[mailto:vinylfindergitlab@duck.com][Email]] support
 
 * Information
 More about the projects.
-- [[https://gitlab.com/vinyl-finder][Source code]] on gitlab
-- website visit [[file:analytics.org][analytics]] are public.
+- [[https://gitlab.com/vinyl-finder][Source code]] on git
+- Website [[file:analytics.org][analytics]] are public
 - [[file:advertizing/index.org][Advertizing]] campaigns
+- [[file:../stores/index.org][Record stores]] indexed
+- [[../cms][CMS]] for administration
+
+Don't hesitate to reach out, and thanks for visiting our website!
 
 #+INCLUDE: ./templates/footer.org

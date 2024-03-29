@@ -3,7 +3,5 @@
 	#+ATTR_HTML: :style max-width: calc(var(--s) * 2);
 	[[file:../assets/favicon.png]]
 	[[file:../index.org][search]]
-- [[file:../stores/index.org][stores]]
 - [[file:../about.org][about]]
 - [[file:../contact.org][contact]]
-- [[../cms][cms]]

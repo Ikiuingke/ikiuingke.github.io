@@ -1,4 +1,4 @@
-#+TITLE: vinyl-finder
+#+TITLE: [[file:index.org][Vinyl Finder]]
 #+INCLUDE: ./templates/head-extra.org
 
 #+begin_export html
@@ -14,6 +14,6 @@
 #+end_export
 
 #+ATTR_HTML: :text-center true
-search vinyls in local record stores around the world 🌍.
+[[file:index.org][Search vinyls]] in local record stores around the world 🌍.
 
 #+INCLUDE: ./templates/footer.org
