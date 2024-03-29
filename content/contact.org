@@ -6,6 +6,8 @@ find more information about the projects.
 
 - [[mailto:vinylfindergitlab@duck.com][email]] support
 - [[https://matrix.to/#/#vinyl-finder:matrix.org][community chat]] on matrix
+- [[file:data/stores/new.org][new record store]] form
 - [[https://gitlab.com/vinyl-finder/vinyl-finder.gitlab.io/issues][new issue]] on gitlab
+- [[file:advertizing/index.org][advertizing]] campaigns
 
-[[../][← back to search]]
+#+INCLUDE: ./templates/footer.org

@@ -5,6 +5,11 @@ Reach [[file:index.org][music fans]] with the perfect message and right words.
 Use contextual search targeting to display the right message at the
 right time in the search results.
 
+#+begin_quote
+While promotions are in beta version, use the =PROMO_DUB_PLATE_2024=
+code to get a 25% discount on all orders.
+#+end_quote
+
 * Network
 - Reach musical audience
 
@@ -37,3 +42,12 @@ The site analytics are privacy respecting and public.
 * Start a campaign
 Advertize a [[file:new.org][new promotion campaign]] with your message, or get in touch
 from the [[file:../contact.org][contact page]] with any questions.
+
+* Pricing
+
+Accepted payment methods: paypal, credit cards via Stripe.
+
+Flat pricing in € for 1 promotion campaign including 1 triggering query.
+
+- € 250 / month
+- € 1900 / year, then € 150 for the next month(s)

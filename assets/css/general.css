@@ -9,8 +9,12 @@ html {
 
 :root {
 	--line-height: 1.6;
+	--border-radius: 0.2rem;
 	--s: 0.5rem;
 	--s-container: 70rem;
+	--c-fg: black;
+	--c-bg: white;
+	--c-bg2: whitesmoke;
 	--c-link: blue;
 	--c-border: var(--c-link);
 	--c-button: darkblue;
@@ -19,9 +23,10 @@ html {
 }
 
 html {
-	display: flex;
 	min-height: 100%;
 	line-height: var(--line-height);
+	color: var(--c-fg);
+	background-color: var(--c-bg);
 }
 body {
 	max-width: var(--s-container);
@@ -31,11 +36,15 @@ body {
 }
 html,
 body {
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
-main {
+body > main {
+	padding: var(--s);
+	background-color: var(--c-bg2);
+	border-radius: var(--border-radius);
 }
 
 header {
@@ -73,6 +82,19 @@ vf-searchbox {
 	z-index: 1;
 }
 
+vf-site {
+}
+vf-site-name {
+	display: none;
+}
+
+vf-searchbox {
+}
+vf-searchresults .gsc-control-cse {
+	background-color: var(--c-bg2);
+	border-color: var(--c-bg2);
+}
+
 /* styles by attriute for layout */
 [text-center] {
 	text-align: center;
@@ -94,4 +116,6 @@ iframe[src^="https://docs.google.com/forms"]
 {
 	width: 100%;
 	height: 90vh;
+	min-width: clamp(75vw, 100vmin, calc(100vw - var(--s) * 6));
+	margin: var(--s);
 }

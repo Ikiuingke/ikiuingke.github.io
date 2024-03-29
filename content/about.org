@@ -19,7 +19,7 @@
 - Quickly check worldwide and local availability of any vinyl record
   ever released
 
-#+CAPTION: Vinyl Finder Logo
+#+CAPTION: vinyl-finder Logo
 #+INCLUDE: ./templates/favicon.org
 
-[[../][← back to search]]
+#+INCLUDE: ./templates/footer.org

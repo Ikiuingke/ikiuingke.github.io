@@ -1,3 +1,5 @@
+import "./components/index.js";
+
 const vinylFinder = {
 	// update the input placeholder
 	updateSearchPlaceholder: function () {
@@ -10,8 +12,7 @@ const vinylFinder = {
 
 	init: function () {
 		this.updateSearchPlaceholder();
-		// give a ready state to the html page
-		document.querySelector(".SiteBody").classList.add("is-ready");
+		document.querySelector("body").setAttribute("is-ready", true);
 	},
 };
 

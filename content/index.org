@@ -14,12 +14,6 @@
 #+end_export
 
 #+ATTR_HTML: :text-center true
-[[./][Vinyl Finder]] 🌍 search vinyls in local record stores around the world
+Search vinyls in local record stores around the world 🌍.
 
-#+ATTR_HTML: :list-type nav
-- [[file:about.org][about]]
-- [[file:contact.org][contact]]
-- [[https://gitlab.com/vinyl-finder][code]]
-- [[file:analytics.org][analytics]]
-- [[file:advertizing/index.org][advertizing]]
-- [[./cms][cms]]
+#+INCLUDE: ./templates/footer.org
