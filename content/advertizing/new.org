@@ -1,7 +1,7 @@
 #+TITLE: New promotion campaign
 
 #+ATTR_HTML: :text-center true
-New [[file:index.org][advertizing]] campaign on [[file:../index.org][vinyl-finder]].
+[[https://forms.gle/81hUWaikMHEvfFDt9][New promotion]] campaign on [[file:../index.org][vinyl-finder]] (see [[file:index.org][advertizing]]).
 
 #+begin_export html
 <iframe

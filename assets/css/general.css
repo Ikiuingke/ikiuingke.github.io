@@ -31,7 +31,7 @@ html {
 body {
 	max-width: var(--s-container);
 	width: 100%;
-	padding: var(--s);
+	padding: 0;
 	margin: 0;
 }
 html,
@@ -42,7 +42,7 @@ body {
 	align-items: center;
 }
 body > main {
-	padding: var(--s);
+	padding: calc(var(--s) * 2);
 	background-color: var(--c-bg2);
 	border-radius: var(--border-radius);
 }

@@ -64,3 +64,5 @@ vfSites.setAttribute("sites", JSON.stringify(sites))
  </vf-site>
 </vf-sites>
 #+end_export
+
+#+INCLUDE: ../../templates/footer.org

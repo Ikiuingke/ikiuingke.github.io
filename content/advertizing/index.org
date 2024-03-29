@@ -39,15 +39,18 @@ musically invested actors.
 
 The site analytics are privacy respecting and public.
 
-* Start a campaign
-Advertize a [[file:new.org][new promotion campaign]] with your message, or get in touch
-from the [[file:../contact.org][contact page]] with any questions.
-
 * Pricing
 
-Accepted payment methods: paypal, credit cards via Stripe.
+| Product       | Month | Year |
+|---------------+-------+------|
+| 1 promotion   |   250 | 1900 |
+| 10 promotions |  1900 | 9500 |
 
-Flat pricing in € for 1 promotion campaign including 1 triggering query.
+- Flat pricing in € for 1 promotion campaign including 1 triggering query
+- Accepted payment methods: paypal, credit cards via Stripe
+- after 1 year, monthly prices 
 
-- € 250 / month
-- € 1900 / year, then € 150 for the next month(s)
+* Start a campaign
+Advertize a [[file:new.org][new promotion campaign]] with your message, or [[file:../contact.org][contact]] us with any questions.
+
+#+INCLUDE: ../templates/footer.org
