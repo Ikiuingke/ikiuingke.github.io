@@ -1,5 +1,5 @@
 #+TITLE: New record store
-#+INCLUDE: ../../templates/head-extra.org
+#+INCLUDE: ../templates/head-extra.org
 
 #+ATTR_HTML: :text-center true
 Add a [[https://forms.gle/PjsgWGfzuAGVB3p99][new site]] to the [[file:index.org][list of record stores]] indexed by [[file:../index.org][vinyl-finder]].

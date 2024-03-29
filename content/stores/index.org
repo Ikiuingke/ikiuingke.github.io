@@ -1,5 +1,5 @@
 #+TITLE: Record stores data
-#+INCLUDE: ../../templates/head-extra.org
+#+INCLUDE: ../templates/head-extra.org
 
 #+ATTR_HTML: :text-center true
 List of the record stores indexed by the vinyl [[file:../../index.org][search engine]] stored in
@@ -65,4 +65,4 @@ vfSites.setAttribute("sites", JSON.stringify(sites))
 </vf-sites>
 #+end_export
 
-#+INCLUDE: ../../templates/footer.org
+#+INCLUDE: ../templates/footer.org

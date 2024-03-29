@@ -4,10 +4,17 @@
 To get in touch, add a new record store, give feedback or comments, or
 find more information about the projects.
 
+* Communication
+To get in touch with the team.
 - [[mailto:vinylfindergitlab@duck.com][email]] support
 - [[https://matrix.to/#/#vinyl-finder:matrix.org][community chat]] on matrix
 - [[file:data/stores/new.org][new record store]] form
 - [[https://gitlab.com/vinyl-finder/vinyl-finder.gitlab.io/issues][new issue]] on gitlab
-- [[file:advertizing/index.org][advertizing]] campaigns
+
+* Information
+More about the projects.
+- [[https://gitlab.com/vinyl-finder][Source code]] on gitlab
+- website visit [[file:analytics.org][analytics]] are public.
+- [[file:advertizing/index.org][Advertizing]] campaigns
 
 #+INCLUDE: ./templates/footer.org
