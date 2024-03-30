@@ -15,10 +15,13 @@ To get in touch with the team.
 More about the projects.
 - [[https://gitlab.com/vinyl-finder][Source code]] on git
 - [[file:analytics.org][Website analytics]] are public
-- [[file:advertizing/index.org][Advertizing]] campaigns
 - [[file:../stores/index.org][Record stores]] indexed
 - [[../cms][CMS]] for administration
 
 Don't hesitate to reach out, and thanks for visiting our website!
 
 #+INCLUDE: ./templates/footer.org
+
+
+* COMMENT WIP
+- [[file:advertizing/index.org][Advertizing]] campaigns

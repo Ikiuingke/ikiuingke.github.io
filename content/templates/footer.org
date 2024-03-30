@@ -2,6 +2,6 @@
 -
 	#+ATTR_HTML: :style max-width: calc(var(--s) * 2);
 	[[file:../assets/favicon.png]]
-	[[file:../index.org][search]]
-- [[file:../about.org][about]]
-- [[file:../contact.org][contact]]
+	[[file:../index.org][Search]]
+- [[file:../about.org][About]]
+- [[file:../contact.org][Contact]]
