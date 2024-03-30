@@ -10,8 +10,8 @@ right time in the search results.
 #+end_quote
 
 #+begin_quote
-While promotions are in beta version, use the =PROMO_DUB_PLATE_2024=
-code to get a 25% discount on all orders.
+While promotions are in beta version, use the =PROMODUBPLATE2024= code
+to get a 25% discount on all orders.
 #+end_quote
 
 * Network
