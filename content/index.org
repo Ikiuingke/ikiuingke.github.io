@@ -14,7 +14,9 @@
 </vf-searchresults>
 #+end_export
 
-#+ATTR_HTML: :text-center true
-[[file:index.org][Search vinyls]] in local record stores around the world 🌍.
-
 #+INCLUDE: ./templates/footer.org
+
+#+ATTR_HTML: :text-center true
+#+begin_quote
+Search for vinyls online and find them at local record stores around the world 🌍.
+#+end_quote
