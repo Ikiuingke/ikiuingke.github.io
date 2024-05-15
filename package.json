@@ -5,7 +5,7 @@
 		"publish-pages": "emacs-ssg publish-pages"
 	},
 	"devDependencies": {
-		"@sctlib/emacs-ssg": "^0.0.13",
+		"@sctlib/emacs-ssg": "^0.0.14",
 		"prettier": "^3.2.5"
 	},
 	"prettierrc": {},
