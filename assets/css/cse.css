@@ -39,5 +39,5 @@
 .gsc-cursor-page {
 	background-color: var(--c-button) !important;
 	color: var(--c-pagination) !important;
-	padding: var(--s) calc(var(--s) * 2);
+	padding: var(--s);
 }

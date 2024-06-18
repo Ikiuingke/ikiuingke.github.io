@@ -42,7 +42,7 @@ body {
 	align-items: center;
 }
 body > main {
-	padding: calc(var(--s) * 2);
+	padding: calc(var(--s) * 1);
 	background-color: var(--c-bg2);
 	border-radius: var(--border-radius);
 }
