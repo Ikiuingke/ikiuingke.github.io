@@ -1,16 +1,16 @@
 {
-	"scripts": {
-		"dev": "emacs-ssg watch",
-		"build": "emacs-ssg build",
-		"publish-pages": "emacs-ssg publish-pages"
-	},
-	"devDependencies": {
-		"@sctlib/emacs-ssg": "^0.0.14",
-		"prettier": "^3.2.5"
-	},
-	"prettierrc": {},
-	"@sctlib/emacs-ssg": {
-		"with-toc": false,
-		"with-title": true
-	}
+  "scripts": {
+    "dev": "emacs-ssg watch",
+    "build": "emacs-ssg build",
+    "publish-pages": "emacs-ssg publish-pages"
+  },
+  "devDependencies": {
+    "@sctlib/emacs-ssg": "^0.0.16",
+    "prettier": "^3.2.5"
+  },
+  "prettierrc": {},
+  "@sctlib/emacs-ssg": {
+    "with-toc": false,
+    "with-title": true
+  }
 }
