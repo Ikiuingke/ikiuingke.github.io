@@ -1,8 +1,0 @@
-#+TITLE: Public Analytics
-#+INCLUDE: ./templates/head-extra.org
-
-#+ATTR_HTML: :text-center true
-The [[file:../index.org][website]] visits [[https://cloud.umami.is/share/wBkkWGbqqdhXx84J/vinyl-finder.gitlab.io][analytics]] are privacy respecting and public (using [[https://umami.is][umami]]).
-
-#+INCLUDE: ./templates/footer.org
-

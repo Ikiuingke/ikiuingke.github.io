@@ -1,4 +1,0 @@
-#+TITLE: 404 - Page Not Found
-
-This specified file was not found on this website. Please check the
-URL for mistakes and try again. [[file:index.org][Go back to the homepage]].

@@ -1,0 +1,64 @@
+{
+  "name": "Vinyl Finder",
+  "tagline": "vinyl",
+  "baseUrl": "https://vinyl-finder.gitlab.io",
+  "formerNames": [
+    "lpepfinder"
+  ],
+  "languages": [
+    "en",
+    "fr",
+    "de",
+    "es",
+    "it",
+    "ja"
+  ],
+  "defaultLanguage": "en",
+  "contactEmail": "vinylfindergitlab@duck.com",
+  "repository": "https://gitlab.com/vinyl-finder/vinyl-finder.gitlab.io",
+  "chat": "https://matrix.to/#/#vinyl-finder:matrix.org",
+  "ads": {
+    "adsenseClient": "ca-pub-7578240828852744"
+  },
+  "analytics": {
+    "umamiScript": "https://eu.umami.is/script.js",
+    "umamiWebsiteId": "0c19139a-e4c0-4c1b-a355-f6403ac4bed8",
+    "publicDashboard": "https://cloud.umami.is/share/wBkkWGbqqdhXx84J/vinyl-finder.gitlab.io"
+  },
+  "googleSiteVerification": "aukgbRTrzBy5qk-pjUQ6R8RRhjZ8RY5eRT2Jazp4-nk",
+  "crawl": {
+    "userAgent": "VinylFinderBot/2.0 (+https://vinyl-finder.gitlab.io/about/)",
+    "timeoutMs": 20000,
+    "concurrency": 20,
+    "platformConcurrency": {
+      "shopify": 8,
+      "woocommerce": 12
+    },
+    "delayMs": 500,
+    "maxCrawlDelaySeconds": 10,
+    "maxMinutesPerShop": 12,
+    "maxPages": {
+      "shopify": 100,
+      "woocommerce": 150
+    },
+    "inStockOnly": true
+  },
+  "products": {
+    "include": "vinyl|\\blp\\b|\\d?lp\\b|\\bep\\b|12\\s?(\"|”|inch|in\\b)|10\\s?(\"|”|inch)|7\\s?(\"|”|inch)|\\bsingle\\b|album|schallplatte|disque|vinile|vinilo|vinyle|レコード|record|\\bcds?\\b|cassette|\\bk7\\b|\\bcd\\b|compact disc|maxi",
+    "exclude": "t-?shirt|hoodie|sweatshirt|tote|\\bmug\\b|gift card|geschenkgutschein|carte cadeau|poster|slipmat|turntable|stylus|cartridge|needle|record cleaner|cleaning|inner sleeves?|outer sleeves?|storage|crate|\\bcap\\b|beanie|sticker|button|badge|book\\b|magazine|dvd|blu-?ray|vhs",
+    "minShopMusicRatio": 0.05,
+    "strictBelowRatio": 0.5
+  },
+  "seo": {
+    "artistMinRecords": 3,
+    "artistMinShops": 2,
+    "artistMaxPages": 5000,
+    "artistMaxRecordsPerPage": 120,
+    "shopLatestRecords": 24
+  },
+  "search": {
+    "resultsPerPage": 30,
+    "docsPerChunk": 64,
+    "maxPrefixExpansions": 64
+  }
+}

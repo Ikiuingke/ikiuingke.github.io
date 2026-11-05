@@ -1,3 +1,0 @@
-#+NAME: vinyl-finder logo
-#+ATTR_HTML: :style max-width: calc(var(--s) * 5);
-[[file:../favicon.png]]

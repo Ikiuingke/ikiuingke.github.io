@@ -1,7 +1,0 @@
-#+ATTR_HTML: :list-type nav
--
-	#+ATTR_HTML: :style max-width: calc(var(--s) * 2);
-	[[file:../favicon.png]]
-	[[file:../index.org][Search]]
-- [[file:../about.org][About]]
-- [[file:../contact.org][Contact]]
