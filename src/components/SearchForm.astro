@@ -1,16 +1,11 @@
 ---
-import config from '../../data/config.json';
 import { t, localPath } from '../lib/i18n.js';
 
 /** Server-rendered GET search form; <vf-search> runs the query in the browser. */
 const { lang, examples = [] } = Astro.props;
 const home = localPath(lang, '/');
-// other places to look, with the eBay Partner Network campaign when configured
-const campaign = config.affiliates.ebayCampaignId;
-const ebay = campaign ? `&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=${campaign}&toolid=10001&mkevt=1` : '';
-const external = JSON.stringify(config.externalSearch.map((e) => ({ name: e.name, url: e.url.replace('{ebay}', ebay) })));
 ---
-<vf-search per-page="30" external={external}>
+<vf-search per-page="30">
   <form role="search" action={home} method="get">
     <label for="q">{t(lang, 'searchLabel')}</label>
     <input id="q" name="q" type="search" placeholder={t(lang, 'searchPlaceholder')} autocomplete="off" enterkeyhint="search" required>

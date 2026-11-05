@@ -43,24 +43,7 @@ export class VfSearch extends HTMLElement {
     this.output.append(summary, this.list);
     this.setAttribute('status', this.ids.length ? 'done' : 'empty');
     await this.more();
-    this.output.append(this.elsewhere(q));
     window.umami?.track?.('search', { q, results: this.ids.length });
-  }
-
-  /** Links to search the same query elsewhere (Bandcamp, Discogs, eBay). */
-  elsewhere(q) {
-    const nav = document.createElement('nav');
-    nav.setAttribute('aria-label', t('externalSearch', { query: q }));
-    const p = Object.assign(document.createElement('p'), { textContent: t('externalSearch', { query: q }) + ' ' });
-    let sites = [];
-    try { sites = JSON.parse(this.getAttribute('external') || '[]'); } catch { /* none */ }
-    sites.forEach((s, i) => {
-      const a = Object.assign(document.createElement('a'), { href: s.url.replace('{q}', encodeURIComponent(q)), textContent: s.name, target: '_blank', rel: 'noopener sponsored' });
-      a.addEventListener('click', () => window.umami?.track?.('elsewhere', { site: s.name, q }));
-      p.append(i ? ', ' : '', a);
-    });
-    nav.append(p);
-    return nav;
   }
 
   async more() {
@@ -78,7 +61,7 @@ export class VfSearch extends HTMLElement {
     if (this.shown < this.ids.length) {
       this.button = Object.assign(document.createElement('button'), { type: 'button', textContent: t('loadMore') });
       this.button.addEventListener('click', () => this.more());
-      this.output.querySelector('nav') ? this.output.insertBefore(this.button, this.output.querySelector('nav')) : this.output.append(this.button);
+      this.output.append(this.button);
     }
   }
 }
