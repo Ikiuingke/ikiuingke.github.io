@@ -1,0 +1,44 @@
+/** Text normalisation shared by the index builder and the browser search. */
+export { normalize, tokenize, STOPWORDS, shardKey, shardFile } from '../../src/lib/search/tokenize.js';
+
+export const slugify = (s) => String(s || '')
+  .normalize('NFKD').replace(/[̀-ͯ]/g, '')
+  .toLowerCase().replace(/&/g, ' and ').replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-+|-+$/g, '')
+  .slice(0, 80);
+
+const SEPARATOR = /\s+[-–—:|\/]\s+/;
+
+/** Best-effort artist from "Artist - Title" style product titles. */
+export function artistOf(title, vendor) {
+  const t = String(title || '').trim();
+  const v = String(vendor || '').trim();
+  if (v && t.toLowerCase().startsWith(v.toLowerCase()) && v.length > 1) return v;
+  const parts = t.split(SEPARATOR);
+  if (parts.length > 1) {
+    const a = parts[0].replace(/\*$/, '').replace(/\s*\(\d+\)$/, '').trim();
+    if (a.length > 1 && a.length < 60 && !/^(various|va|v\/a|v\.a\.)$/i.test(a)) return a;
+  }
+  return null;
+}
+
+export const decodeEntities = (s) => String(s || '')
+  .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+  .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
+  .replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#039;|&apos;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&nbsp;/g, ' ');
+
+/** Shop name from a page title: decode entities, drop taglines after a separator. */
+export function cleanShopName(name) {
+  const decoded = decodeEntities(name).replace(/\s+/g, ' ').trim();
+  const first = decoded.split(/\s+[–—|·•:]\s+|\s+-\s+/)[0].trim();
+  return first.length >= 3 ? first : decoded;
+}
+
+const LABELISH = /records|recordings|music|label|distribution|distro|ltd|inc|gmbh|s\.?r\.?l|vinyl|import|various/i;
+
+/** Title as shown: prefix the artist when a shop puts it only in the vendor field. */
+export function displayTitle(title, vendor) {
+  const v = String(vendor || '').trim();
+  if (!v || v.length < 2 || LABELISH.test(v) || /^[A-Z0-9&]{2,4}$/.test(v)) return title;
+  if (/\s[-–—:]\s/.test(title) || title.toLowerCase().includes(v.toLowerCase())) return title;
+  return `${v} – ${title}`;
+}
