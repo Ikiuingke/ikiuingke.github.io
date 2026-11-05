@@ -27,6 +27,7 @@ async function crawlShop(shop) {
     await limits[platform](async () => {
       const opts = {
         maxPages: c.maxPages[platform],
+        maxRequests: c.maxRequestsPerShop,
         delayMs: Math.max(c.delayMs[platform] ?? 500, (crawlDelay || 0) * 1000),
         inStockOnly: c.inStockOnly,
         deadline: t0 + c.maxMinutesPerShop * 60_000,

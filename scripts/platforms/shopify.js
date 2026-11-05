@@ -23,31 +23,60 @@ export async function probe(origin) {
   };
 }
 
-/** Yield normalised in-stock music products, page by page. */
-export async function* crawl(shop, { maxPages, delayMs, inStockOnly, deadline, strict }) {
-  for (let page = 1; page <= maxPages && Date.now() < deadline; page++) {
-    const res = await getJson(`${shop.url}/products.json?limit=${PAGE_SIZE}&page=${page}`, { retries: 4 });
+function toRecord(p, inStockOnly) {
+  const prices = (p.variants || []).filter((v) => v.available || !inStockOnly).map((v) => parseFloat(v.price)).filter((n) => n > 0);
+  return {
+    title: decodeEntities(p.title).trim(),
+    vendor: p.vendor || null,
+    type: p.product_type || null,
+    price: prices.length ? Math.round(Math.min(...prices) * 100) : null,
+    path: `/products/${p.handle}`,
+    image: p.images?.[0]?.src?.replace(/^https?:/, '') || null,
+    updated: p.updated_at || p.published_at || null,
+  };
+}
+
+/**
+ * Page through one products.json list. Returns true when it stopped at the
+ * platform limit (25k products per list) rather than at the end of the list.
+ */
+async function* list(url, opts, seen, budget, firstIsFatal) {
+  const { maxPages, delayMs, inStockOnly, deadline, strict } = opts;
+  for (let page = 1; page <= maxPages; page++) {
+    if (Date.now() > deadline || budget.left-- <= 0) return false;
+    const res = await getJson(`${url}?limit=${PAGE_SIZE}&page=${page}`, { retries: 4 });
     if (!res.ok) {
-      if (page === 1) throw new Error(`products_json_${res.status || res.error}`);
-      return; // Shopify stops paging at 25k products with a 400
+      if (page === 1 && firstIsFatal) throw new Error(`products_json_${res.status || res.error}`);
+      return page > maxPages - 1 || res.status === 400; // Shopify answers 400 past the limit
     }
     const products = res.data.products || [];
     for (const p of products) {
-      const available = p.variants?.some((v) => v.available);
-      if (inStockOnly && !available) continue;
+      if (seen.has(p.handle)) continue;
+      seen.add(p.handle);
+      if (inStockOnly && !p.variants?.some((v) => v.available)) continue;
       if (!keepProduct(p.title, text(p), strict)) continue;
-      const prices = (p.variants || []).filter((v) => v.available || !inStockOnly).map((v) => parseFloat(v.price)).filter((n) => n > 0);
-      yield {
-        title: decodeEntities(p.title).trim(),
-        vendor: p.vendor || null,
-        type: p.product_type || null,
-        price: prices.length ? Math.round(Math.min(...prices) * 100) : null,
-        path: `/products/${p.handle}`,
-        image: p.images?.[0]?.src?.replace(/^https?:/, '') || null,
-        updated: p.updated_at || p.published_at || null,
-      };
+      yield toRecord(p, inStockOnly);
     }
-    if (products.length < PAGE_SIZE) return;
+    if (products.length < PAGE_SIZE) return false;
     await sleep(delayMs);
+  }
+  return true;
+}
+
+/** Yield in-stock music products: the main list, then collections when the main list is capped. */
+export async function* crawl(shop, opts) {
+  const seen = new Set();
+  const budget = { left: opts.maxRequests ?? Infinity };
+  const capped = yield* list(`${shop.url}/products.json`, opts, seen, budget, true);
+  if (!capped) return;
+  for (let page = 1; page <= 40 && budget.left > 0 && Date.now() < opts.deadline; page++) {
+    const res = await getJson(`${shop.url}/collections.json?limit=250&page=${page}`, { retries: 4 });
+    const collections = res.ok ? res.data.collections || [] : [];
+    budget.left--;
+    for (const c of collections.sort((a, b) => (b.products_count || 0) - (a.products_count || 0))) {
+      if (c.products_count === 0) continue;
+      yield* list(`${shop.url}/collections/${c.handle}/products.json`, opts, seen, budget, false);
+    }
+    if (collections.length < 250) return;
   }
 }
