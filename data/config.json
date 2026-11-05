@@ -70,5 +70,17 @@
     "resultsPerPage": 30,
     "docsPerChunk": 64,
     "maxPrefixExpansions": 64
+  },
+  "bandcamp": {
+    "categoryId": 2,
+    "format": "vinyl",
+    "delayMs": 1000,
+    "concurrency": 2,
+    "fullSweepDays": 7,
+    "maxDiscoverPages": 4500,
+    "incrementalPages": 40,
+    "maxDiscoverMinutes": 90,
+    "merchPerRun": 6000,
+    "maxMinutes": 200
   }
 }

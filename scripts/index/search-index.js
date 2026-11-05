@@ -14,7 +14,7 @@ export function writeStatic(file, content) {
 /**
  * Static inverted index:
  *   search/shops.json         [[id, name, origin, country, currency], ...]
- *   search/d/<n>.json         docs chunk: [[shop, title, priceCents, path, image], ...]
+ *   search/d/<n>.json         docs chunk: [[shop, title, priceCents, path, image, currency, seller], ...]
  *   search/i/<shard>.json     { token: "base36 id deltas joined by ." }
  *   search/meta.json          counts and settings the browser needs
  */
@@ -39,7 +39,11 @@ export function buildSearchIndex({ docs, shops, outDir, docsPerChunk, maxDocFreq
   }
   for (let c = 0; c * docsPerChunk < docs.length; c++) {
     const rows = docs.slice(c * docsPerChunk, (c + 1) * docsPerChunk)
-      .map((d) => [shopIndex.get(d.shop), d.title, d.price, d.path, d.image || 0, d.currency !== shopRows[shopIndex.get(d.shop)][4] ? d.currency : 0]);
+      .map((d) => {
+        const row = [shopIndex.get(d.shop), d.title, d.price, d.path, d.image || 0, d.currency !== shopRows[shopIndex.get(d.shop)][4] ? d.currency : 0];
+        if (d.seller) row.push(d.seller, d.sellerCountry || 0);
+        return row;
+      });
     writeStatic(path.join(outDir, 'd', `${c}.json`), JSON.stringify(rows));
   }
 
