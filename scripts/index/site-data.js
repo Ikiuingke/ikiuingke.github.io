@@ -3,7 +3,7 @@ import { artistOf, slugify } from '../lib/text.js';
 const productUrl = (shop, d) => (d.path.startsWith('http') ? d.path : new URL(shop.state.url || shop.url).origin + d.path);
 const record = (shop, d) => ({
   title: d.title, price: d.price, currency: d.currency || shop.state.currency || null,
-  shop: shop.id, seller: d.seller || null, url: productUrl(shop, d), image: d.image || null,
+  shop: shop.id, url: productUrl(shop, d), image: d.image || null,
 });
 
 /** Aggregates for static SEO pages: per-shop stats and artist pages comparing shops. */

@@ -43,13 +43,13 @@ export class SearchClient {
     return ids.map((id) => {
       const row = loaded.get(Math.floor(id / per))?.[id % per];
       if (!row) return null;
-      const [shopIdx, title, price, path, image, currency, seller, sellerCountry] = row;
+      const [shopIdx, title, price, path, image, currency] = row;
       const [shopId, shopName, origin, country, shopCurrency] = this.shops[shopIdx];
       return {
         title, price, image: image || null,
         url: path.startsWith('http') ? path : origin + path,
         currency: currency || shopCurrency,
-        shop: { id: shopId, name: seller ? `${seller} · ${shopName}` : shopName, country: sellerCountry || country },
+        shop: { id: shopId, name: shopName, country },
       };
     }).filter(Boolean);
   }

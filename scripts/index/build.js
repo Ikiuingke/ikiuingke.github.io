@@ -16,8 +16,7 @@ if (!fs.existsSync(files.products)) {
   fs.writeFileSync(files.products, (await import('node:zlib')).gzipSync(''));
 }
 const t0 = Date.now();
-const productFiles = fs.readdirSync(GENERATED).filter((f) => /^products.*\.ndjson\.gz$/.test(f)).map((f) => path.join(GENERATED, f));
-const catalog = await loadCatalog(productFiles);
+const catalog = await loadCatalog(files.products);
 const meta = buildSearchIndex({ ...catalog, outDir, docsPerChunk: config.search.docsPerChunk });
 const siteData = buildSiteData({ ...catalog, seo: config.seo });
 writeJson(path.join(GENERATED, 'site-data.json'), siteData);

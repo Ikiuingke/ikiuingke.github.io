@@ -1,4 +1,4 @@
-# Daily: check every shop, crawl catalogs and Bandcamp (and find new shops on the 1st of the month),
+# Daily: check every shop, crawl catalogs (and find new shops on the 1st of the month),
 # keep the result in the "data" release, then deploy the site.
 name: Refresh
 
@@ -38,15 +38,7 @@ jobs:
         if: inputs.discover || github.event_name == 'schedule'
         run: if [ "${{ inputs.discover }}" = "true" ] || [ "$(date -u +%d)" = "01" ]; then npm run discover; fi
       - run: npm run check
-      # shops and Bandcamp are different hosts: crawl both at the same time
-      - name: Crawl shops and Bandcamp
-        shell: bash
-        run: |
-          set -o pipefail
-          npm run crawl 2>&1 | sed -u 's/^/[shops] /' & shops=$!
-          npm run bandcamp 2>&1 | sed -u 's/^/[bandcamp] /' & bandcamp=$!
-          wait $shops; a=$?; wait $bandcamp; b=$?
-          exit $((a | b))
+      - run: npm run crawl
       - name: Publish crawl data
         run: |
           tar czf generated.tar.gz generated
