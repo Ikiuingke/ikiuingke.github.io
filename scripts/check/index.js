@@ -4,8 +4,9 @@ import { files } from '../lib/paths.js';
 import { pool } from '../lib/pool.js';
 import { config } from '../lib/config.js';
 import { checkShop } from './shop.js';
+import { withHistory } from './history.js';
 
-/** Weekly health check of every curated shop; writes generated/shops-state.json. */
+/** Health check of every shop; writes generated/shops-state.json with each shop's history. */
 const shops = loadShops().filter((s) => !s.disabled);
 const previous = loadState();
 const only = process.argv[2];
@@ -31,6 +32,10 @@ for (const [id, st] of Object.entries(next)) {
   if (byOrigin.has(origin)) Object.assign(st, { status: 'duplicate', reason: `same_as_${byOrigin.get(origin)}` });
   else byOrigin.set(origin, id);
 }
+
+const checked = new Set(todo.map((s) => s.id));
+for (const id of checked) if (next[id]) next[id] = withHistory(next[id], previous[id]);
+// shops removed from data/shops keep no state; their history stays in git
 
 writeJson(files.state, next, true);
 const counts = Object.values(next).reduce((a, s) => ({ ...a, [s.status]: (a[s.status] || 0) + 1 }), {});

@@ -84,5 +84,13 @@
   "footerNote": "Preise und Bestand stammen von den Läden und können sich ändern. Links führen zu den Läden.",
   "notFoundTitle": "Seite nicht gefunden",
   "notFoundBody": "Diese Seite gibt es nicht. Suche stattdessen eine Platte:",
-  "adLabel": "Anzeige"
+  "adLabel": "Anzeige",
+  "statusChangesTitle": "Änderungen der letzten 30 Tage",
+  "statusDeadTitle": "Nicht erreichbare Läden",
+  "statusShopColumns": [
+    "Laden",
+    "Status",
+    "Seit",
+    "Zuletzt erreichbar"
+  ]
 }

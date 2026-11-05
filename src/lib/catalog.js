@@ -22,6 +22,10 @@ export function catalog() {
       country: (st.country || s.country || '').toUpperCase() || null,
       city: s.city || st.city || null,
       status: st.status || 'unchecked',
+      reason: st.reason || null,
+      deadSince: st.deadSince || null,
+      lastAliveAt: st.lastAliveAt || null,
+      history: st.history || [],
       records: stats.records,
       latest: stats.latest,
     };

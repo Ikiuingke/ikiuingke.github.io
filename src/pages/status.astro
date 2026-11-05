@@ -4,9 +4,16 @@ import config from '../../data/config.json';
 import { t, defaultLanguage as lang, number, date } from '../lib/i18n.js';
 import { catalog } from '../lib/catalog.js';
 
-/** Data validity report from the weekly shop check. */
+/** Data validity report: status counts, recent changes and unreachable shops, from the daily check. */
 const c = catalog();
 const order = ['ok', 'listed', 'blocked', 'not-music', 'moved', 'duplicate', 'dead', 'unchecked'].filter((s) => c.statusCounts[s]);
+const since = Date.now() - 30 * 864e5;
+const changes = c.shops
+  .flatMap((s) => s.history.filter((e) => Date.parse(e.at) > since && s.history.length > 1).map((e) => ({ shop: s, ...e })))
+  .sort((a, b) => b.at.localeCompare(a.at))
+  .slice(0, 200);
+const dead = c.shops.filter((s) => s.status === 'dead').sort((a, b) => (b.deadSince || '').localeCompare(a.deadSince || ''));
+const day = (iso) => (iso ? date(lang, iso) : '');
 ---
 <Base lang={lang} title={`${t(lang, 'statusTitle')} · ${config.name}`} description={t(lang, 'statusBody')} noindex>
   <article>
@@ -17,6 +24,24 @@ const order = ['ok', 'listed', 'blocked', 'not-music', 'moved', 'duplicate', 'de
       <table>
         <thead><tr>{t(lang, 'statusColumns').map((col) => <th scope="col">{col}</th>)}</tr></thead>
         <tbody>{order.map((s) => <tr><td><vf-status value={s}>{t(lang, `status.${s}`)}</vf-status></td><td><data value={c.statusCounts[s]}>{number(lang, c.statusCounts[s])}</data></td></tr>)}</tbody>
+      </table>
+    </figure>
+
+    {changes.length > 0 && <h2>{t(lang, 'statusChangesTitle')}</h2>}
+    {changes.length > 0 && (
+      <figure>
+        <table>
+          <thead><tr>{t(lang, 'statusShopColumns').slice(0, 3).map((col) => <th scope="col">{col}</th>)}</tr></thead>
+          <tbody>{changes.map((e) => <tr><td><a href={e.shop.url} rel="nofollow noopener">{e.shop.name}</a></td><td><vf-status value={e.status}>{t(lang, `status.${e.status}`)}</vf-status></td><td><time datetime={e.at}>{day(e.at)}</time></td></tr>)}</tbody>
+        </table>
+      </figure>
+    )}
+
+    <h2>{t(lang, 'statusDeadTitle')} <data value={dead.length}>{number(lang, dead.length)}</data></h2>
+    <figure>
+      <table>
+        <thead><tr>{t(lang, 'statusShopColumns').map((col) => <th scope="col">{col}</th>)}</tr></thead>
+        <tbody>{dead.map((s) => <tr><td>{s.url ? new URL(s.url).host : s.id}</td><td><vf-status value="dead">{s.reason}</vf-status></td><td><time datetime={s.deadSince || ''}>{day(s.deadSince)}</time></td><td><time datetime={s.lastAliveAt || ''}>{day(s.lastAliveAt)}</time></td></tr>)}</tbody>
       </table>
     </figure>
   </article>

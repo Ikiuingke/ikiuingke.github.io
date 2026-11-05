@@ -84,5 +84,13 @@
   "footerNote": "Prices and stock come from each shop and can change. Links go to the shops.",
   "notFoundTitle": "Page not found",
   "notFoundBody": "This page doesn't exist. Search for a record instead:",
-  "adLabel": "Advertisement"
+  "adLabel": "Advertisement",
+  "statusChangesTitle": "Changes in the last 30 days",
+  "statusDeadTitle": "Unreachable shops",
+  "statusShopColumns": [
+    "Shop",
+    "Status",
+    "Since",
+    "Last seen alive"
+  ]
 }

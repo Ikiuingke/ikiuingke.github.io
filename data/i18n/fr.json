@@ -84,5 +84,13 @@
   "footerNote": "Prix et stocks viennent de chaque disquaire et peuvent changer. Les liens mènent aux disquaires.",
   "notFoundTitle": "Page introuvable",
   "notFoundBody": "Cette page n'existe pas. Cherchez plutôt un disque :",
-  "adLabel": "Publicité"
+  "adLabel": "Publicité",
+  "statusChangesTitle": "Changements des 30 derniers jours",
+  "statusDeadTitle": "Disquaires injoignables",
+  "statusShopColumns": [
+    "Disquaire",
+    "État",
+    "Depuis",
+    "Vu en ligne"
+  ]
 }

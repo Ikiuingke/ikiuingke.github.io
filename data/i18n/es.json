@@ -84,5 +84,13 @@
   "footerNote": "Precios y stock vienen de cada tienda y pueden cambiar. Los enlaces llevan a las tiendas.",
   "notFoundTitle": "Página no encontrada",
   "notFoundBody": "Esta página no existe. Busca un disco:",
-  "adLabel": "Publicidad"
+  "adLabel": "Publicidad",
+  "statusChangesTitle": "Cambios de los últimos 30 días",
+  "statusDeadTitle": "Tiendas inaccesibles",
+  "statusShopColumns": [
+    "Tienda",
+    "Estado",
+    "Desde",
+    "Última vez activa"
+  ]
 }

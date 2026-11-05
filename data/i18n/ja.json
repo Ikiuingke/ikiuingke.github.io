@@ -84,5 +84,13 @@
   "footerNote": "価格と在庫は各店舗の情報で、変わることがあります。リンク先は各店舗です。",
   "notFoundTitle": "ページが見つかりません",
   "notFoundBody": "このページは存在しません。レコードを検索してください：",
-  "adLabel": "広告"
+  "adLabel": "広告",
+  "statusChangesTitle": "過去30日間の変化",
+  "statusDeadTitle": "接続できない店舗",
+  "statusShopColumns": [
+    "店舗",
+    "状態",
+    "開始日",
+    "最後に確認"
+  ]
 }
