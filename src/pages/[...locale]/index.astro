@@ -1,0 +1,39 @@
+---
+import Base from '../../layouts/Base.astro';
+import SearchForm from '../../components/SearchForm.astro';
+import CountryList from '../../components/CountryList.astro';
+import config from '../../../data/config.json';
+import { t, localeParams, localPath, number, date } from '../../lib/i18n.js';
+import { catalog } from '../../lib/catalog.js';
+
+export const getStaticPaths = localeParams;
+const { lang } = Astro.props;
+const c = catalog();
+const vars = { records: number(lang, c.totalRecords), shops: number(lang, c.visible.length), countries: number(lang, c.countries.length) };
+const home = new URL(localPath(lang, '/'), Astro.site).href;
+const ld = [{
+  '@context': 'https://schema.org', '@type': 'WebSite', name: config.name, alternateName: config.formerNames, url: home, inLanguage: lang,
+  potentialAction: { '@type': 'SearchAction', target: { '@type': 'EntryPoint', urlTemplate: `${home}?q={search_term_string}` }, 'query-input': 'required name=search_term_string' },
+}];
+---
+<Base lang={lang} path="/" title={`${config.name}: ${t(lang, 'tagline')}`} description={t(lang, 'description', vars)} ld={ld}>
+  <hgroup>
+    <h1>{t(lang, 'tagline')}</h1>
+    <p>{t(lang, 'stats', vars)} · <time datetime={c.builtAt}>{t(lang, 'updated', { date: date(lang, c.builtAt) })}</time></p>
+  </hgroup>
+  <SearchForm lang={lang} examples={c.artists.slice(0, 3).map((a) => a.name)} />
+  <section>
+    <h2>{t(lang, 'homeWhyTitle')}</h2>
+    <ul>{t(lang, 'homeWhy').map((s) => <li>{s}</li>)}</ul>
+  </section>
+  <section>
+    <h2>{t(lang, 'homeCountriesTitle')}</h2>
+    <CountryList lang={lang} countries={c.countries.slice(0, 40)} />
+  </section>
+  {c.artists.length > 0 && (
+    <section>
+      <h2>{t(lang, 'homeArtistsTitle')}</h2>
+      <ul>{c.artists.slice(0, 60).map((a) => <li><a href={`/artist/${a.slug}/`}>{a.name}</a></li>)}</ul>
+    </section>
+  )}
+</Base>

@@ -1,0 +1,16 @@
+---
+import Base from '../../layouts/Base.astro';
+import config from '../../../data/config.json';
+import { t, localeParams } from '../../lib/i18n.js';
+
+export const getStaticPaths = localeParams;
+const { lang } = Astro.props;
+---
+<Base lang={lang} path="/submit/" title={`${t(lang, 'submitTitle')} · ${config.name}`} description={t(lang, 'submitBody')}>
+  <article>
+    <h1>{t(lang, 'submitTitle')}</h1>
+    <p>{t(lang, 'submitBody')}</p>
+    <p><a href={`${config.repository}/-/issues/new?issuable_template=shop`}>{t(lang, 'submitAction')}</a></p>
+    <p>{t(lang, 'submitEmail')} <a href={`mailto:${config.contactEmail}`}>{config.contactEmail}</a></p>
+  </article>
+</Base>

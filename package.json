@@ -1,16 +1,26 @@
 {
+  "name": "vinyl-finder",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Search engine for vinyl records in independent record shops worldwide",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
-    "dev": "emacs-ssg watch",
-    "build": "emacs-ssg build",
-    "publish-pages": "emacs-ssg publish-pages"
+    "validate": "node scripts/data/validate.js",
+    "check": "node scripts/check/index.js",
+    "crawl": "node scripts/crawl/index.js",
+    "discover": "node scripts/discover/index.js",
+    "index": "node scripts/index/build.js",
+    "refresh": "npm run check && npm run crawl",
+    "dev": "astro dev",
+    "build": "npm run validate && npm run index && astro build",
+    "preview": "astro preview",
+    "test": "node --test scripts/**/*.test.js"
   },
-  "devDependencies": {
-    "@sctlib/emacs-ssg": "^0.0.16",
-    "prettier": "^3.2.5"
-  },
-  "prettierrc": {},
-  "@sctlib/emacs-ssg": {
-    "with-toc": false,
-    "with-title": true
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.4",
+    "astro": "^7.3.8"
   }
 }

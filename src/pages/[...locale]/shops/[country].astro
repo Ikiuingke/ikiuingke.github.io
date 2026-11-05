@@ -1,0 +1,38 @@
+---
+import Base from '../../../layouts/Base.astro';
+import config from '../../../../data/config.json';
+import { t, localeParams, number, countryName } from '../../../lib/i18n.js';
+import { catalog } from '../../../lib/catalog.js';
+
+export function getStaticPaths() {
+  return localeParams().flatMap(({ params, props }) => catalog().countries.map((country) => ({
+    params: { ...params, country: country.code.toLowerCase() },
+    props: { ...props, country },
+  })));
+}
+const { lang, country } = Astro.props;
+const name = countryName(lang, country.code);
+const vars = { country: name, shops: number(lang, country.shops.length), records: number(lang, country.records) };
+const ld = [{
+  '@context': 'https://schema.org', '@type': 'ItemList', name: t(lang, 'countryTitle', vars),
+  itemListElement: country.shops.slice(0, 100).map((s, i) => ({ '@type': 'ListItem', position: i + 1, url: new URL(`/shop/${s.id}/`, Astro.site).href, name: s.name })),
+}];
+---
+<Base lang={lang} path={`/shops/${country.code.toLowerCase()}/`} title={`${t(lang, 'countryTitle', vars)} · ${config.name}`} description={t(lang, 'countryDescription', vars)} ld={ld}>
+  <h1>{t(lang, 'countryTitle', vars)}</h1>
+  <p>{t(lang, 'countryDescription', vars)}</p>
+  <figure>
+    <table>
+      <thead><tr>{t(lang, 'shopColumns').map((col) => <th scope="col">{col}</th>)}</tr></thead>
+      <tbody>
+        {country.shops.map((s) => (
+          <tr>
+            <td><a href={`/shop/${s.id}/`}>{s.name}</a></td>
+            <td>{s.city}</td>
+            <td><data value={s.records}>{s.records ? number(lang, s.records) : ''}</data></td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </figure>
+</Base>

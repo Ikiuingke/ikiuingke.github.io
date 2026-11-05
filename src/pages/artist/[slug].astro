@@ -1,0 +1,38 @@
+---
+import Base from '../../layouts/Base.astro';
+import RecordTable from '../../components/RecordTable.astro';
+import config from '../../../data/config.json';
+import { t, defaultLanguage as lang, number, price } from '../../lib/i18n.js';
+import { catalog } from '../../lib/catalog.js';
+
+/** Records by one artist in stock across shops, cheapest first: the comparison is the page's value. */
+export function getStaticPaths() {
+  return catalog().artists.map((artist) => ({ params: { slug: artist.slug }, props: { artist } }));
+}
+const { artist } = Astro.props;
+const c = catalog();
+const cheapest = artist.records.find((r) => r.price != null);
+const vars = {
+  artist: artist.name, count: number(lang, artist.records.length), shops: number(lang, artist.shopCount),
+  price: cheapest ? price(lang, cheapest.price, cheapest.currency) : '',
+};
+const ld = [{
+  '@context': 'https://schema.org', '@type': 'ItemList', name: t(lang, 'artistTitle', vars),
+  itemListElement: artist.records.slice(0, 50).map((r, i) => ({
+    '@type': 'ListItem', position: i + 1,
+    item: {
+      '@type': 'Product', name: r.title,
+      offers: r.price != null ? {
+        '@type': 'Offer', url: r.url, price: (r.price / 100).toFixed(2), priceCurrency: r.currency || undefined,
+        availability: 'https://schema.org/InStock', seller: { '@type': 'Organization', name: c.shopsById.get(r.shop)?.name || r.shop },
+      } : undefined,
+    },
+  })),
+}];
+---
+<Base lang={lang} title={`${t(lang, 'artistTitle', vars)} · ${config.name}`} description={t(lang, 'artistDescription', vars)} ld={ld}>
+  <h1>{t(lang, 'artistTitle', vars)}</h1>
+  <p>{t(lang, 'artistIntro', vars)}</p>
+  <p><a href={`/?q=${encodeURIComponent(artist.name)}`}>{t(lang, 'artistSearchAll', vars)}</a></p>
+  <RecordTable lang={lang} records={artist.records} shopsById={c.shopsById} />
+</Base>

@@ -1,0 +1,75 @@
+---
+import config from '../../data/config.json';
+import { t, languages, defaultLanguage, localPath, clientStrings } from '../lib/i18n.js';
+import '../styles/global.css';
+
+/**
+ * Props:
+ *  lang        page language
+ *  path        language-neutral path when the page exists in every language ("/shops/"), else omit
+ *  title, description, noindex, ld (JSON-LD objects)
+ */
+const { lang = defaultLanguage, path, title, description, noindex = false, ld = [] } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const abs = (p) => new URL(p, Astro.site).href;
+const nav = [
+  { href: localPath(lang, '/'), key: 'navSearch' },
+  { href: localPath(lang, '/shops/'), key: 'navShops' },
+  { href: '/artists/', key: 'navArtists' },
+  { href: localPath(lang, '/about/'), key: 'navAbout' },
+  { href: localPath(lang, '/submit/'), key: 'navSubmit' },
+];
+const strings = JSON.stringify(clientStrings(lang)).replace(/</g, '\\u003c');
+---
+<!doctype html>
+<html lang={lang}>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{title}</title>
+  <meta name="description" content={description}>
+  {noindex && <meta name="robots" content="noindex, follow">}
+  <link rel="canonical" href={canonical}>
+  {path && languages.map((l) => <link rel="alternate" hreflang={l} href={abs(localPath(l, path))}>)}
+  {path && <link rel="alternate" hreflang="x-default" href={abs(localPath(defaultLanguage, path))}>}
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content={config.name}>
+  <meta property="og:title" content={title}>
+  <meta property="og:description" content={description}>
+  <meta property="og:url" content={canonical}>
+  <meta property="og:image" content={abs('/favicon.png')}>
+  <meta name="google-site-verification" content={config.googleSiteVerification}>
+  <link rel="icon" href="/favicon.png">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title={config.name}>
+  <script is:inline async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${config.ads.adsenseClient}`} crossorigin="anonymous"></script>
+  <script is:inline defer src={config.analytics.umamiScript} data-website-id={config.analytics.umamiWebsiteId}></script>
+  <script is:inline type="application/json" data-i18n set:html={strings}></script>
+  {ld.map((data) => <script is:inline type="application/ld+json" set:html={JSON.stringify(data).replace(/</g, '\\u003c')}></script>)}
+</head>
+<body>
+  <header>
+    <a href={localPath(lang, '/')} rel="home"><img src="/favicon.png" alt="" width="32" height="32"> {config.name}</a>
+    <nav>
+      <ul>{nav.map((n) => <li><a href={n.href} aria-current={n.href === Astro.url.pathname ? 'page' : undefined}>{t(lang, n.key)}</a></li>)}</ul>
+    </nav>
+  </header>
+  <main>
+    <slot />
+  </main>
+  <footer>
+    <p>{t(lang, 'footerNote')}</p>
+    <nav aria-label={t(lang, 'navLanguage')}>
+      <ul>{languages.map((l) => (
+        <li><a href={localPath(l, path || '/')} hreflang={l} lang={l} aria-current={l === lang ? 'true' : undefined}>{t(l, 'langName')}</a></li>
+      ))}</ul>
+    </nav>
+    <nav>
+      <ul>
+        <li><a href="/status/">{t(lang, 'navStatus')}</a></li>
+        <li><a href={config.repository}>GitLab</a></li>
+        <li><a href={config.analytics.publicDashboard}>Analytics</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,33 @@
+---
+import Base from '../../layouts/Base.astro';
+import RecordTable from '../../components/RecordTable.astro';
+import config from '../../../data/config.json';
+import { t, defaultLanguage as lang, number, countryName, localPath } from '../../lib/i18n.js';
+import { catalog } from '../../lib/catalog.js';
+
+/** One page per shop, default language only: hubs are localized, detail pages are not. */
+export function getStaticPaths() {
+  return catalog().visible.map((shop) => ({ params: { id: shop.id }, props: { shop } }));
+}
+const { shop } = Astro.props;
+const c = catalog();
+const place = [shop.city, shop.country && countryName(lang, shop.country)].filter(Boolean).join(', ');
+const vars = { shop: shop.name, place: place ? ` (${place})` : '', records: number(lang, shop.records), shops: number(lang, c.visible.length - 1) };
+const ld = [{
+  '@context': 'https://schema.org', '@type': 'Store', name: shop.name, url: shop.url,
+  address: shop.country ? { '@type': 'PostalAddress', addressCountry: shop.country, addressLocality: shop.city || undefined } : undefined,
+}];
+---
+<Base lang={lang} title={`${t(lang, 'shopTitle', vars)} · ${config.name}`} description={t(lang, 'shopDescription', vars)} ld={ld} noindex={!shop.records}>
+  <article>
+    <h1>{shop.name}</h1>
+    <p>
+      {place && (shop.country ? <a href={localPath(lang, `/shops/${shop.country.toLowerCase()}/`)}>{place}</a> : place)}
+      {place && ' · '}
+      {shop.records ? t(lang, 'shopRecords', { count: number(lang, shop.records) }) : t(lang, 'shopListedOnly')}
+    </p>
+    <p><a href={shop.url} rel="noopener">{t(lang, 'shopVisit')}: {new URL(shop.url).host}</a></p>
+    {shop.latest.length > 0 && <h2>{t(lang, 'shopLatest')}</h2>}
+    {shop.latest.length > 0 && <RecordTable lang={lang} records={shop.latest} shopsById={c.shopsById} />}
+  </article>
+</Base>

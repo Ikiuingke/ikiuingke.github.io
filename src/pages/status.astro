@@ -1,0 +1,23 @@
+---
+import Base from '../layouts/Base.astro';
+import config from '../../data/config.json';
+import { t, defaultLanguage as lang, number, date } from '../lib/i18n.js';
+import { catalog } from '../lib/catalog.js';
+
+/** Data validity report from the weekly shop check. */
+const c = catalog();
+const order = ['ok', 'listed', 'blocked', 'not-music', 'moved', 'duplicate', 'dead', 'unchecked'].filter((s) => c.statusCounts[s]);
+---
+<Base lang={lang} title={`${t(lang, 'statusTitle')} · ${config.name}`} description={t(lang, 'statusBody')} noindex>
+  <article>
+    <h1>{t(lang, 'statusTitle')}</h1>
+    <p>{t(lang, 'statusBody')}</p>
+    <p><time datetime={c.builtAt}>{t(lang, 'updated', { date: date(lang, c.builtAt) })}</time></p>
+    <figure>
+      <table>
+        <thead><tr>{t(lang, 'statusColumns').map((col) => <th scope="col">{col}</th>)}</tr></thead>
+        <tbody>{order.map((s) => <tr><td><vf-status value={s}>{t(lang, `status.${s}`)}</vf-status></td><td><data value={c.statusCounts[s]}>{number(lang, c.statusCounts[s])}</data></td></tr>)}</tbody>
+      </table>
+    </figure>
+  </article>
+</Base>
