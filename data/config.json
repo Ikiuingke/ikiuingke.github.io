@@ -82,5 +82,22 @@
     "maxDiscoverMinutes": 90,
     "merchPerRun": 6000,
     "maxMinutes": 200
+  },
+  "externalSearch": [
+    {
+      "name": "Bandcamp",
+      "url": "https://bandcamp.com/search?q={q}&item_type=a"
+    },
+    {
+      "name": "Discogs",
+      "url": "https://www.discogs.com/sell/list?q={q}&format=Vinyl"
+    },
+    {
+      "name": "eBay",
+      "url": "https://www.ebay.com/sch/i.html?_nkw={q}+vinyl{ebay}"
+    }
+  ],
+  "affiliates": {
+    "ebayCampaignId": ""
   }
 }

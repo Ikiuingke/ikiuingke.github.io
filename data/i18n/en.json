@@ -92,5 +92,6 @@
     "Status",
     "Since",
     "Last seen alive"
-  ]
+  ],
+  "externalSearch": "Not what you need? Search “{query}” on"
 }

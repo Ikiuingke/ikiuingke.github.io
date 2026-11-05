@@ -92,5 +92,6 @@
     "Status",
     "Seit",
     "Zuletzt erreichbar"
-  ]
+  ],
+  "externalSearch": "Nicht gefunden? Suche „{query}“ auf"
 }

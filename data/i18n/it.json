@@ -92,5 +92,6 @@
     "Stato",
     "Da",
     "Ultima volta attivo"
-  ]
+  ],
+  "externalSearch": "Non trovato? Cerca «{query}» su"
 }

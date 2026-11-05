@@ -92,5 +92,6 @@
     "Estado",
     "Desde",
     "Última vez activa"
-  ]
+  ],
+  "externalSearch": "¿No lo encuentras? Busca «{query}» en"
 }
