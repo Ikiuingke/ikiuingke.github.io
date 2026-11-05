@@ -20,7 +20,8 @@ export async function get(url, { accept = '*/*', retries = 2, redirect = 'follow
       return { ok: false, status: 0, error: e.cause?.code || e.name || 'fetch_error' };
     }
     if ((res.status === 429 || res.status === 503) && attempt < retries) {
-      const wait = Math.min(Number(res.headers.get('retry-after')) || 10 * (attempt + 1), 60);
+      // honour Retry-After, else back off 15s, 30s, 60s...
+      const wait = Math.min(Number(res.headers.get('retry-after')) || 15 * 2 ** attempt, 120);
       await res.body?.cancel();
       await sleep(wait * 1000);
       continue;

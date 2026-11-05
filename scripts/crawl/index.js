@@ -27,7 +27,7 @@ async function crawlShop(shop) {
     await limits[platform](async () => {
       const opts = {
         maxPages: c.maxPages[platform],
-        delayMs: Math.max(c.delayMs, (crawlDelay || 0) * 1000),
+        delayMs: Math.max(c.delayMs[platform] ?? 500, (crawlDelay || 0) * 1000),
         inStockOnly: c.inStockOnly,
         deadline: t0 + c.maxMinutesPerShop * 60_000,
         strict: musicRatio < config.products.strictBelowRatio,
@@ -45,6 +45,13 @@ async function crawlShop(shop) {
 }
 
 await pool(shops, c.concurrency, crawlShop);
+
+// shops rate-limited on their first page get one more, slower try at the end
+const limited = shops.filter((s) => /_429$/.test(report[s.id]?.error || ''));
+if (limited.length) {
+  console.log(`retrying ${limited.length} rate-limited shops one at a time`);
+  await pool(limited, c.retryPassConcurrency, crawlShop);
+}
 
 // carry over products of shops that failed now but worked before
 const failed = new Set(Object.entries(report).filter(([, r]) => r.error && !r.count).map(([id]) => id));

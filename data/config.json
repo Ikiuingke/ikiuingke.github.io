@@ -29,19 +29,23 @@
   "crawl": {
     "userAgent": "VinylFinderBot/2.0 (+https://vinyl-finder.gitlab.io/about/)",
     "timeoutMs": 20000,
-    "concurrency": 20,
+    "concurrency": 24,
     "platformConcurrency": {
-      "shopify": 8,
-      "woocommerce": 12
+      "shopify": 3,
+      "woocommerce": 20
     },
-    "delayMs": 500,
+    "delayMs": {
+      "shopify": 1000,
+      "woocommerce": 400
+    },
     "maxCrawlDelaySeconds": 10,
     "maxMinutesPerShop": 12,
     "maxPages": {
       "shopify": 100,
       "woocommerce": 150
     },
-    "inStockOnly": true
+    "inStockOnly": true,
+    "retryPassConcurrency": 1
   },
   "products": {
     "include": "vinyl|\\blp\\b|\\d?lp\\b|\\bep\\b|12\\s?(\"|”|inch|in\\b)|10\\s?(\"|”|inch)|7\\s?(\"|”|inch)|\\bsingle\\b|album|schallplatte|disque|vinile|vinilo|vinyle|レコード|record|\\bcds?\\b|cassette|\\bk7\\b|\\bcd\\b|compact disc|maxi",
