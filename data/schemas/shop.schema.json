@@ -3,18 +3,60 @@
   "title": "Record shop",
   "description": "One file per shop in data/shops/<host>.json. Machine state (status, platform, name from the site) is computed weekly and not stored here.",
   "type": "object",
-  "required": ["url"],
+  "required": [
+    "url"
+  ],
   "additionalProperties": false,
   "properties": {
-    "url": { "type": "string", "pattern": "^https?://[^/]+$", "description": "Shop origin, no path" },
-    "name": { "type": "string", "description": "Overrides the name read from the shop" },
-    "country": { "type": "string", "pattern": "^[A-Z]{2}$", "description": "ISO 3166-1 alpha-2" },
-    "city": { "type": "string" },
-    "address": { "type": "string" },
-    "discogs": { "type": "string", "pattern": "^https://www\\.discogs\\.com/" },
-    "osm": { "type": "string", "description": "OpenStreetMap element, e.g. node/123" },
-    "source": { "type": "string", "enum": ["cse", "discogs", "osm", "submission", "manual"] },
-    "disabled": { "type": "boolean", "description": "Exclude from crawl and site (e.g. on owner request)" },
-    "note": { "type": "string" }
+    "url": {
+      "type": "string",
+      "pattern": "^https?://[^/]+$",
+      "description": "Shop origin, no path"
+    },
+    "name": {
+      "type": "string",
+      "description": "Overrides the name read from the shop"
+    },
+    "country": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$",
+      "description": "ISO 3166-1 alpha-2"
+    },
+    "city": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "discogs": {
+      "type": "string",
+      "pattern": "^https://www\\.discogs\\.com/"
+    },
+    "osm": {
+      "type": "string",
+      "description": "OpenStreetMap element, e.g. node/123"
+    },
+    "source": {
+      "type": "string",
+      "enum": [
+        "cse",
+        "discogs",
+        "osm",
+        "submission",
+        "manual"
+      ]
+    },
+    "disabled": {
+      "type": "boolean",
+      "description": "Exclude from crawl and site (e.g. on owner request)"
+    },
+    "note": {
+      "type": "string"
+    },
+    "discogsSeller": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9._-]+$",
+      "description": "Discogs seller account, when the shop sells its stock there (found automatically from the homepage otherwise)"
+    }
   }
 }

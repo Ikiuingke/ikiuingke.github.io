@@ -38,7 +38,17 @@ jobs:
         if: inputs.discover || github.event_name == 'schedule'
         run: if [ "${{ inputs.discover }}" = "true" ] || [ "$(date -u +%d)" = "01" ]; then npm run discover; fi
       - run: npm run check
-      - run: npm run crawl
+      # shop catalogs and Discogs inventories are different hosts: read both at the same time
+      - name: Crawl shops and their Discogs inventories
+        shell: bash
+        env:
+          DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
+        run: |
+          set -o pipefail
+          npm run crawl 2>&1 | sed -u 's/^/[shops] /' & shops=$!
+          npm run discogs 2>&1 | sed -u 's/^/[discogs] /' & discogs=$!
+          wait $shops; a=$?; wait $discogs; b=$?
+          exit $((a | b))
       - name: Publish crawl data
         run: |
           tar czf generated.tar.gz generated

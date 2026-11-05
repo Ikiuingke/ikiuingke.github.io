@@ -70,5 +70,14 @@
     "resultsPerPage": 30,
     "docsPerChunk": 64,
     "maxPrefixExpansions": 64
+  },
+  "discogs": {
+    "maxMinutes": 40,
+    "maxPagesPerSeller": 300,
+    "refreshDays": 7,
+    "requestsPerMinute": {
+      "anonymous": 24,
+      "token": 55
+    }
   }
 }
