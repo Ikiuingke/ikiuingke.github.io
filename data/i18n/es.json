@@ -1,6 +1,6 @@
 {
   "langName": "Español",
-  "siteName": "Vinyl Finder",
+  "siteName": "LP/EP Finder",
   "tagline": "Encuentra cualquier disco de vinilo en tiendas de discos independientes de todo el mundo",
   "description": "Busca entre {records} vinilos en stock en {shops} tiendas de discos independientes de {countries} países. Una búsqueda, todas las tiendas, actualizado cada semana.",
   "searchLabel": "Buscar discos",
@@ -19,7 +19,7 @@
   "navSubmit": "Añadir una tienda",
   "navStatus": "Estado de los datos",
   "navLanguage": "Idioma",
-  "homeWhyTitle": "Por qué Vinyl Finder",
+  "homeWhyTitle": "Por qué LP/EP Finder",
   "homeWhy": [
     "Una sola búsqueda en los catálogos en línea de tiendas de discos independientes, no en marketplaces.",
     "Solo discos en stock, con el precio y un enlace directo a la tienda.",
@@ -53,18 +53,18 @@
     "Precio",
     "Tienda"
   ],
-  "aboutTitle": "Acerca de Vinyl Finder",
+  "aboutTitle": "Acerca de LP/EP Finder",
   "aboutBody": [
-    "Vinyl Finder es un buscador gratuito de discos de vinilo vendidos por tiendas independientes. Empezó hace más de diez años como lpepfinder.",
-    "Cada semana nuestro rastreador, VinylFinderBot, lee los catálogos públicos de las tiendas, conserva los discos en stock y crea un índice de búsqueda. Cada disco enlaza a la tienda: no vendemos nada ni copiamos descripciones o imágenes.",
-    "Tiendas: aparecéis gratis. Para salir, bloquead VinylFinderBot en robots.txt o escribidnos; para entrar, usad la página «Añadir una tienda»."
+    "LP/EP Finder es un buscador gratuito de discos de vinilo vendidos por tiendas independientes. Existe desde hace más de diez años y durante un tiempo se llamó Vinyl Finder.",
+    "Cada semana nuestro rastreador, LPEPFinderBot, lee los catálogos públicos de las tiendas, conserva los discos en stock y crea un índice de búsqueda. Cada disco enlaza a la tienda: no vendemos nada ni copiamos descripciones o imágenes.",
+    "Tiendas: aparecéis gratis. Para salir, bloquead LPEPFinderBot en robots.txt o escribidnos; para entrar, usad la página «Añadir una tienda»."
   ],
   "aboutDataTitle": "Fuentes de datos",
-  "aboutData": "Lista de tiendas: comunidad de Vinyl Finder, directorio de tiendas de Discogs y colaboradores de OpenStreetMap (ODbL). Productos: catálogo público de cada tienda.",
+  "aboutData": "Lista de tiendas: comunidad de LP/EP Finder, directorio de tiendas de Discogs y colaboradores de OpenStreetMap (ODbL). Productos: catálogo público de cada tienda.",
   "aboutContactTitle": "Contacto",
   "submitTitle": "Añadir una tienda de discos",
   "submitBody": "Cualquier tienda en línea que venda discos puede aparecer. Las tiendas en Shopify o WooCommerce tienen todo su catálogo buscable; las demás aparecen con un enlace.",
-  "submitAction": "Proponer una tienda en GitLab",
+  "submitAction": "Proponer una tienda en GitHub",
   "submitEmail": "O envíanos la web de la tienda por correo:",
   "statusTitle": "Estado de los datos",
   "statusBody": "Cada tienda se revisa cada semana: si la web responde, si robots.txt lo permite, si sigue vendiendo discos y si su catálogo se puede leer.",

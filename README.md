@@ -1,12 +1,12 @@
-# Vinyl Finder
+# LP/EP Finder
 
 Search engine for vinyl records in stock at independent record shops worldwide:
-https://vinyl-finder.gitlab.io (formerly lpepfinder).
+https://lpepfinder.github.io (also known as Vinyl Finder, vinyl-finder.gitlab.io).
 
-Everything runs on free GitLab CI and GitLab Pages: no server, no database, no paid service.
+Everything runs on free GitHub Actions and GitHub Pages: no server, no database, no paid service.
 
 ```
-data/shops/*.json ──▶ refresh (CI schedule) ──▶ generated/ ──▶ pages (CI) ──▶ GitLab Pages
+data/shops/*.json ──▶ Refresh (daily)      ──▶ "data" release ──▶ Deploy    ──▶ GitHub Pages
                       discover  OSM shops         shops-state.json   search index  dist/
                       check     every shop        products.ndjson.gz Astro site
                       crawl     Shopify / Woo
@@ -43,18 +43,18 @@ npm test
 
 - **Add a shop**: add `data/shops/<host>.json` with at least `{ "url": "https://host" }`, or open an issue
   with the "shop" template. The weekly check fills in name, platform and country.
-- **Remove a shop** (owner request): set `"disabled": true`. Shops can also block `VinylFinderBot` in robots.txt.
+- **Remove a shop** (owner request): set `"disabled": true`. Shops can also block `LPEPFinderBot` (or the former `VinylFinderBot`) in robots.txt.
 - **Texts and translations**: `data/i18n/<lang>.json`. **Settings**: `data/config.json`
   (crawl limits, product filters, SEO thresholds, ads and analytics IDs).
 
-## CI
+## CI (GitHub Actions)
 
-- `refresh` runs on pipeline schedules (and on manual/API pipelines with `REFRESH=1`; add `DISCOVER=1` to
-  also look for new shops). It downloads the previous `generated/` data so shops that fail keep their records.
-- `pages` runs on `main` and deploys `dist/`. It refuses to deploy when there is no crawl data yet.
-
-Schedules (CI/CD → Schedules): the 1st of the month with `DISCOVER=1`, and the 15th, both at 03:00 UTC.
-A crawl takes about an hour, which keeps the project inside the free 400 CI minutes per month.
+- **Refresh** (`.github/workflows/refresh.yml`) runs daily at 03:00 UTC: check, crawl, and on the 1st of the
+  month discover new shops. It starts from the previous crawl data, so a shop that fails keeps its records,
+  publishes `generated/` as the `generated.tar.gz` asset of the `data` release, then runs Deploy.
+- **Deploy** (`.github/workflows/deploy.yml`) runs on every push to `main`: downloads the latest crawl data,
+  builds and publishes to GitHub Pages. Without crawl data it stops, so the live site is never emptied.
+- Run either by hand from the Actions tab (Refresh has a "discover" option).
 
 ## Layout
 

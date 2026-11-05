@@ -1,8 +1,9 @@
 {
-  "name": "Vinyl Finder",
+  "name": "LP/EP Finder",
   "tagline": "vinyl",
-  "baseUrl": "https://vinyl-finder.gitlab.io",
+  "baseUrl": "https://lpepfinder.github.io",
   "formerNames": [
+    "Vinyl Finder",
     "lpepfinder"
   ],
   "languages": [
@@ -15,7 +16,7 @@
   ],
   "defaultLanguage": "en",
   "contactEmail": "vinylfindergitlab@duck.com",
-  "repository": "https://gitlab.com/vinyl-finder/vinyl-finder.gitlab.io",
+  "repository": "https://github.com/lpepfinder/lpepfinder.github.io",
   "chat": "https://matrix.to/#/#vinyl-finder:matrix.org",
   "ads": {
     "adsenseClient": "ca-pub-7578240828852744"
@@ -27,7 +28,7 @@
   },
   "googleSiteVerification": "aukgbRTrzBy5qk-pjUQ6R8RRhjZ8RY5eRT2Jazp4-nk",
   "crawl": {
-    "userAgent": "VinylFinderBot/2.0 (+https://vinyl-finder.gitlab.io/about/)",
+    "userAgent": "LPEPFinderBot/2.0 (+https://lpepfinder.github.io/about/)",
     "timeoutMs": 20000,
     "concurrency": 24,
     "platformConcurrency": {
@@ -45,7 +46,11 @@
       "woocommerce": 150
     },
     "inStockOnly": true,
-    "retryPassConcurrency": 1
+    "retryPassConcurrency": 1,
+    "botNames": [
+      "lpepfinderbot",
+      "vinylfinderbot"
+    ]
   },
   "products": {
     "include": "vinyl|\\blp\\b|\\d?lp\\b|\\bep\\b|12\\s?(\"|”|inch|in\\b)|10\\s?(\"|”|inch)|7\\s?(\"|”|inch)|\\bsingle\\b|album|schallplatte|disque|vinile|vinilo|vinyle|レコード|record|\\bcds?\\b|cassette|\\bk7\\b|\\bcd\\b|compact disc|maxi",

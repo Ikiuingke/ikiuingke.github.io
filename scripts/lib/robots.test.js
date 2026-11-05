@@ -2,8 +2,13 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { parseRobots } from './robots.js';
 
+test('robots.txt: blocks under the former bot name still apply', () => {
+  const r = parseRobots('User-agent: VinylFinderBot\nDisallow: /');
+  assert.equal(r.allowed('/products.json'), false);
+});
+
 test('robots.txt: specific bot group wins over *', () => {
-  const r = parseRobots('User-agent: *\nDisallow: /\n\nUser-agent: VinylFinderBot\nAllow: /\nCrawl-delay: 5');
+  const r = parseRobots('User-agent: *\nDisallow: /\n\nUser-agent: LPEPFinderBot\nAllow: /\nCrawl-delay: 5');
   assert.equal(r.allowed('/products.json'), true);
   assert.equal(r.crawlDelay, 5);
 });

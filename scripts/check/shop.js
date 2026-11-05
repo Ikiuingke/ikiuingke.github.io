@@ -34,7 +34,7 @@ export async function checkShop(shop, previous = {}) {
   if (moved && !looksMusic) return { ...state, status: 'moved', reason: `redirects_to_${movedTo}` };
 
   const robotsRes = await get(`${finalUrl.origin}/robots.txt`);
-  const robots = parseRobots(robotsRes.ok ? await robotsRes.text() : '');
+  const robots = parseRobots(robotsRes.ok ? await robotsRes.text() : '', config.crawl.botNames);
   state.crawlDelay = robots.crawlDelay;
   state.platform = detectPlatform(html, home.headers);
   state.name = pageTitle(html);

@@ -1,6 +1,6 @@
 {
   "langName": "Deutsch",
-  "siteName": "Vinyl Finder",
+  "siteName": "LP/EP Finder",
   "tagline": "Finde jede Schallplatte in unabhängigen Plattenläden weltweit",
   "description": "Durchsuche {records} Schallplatten auf Lager bei {shops} unabhängigen Plattenläden in {countries} Ländern. Eine Suche, alle Läden, jede Woche aktualisiert.",
   "searchLabel": "Platten suchen",
@@ -19,7 +19,7 @@
   "navSubmit": "Laden hinzufügen",
   "navStatus": "Datenstatus",
   "navLanguage": "Sprache",
-  "homeWhyTitle": "Warum Vinyl Finder",
+  "homeWhyTitle": "Warum LP/EP Finder",
   "homeWhy": [
     "Eine Suche über die Onlinekataloge unabhängiger Plattenläden, keine Marktplätze.",
     "Nur Platten auf Lager, mit Preis und direktem Link zum Laden.",
@@ -53,18 +53,18 @@
     "Preis",
     "Laden"
   ],
-  "aboutTitle": "Über Vinyl Finder",
+  "aboutTitle": "Über LP/EP Finder",
   "aboutBody": [
-    "Vinyl Finder ist eine kostenlose Suchmaschine für Schallplatten aus unabhängigen Plattenläden. Sie begann vor über zehn Jahren als lpepfinder.",
-    "Jede Woche liest unser Crawler VinylFinderBot die öffentlichen Produktkataloge der Läden, behält die Platten auf Lager und baut daraus einen Suchindex. Jede Platte verlinkt auf den Laden: Wir verkaufen nichts und kopieren weder Beschreibungen noch Bilder.",
-    "Ladeninhaber: Euer Laden ist kostenlos gelistet. Zum Entfernen VinylFinderBot in robots.txt sperren oder uns schreiben; zum Hinzufügen die Seite „Laden hinzufügen“ nutzen."
+    "LP/EP Finder ist eine kostenlose Suchmaschine für Schallplatten aus unabhängigen Plattenläden. Es gibt sie seit über zehn Jahren, eine Zeit lang hieß sie Vinyl Finder.",
+    "Jede Woche liest unser Crawler LPEPFinderBot die öffentlichen Produktkataloge der Läden, behält die Platten auf Lager und baut daraus einen Suchindex. Jede Platte verlinkt auf den Laden: Wir verkaufen nichts und kopieren weder Beschreibungen noch Bilder.",
+    "Ladeninhaber: Euer Laden ist kostenlos gelistet. Zum Entfernen LPEPFinderBot in robots.txt sperren oder uns schreiben; zum Hinzufügen die Seite „Laden hinzufügen“ nutzen."
   ],
   "aboutDataTitle": "Datenquellen",
-  "aboutData": "Ladenliste: Vinyl-Finder-Community, Discogs-Plattenladenverzeichnis und OpenStreetMap-Mitwirkende (ODbL). Produktdaten: öffentlicher Katalog jedes Ladens.",
+  "aboutData": "Ladenliste: LP/EP-Finder-Community, Discogs-Plattenladenverzeichnis und OpenStreetMap-Mitwirkende (ODbL). Produktdaten: öffentlicher Katalog jedes Ladens.",
   "aboutContactTitle": "Kontakt",
   "submitTitle": "Plattenladen hinzufügen",
   "submitBody": "Jeder Onlineshop, der Platten verkauft, kann gelistet werden. Bei Shopify- oder WooCommerce-Shops ist der ganze Katalog durchsuchbar, andere werden mit Link gelistet.",
-  "submitAction": "Laden auf GitLab vorschlagen",
+  "submitAction": "Laden auf GitHub vorschlagen",
   "submitEmail": "Oder schick uns die Website per E-Mail:",
   "statusTitle": "Datenstatus",
   "statusBody": "Jeder Laden wird wöchentlich geprüft: Ist die Seite erreichbar, erlaubt robots.txt den Zugriff, verkauft er noch Platten, ist der Katalog lesbar.",

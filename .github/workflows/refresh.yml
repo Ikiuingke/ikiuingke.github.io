@@ -1,0 +1,54 @@
+# Daily: check every shop, crawl catalogs (and find new shops on the 1st of the month),
+# keep the result in the "data" release, then deploy the site.
+name: Refresh
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+    inputs:
+      discover:
+        description: Also look for new shops on OpenStreetMap
+        type: boolean
+        default: false
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    permissions:
+      contents: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Previous crawl data
+        run: gh release download data --pattern generated.tar.gz && tar xzf generated.tar.gz || echo "no previous data"
+      - run: npm run validate
+      - name: Discover new shops
+        if: inputs.discover || github.event_name == 'schedule'
+        run: if [ "${{ inputs.discover }}" = "true" ] || [ "$(date -u +%d)" = "01" ]; then npm run discover; fi
+      - run: npm run check
+      - run: npm run crawl
+      - name: Publish crawl data
+        run: |
+          tar czf generated.tar.gz generated
+          gh release view data > /dev/null 2>&1 || gh release create data --title "Crawl data" --notes "Latest output of the Refresh workflow, used by Deploy."
+          gh release upload data generated.tar.gz --clobber
+
+  deploy:
+    needs: refresh
+    uses: ./.github/workflows/deploy.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write

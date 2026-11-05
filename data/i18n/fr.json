@@ -1,6 +1,6 @@
 {
   "langName": "Français",
-  "siteName": "Vinyl Finder",
+  "siteName": "LP/EP Finder",
   "tagline": "Trouvez n'importe quel vinyle chez les disquaires indépendants du monde entier",
   "description": "Cherchez parmi {records} vinyles en stock chez {shops} disquaires indépendants dans {countries} pays. Une recherche, tous les disquaires, mise à jour chaque semaine.",
   "searchLabel": "Chercher des disques",
@@ -19,7 +19,7 @@
   "navSubmit": "Ajouter un disquaire",
   "navStatus": "État des données",
   "navLanguage": "Langue",
-  "homeWhyTitle": "Pourquoi Vinyl Finder",
+  "homeWhyTitle": "Pourquoi LP/EP Finder",
   "homeWhy": [
     "Une seule recherche dans les catalogues en ligne des disquaires indépendants, pas des places de marché.",
     "Uniquement les disques en stock, avec le prix et un lien direct vers le disquaire.",
@@ -53,18 +53,18 @@
     "Prix",
     "Disquaire"
   ],
-  "aboutTitle": "À propos de Vinyl Finder",
+  "aboutTitle": "À propos de LP/EP Finder",
   "aboutBody": [
-    "Vinyl Finder est un moteur de recherche gratuit pour les vinyles vendus par les disquaires indépendants. Il a démarré il y a plus de dix ans sous le nom lpepfinder.",
-    "Chaque semaine, notre robot VinylFinderBot lit les catalogues publics des disquaires, garde les disques en stock et construit un index de recherche. Chaque disque renvoie vers le disquaire : nous ne vendons rien et ne copions ni descriptions ni images.",
-    "Disquaires : votre boutique est référencée gratuitement. Pour être retiré, bloquez VinylFinderBot dans robots.txt ou contactez-nous ; pour être ajouté, utilisez la page « Ajouter un disquaire »."
+    "LP/EP Finder est un moteur de recherche gratuit pour les vinyles vendus par les disquaires indépendants. Il existe depuis plus de dix ans et s'est appelé Vinyl Finder pendant un temps.",
+    "Chaque semaine, notre robot LPEPFinderBot lit les catalogues publics des disquaires, garde les disques en stock et construit un index de recherche. Chaque disque renvoie vers le disquaire : nous ne vendons rien et ne copions ni descriptions ni images.",
+    "Disquaires : votre boutique est référencée gratuitement. Pour être retiré, bloquez LPEPFinderBot dans robots.txt ou contactez-nous ; pour être ajouté, utilisez la page « Ajouter un disquaire »."
   ],
   "aboutDataTitle": "Sources des données",
-  "aboutData": "Liste des disquaires : communauté Vinyl Finder, annuaire des disquaires de Discogs et contributeurs OpenStreetMap (ODbL). Produits : catalogue public de chaque disquaire.",
+  "aboutData": "Liste des disquaires : communauté LP/EP Finder, annuaire des disquaires de Discogs et contributeurs OpenStreetMap (ODbL). Produits : catalogue public de chaque disquaire.",
   "aboutContactTitle": "Contact",
   "submitTitle": "Ajouter un disquaire",
   "submitBody": "Toute boutique en ligne qui vend des disques peut être référencée. Les boutiques Shopify ou WooCommerce ont tout leur catalogue consultable ; les autres sont référencées avec un lien.",
-  "submitAction": "Proposer un disquaire sur GitLab",
+  "submitAction": "Proposer un disquaire sur GitHub",
   "submitEmail": "Ou envoyez-nous l'adresse du site par e-mail :",
   "statusTitle": "État des données",
   "statusBody": "Chaque disquaire est vérifié chaque semaine : le site répond-il, robots.txt nous autorise-t-il, vend-il encore des disques, peut-on lire son catalogue.",

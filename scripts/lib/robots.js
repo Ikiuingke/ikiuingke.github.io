@@ -1,8 +1,8 @@
 /**
- * Minimal robots.txt parser: rules for our bot name or "*".
+ * Minimal robots.txt parser: rules for one of our bot names (current and former) or "*".
  * Returns { allowed(path), crawlDelay, sitemaps }.
  */
-export function parseRobots(text = '', botName = 'vinylfinderbot') {
+export function parseRobots(text = '', botNames = ['lpepfinderbot', 'vinylfinderbot']) {
   const groups = [];
   let current = null;
   const sitemaps = [];
@@ -22,7 +22,7 @@ export function parseRobots(text = '', botName = 'vinylfinderbot') {
       current.delay = Number(value) || null;
     }
   }
-  const mine = groups.filter((g) => g.agents.some((a) => a !== '*' && botName.includes(a)));
+  const mine = groups.filter((g) => g.agents.some((a) => a !== '*' && botNames.some((b) => b.includes(a))));
   const group = mine[0] || groups.find((g) => g.agents.includes('*')) || { rules: [], delay: null };
   const toRegex = (p) => new RegExp('^' + p.replace(/[.+?^${}()|[\]\\]/g, '\\$&').replace(/\*/g, '.*').replace(/\\\$$/, '$'));
   const rules = group.rules.filter((r) => r.path).map((r) => ({ ...r, re: toRegex(r.path), len: r.path.length }));

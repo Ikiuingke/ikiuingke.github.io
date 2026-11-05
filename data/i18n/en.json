@@ -1,6 +1,6 @@
 {
   "langName": "English",
-  "siteName": "Vinyl Finder",
+  "siteName": "LP/EP Finder",
   "tagline": "Find any vinyl record in independent record shops worldwide",
   "description": "Search {records} vinyl records in stock at {shops} independent record shops in {countries} countries. One search, every shop, updated weekly.",
   "searchLabel": "Search records",
@@ -19,7 +19,7 @@
   "navSubmit": "Add a shop",
   "navStatus": "Data status",
   "navLanguage": "Language",
-  "homeWhyTitle": "Why Vinyl Finder",
+  "homeWhyTitle": "Why LP/EP Finder",
   "homeWhy": [
     "One search across the online catalogs of independent record shops, not marketplaces.",
     "Only records in stock, with the price and a direct link to the shop that sells it.",
@@ -53,18 +53,18 @@
     "Price",
     "Shop"
   ],
-  "aboutTitle": "About Vinyl Finder",
+  "aboutTitle": "About LP/EP Finder",
   "aboutBody": [
-    "Vinyl Finder is a free search engine for vinyl records sold by independent record shops. It started more than ten years ago as lpepfinder.",
-    "Every week our crawler, VinylFinderBot, reads the public product catalogs of record shops, keeps the records in stock, and builds a search index. We link to the shop for every record; we don't sell anything and don't copy product descriptions or images.",
-    "Shop owners: your shop is listed for free. To be removed, block VinylFinderBot in robots.txt or contact us; to be added, use the form on the “Add a shop” page."
+    "LP/EP Finder is a free search engine for vinyl records sold by independent record shops. It started more than ten years ago, and was called Vinyl Finder for a while.",
+    "Every week our crawler, LPEPFinderBot, reads the public product catalogs of record shops, keeps the records in stock, and builds a search index. We link to the shop for every record; we don't sell anything and don't copy product descriptions or images.",
+    "Shop owners: your shop is listed for free. To be removed, block LPEPFinderBot in robots.txt or contact us; to be added, use the form on the “Add a shop” page."
   ],
   "aboutDataTitle": "Data sources",
-  "aboutData": "Shop list from the Vinyl Finder community, Discogs record store listings and OpenStreetMap contributors (ODbL). Product data from each shop's public catalog.",
+  "aboutData": "Shop list from the LP/EP Finder community, Discogs record store listings and OpenStreetMap contributors (ODbL). Product data from each shop's public catalog.",
   "aboutContactTitle": "Contact",
   "submitTitle": "Add a record shop",
   "submitBody": "Any shop with an online store selling records can be listed. Shops on Shopify or WooCommerce get their full catalog searchable; others are listed with a link.",
-  "submitAction": "Suggest a shop on GitLab",
+  "submitAction": "Suggest a shop on GitHub",
   "submitEmail": "Or email us the shop's website:",
   "statusTitle": "Data status",
   "statusBody": "Every shop is checked weekly: is the site up, does robots.txt allow us, does it still sell records, can we read its catalog.",

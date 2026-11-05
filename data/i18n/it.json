@@ -1,6 +1,6 @@
 {
   "langName": "Italiano",
-  "siteName": "Vinyl Finder",
+  "siteName": "LP/EP Finder",
   "tagline": "Trova qualsiasi disco in vinile nei negozi di dischi indipendenti di tutto il mondo",
   "description": "Cerca tra {records} vinili disponibili in {shops} negozi di dischi indipendenti in {countries} paesi. Una ricerca, tutti i negozi, aggiornata ogni settimana.",
   "searchLabel": "Cerca dischi",
@@ -19,7 +19,7 @@
   "navSubmit": "Aggiungi un negozio",
   "navStatus": "Stato dei dati",
   "navLanguage": "Lingua",
-  "homeWhyTitle": "Perché Vinyl Finder",
+  "homeWhyTitle": "Perché LP/EP Finder",
   "homeWhy": [
     "Una sola ricerca nei cataloghi online dei negozi di dischi indipendenti, non nei marketplace.",
     "Solo dischi disponibili, con il prezzo e un link diretto al negozio.",
@@ -55,16 +55,16 @@
   ],
   "aboutTitle": "Chi siamo",
   "aboutBody": [
-    "Vinyl Finder è un motore di ricerca gratuito per i dischi in vinile venduti dai negozi indipendenti. È nato più di dieci anni fa come lpepfinder.",
-    "Ogni settimana il nostro crawler, VinylFinderBot, legge i cataloghi pubblici dei negozi, tiene i dischi disponibili e crea un indice di ricerca. Ogni disco rimanda al negozio: non vendiamo nulla e non copiamo descrizioni o immagini.",
-    "Negozi: siete in elenco gratuitamente. Per essere rimossi, bloccate VinylFinderBot in robots.txt o scriveteci; per essere aggiunti, usate la pagina «Aggiungi un negozio»."
+    "LP/EP Finder è un motore di ricerca gratuito per i dischi in vinile venduti dai negozi indipendenti. Esiste da più di dieci anni e per un periodo si è chiamato Vinyl Finder.",
+    "Ogni settimana il nostro crawler, LPEPFinderBot, legge i cataloghi pubblici dei negozi, tiene i dischi disponibili e crea un indice di ricerca. Ogni disco rimanda al negozio: non vendiamo nulla e non copiamo descrizioni o immagini.",
+    "Negozi: siete in elenco gratuitamente. Per essere rimossi, bloccate LPEPFinderBot in robots.txt o scriveteci; per essere aggiunti, usate la pagina «Aggiungi un negozio»."
   ],
   "aboutDataTitle": "Fonti dei dati",
-  "aboutData": "Elenco negozi: comunità di Vinyl Finder, elenco negozi di Discogs e contributori di OpenStreetMap (ODbL). Prodotti: catalogo pubblico di ogni negozio.",
+  "aboutData": "Elenco negozi: comunità di LP/EP Finder, elenco negozi di Discogs e contributori di OpenStreetMap (ODbL). Prodotti: catalogo pubblico di ogni negozio.",
   "aboutContactTitle": "Contatti",
   "submitTitle": "Aggiungi un negozio di dischi",
   "submitBody": "Qualsiasi negozio online che vende dischi può essere aggiunto. I negozi su Shopify o WooCommerce hanno tutto il catalogo consultabile; gli altri sono elencati con un link.",
-  "submitAction": "Proponi un negozio su GitLab",
+  "submitAction": "Proponi un negozio su GitHub",
   "submitEmail": "Oppure inviaci il sito del negozio via e-mail:",
   "statusTitle": "Stato dei dati",
   "statusBody": "Ogni negozio viene controllato ogni settimana: il sito risponde, robots.txt lo consente, vende ancora dischi, il catalogo è leggibile.",

@@ -1,6 +1,6 @@
 {
   "langName": "日本語",
-  "siteName": "Vinyl Finder",
+  "siteName": "LP/EP Finder",
   "tagline": "世界中の独立系レコード店で、あらゆるレコードを探す",
   "description": "{countries}か国、{shops}の独立系レコード店にある在庫{records}枚のレコードを検索。ひとつの検索ですべての店舗を、毎週更新。",
   "searchLabel": "レコードを検索",
@@ -19,7 +19,7 @@
   "navSubmit": "店舗を追加",
   "navStatus": "データの状態",
   "navLanguage": "言語",
-  "homeWhyTitle": "Vinyl Finder とは",
+  "homeWhyTitle": "LP/EP Finder とは",
   "homeWhy": [
     "マーケットプレイスではなく、独立系レコード店のオンラインカタログをまとめて検索できます。",
     "在庫のあるレコードだけを、価格と販売店への直接リンク付きで表示します。",
@@ -53,18 +53,18 @@
     "価格",
     "店舗"
   ],
-  "aboutTitle": "Vinyl Finder について",
+  "aboutTitle": "LP/EP Finder について",
   "aboutBody": [
-    "Vinyl Finder は、独立系レコード店が販売するレコードを探せる無料の検索エンジンです。10年以上前に lpepfinder として始まりました。",
-    "クローラー VinylFinderBot が毎週各店舗の公開カタログを読み込み、在庫のあるレコードから検索インデックスを作ります。すべてのレコードは販売店にリンクしており、私たちは販売を行わず、説明文や画像も複製しません。",
-    "店舗の方へ：掲載は無料です。掲載をやめたい場合は robots.txt で VinylFinderBot をブロックするか、ご連絡ください。追加は「店舗を追加」ページからどうぞ。"
+    "LP/EP Finder は、独立系レコード店が販売するレコードを探せる無料の検索エンジンです。10年以上前から続いており、一時期は Vinyl Finder という名前でした。",
+    "クローラー LPEPFinderBot が毎週各店舗の公開カタログを読み込み、在庫のあるレコードから検索インデックスを作ります。すべてのレコードは販売店にリンクしており、私たちは販売を行わず、説明文や画像も複製しません。",
+    "店舗の方へ：掲載は無料です。掲載をやめたい場合は robots.txt で LPEPFinderBot をブロックするか、ご連絡ください。追加は「店舗を追加」ページからどうぞ。"
   ],
   "aboutDataTitle": "データの出典",
-  "aboutData": "店舗リスト：Vinyl Finder コミュニティ、Discogs のレコード店一覧、OpenStreetMap 協力者（ODbL）。商品データ：各店舗の公開カタログ。",
+  "aboutData": "店舗リスト：LP/EP Finder コミュニティ、Discogs のレコード店一覧、OpenStreetMap 協力者（ODbL）。商品データ：各店舗の公開カタログ。",
   "aboutContactTitle": "お問い合わせ",
   "submitTitle": "レコード店を追加",
   "submitBody": "レコードを販売しているオンラインストアなら掲載できます。Shopify または WooCommerce の店舗はカタログ全体を検索でき、それ以外はリンク付きで掲載されます。",
-  "submitAction": "GitLab で店舗を提案",
+  "submitAction": "GitHub で店舗を提案",
   "submitEmail": "または店舗のサイトをメールでお知らせください：",
   "statusTitle": "データの状態",
   "statusBody": "すべての店舗を毎週チェックしています：サイトに接続できるか、robots.txt で許可されているか、まだレコードを販売しているか、カタログを読み込めるか。",
